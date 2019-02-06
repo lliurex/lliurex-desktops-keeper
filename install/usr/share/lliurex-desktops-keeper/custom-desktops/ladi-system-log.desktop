@@ -1,0 +1,23 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=LADI Log File Viewer
+Name[es]=Visualizador del fichero de log de LADI
+Name[ca_ES@valencia]=Visualitzador del fitxer de registre de LADI
+Name[ca_ES.UTF-8@valencia]=Visualitzador del fitxer de registre de LADI
+Type=Application
+Comment=View or monitor LADI log files
+Comment[es]=Visualiza o hace un seguimiento de ficheros de log de LADI
+Comment[ca_ES@valencia]=Visualitza o fa un seguiment de fitxers de registre de LADI
+Comment[ca_ES.UTF-8@valencia]=Visualitza o fa un seguiment de fitxers de registre de LADI
+Terminal=false
+Exec=ladi-system-log
+TryExec=ladi-system-log
+Icon=ladi-system-log
+Categories=GNOME;GTK;Settings;
+GenericName=Log file viewer
+GenericName[es]=Visualizador de fichero de logs
+GenericName[ca_ES@valencia]=Visualitzador del fitxer de registre
+GenericName[ca_ES.UTF-8@valencia]=Visualitzador del fitxer de registre
+GenericName[it]=Visualizzatore di file di registro
+Keywords=Audio;JACK;Log Viewer;Ladish;a2jmidid;

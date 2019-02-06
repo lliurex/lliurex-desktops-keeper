@@ -1,0 +1,22 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=LADI System Tray
+Name[es]=Bandeja del sistema LADI
+Name[ca_ES@valencia]=Safata del sistema LADI
+Name[ca_ES.UTF-8@valencia]=Safata del sistema LADI
+Type=Application
+Comment=Manage and configure JACK and ladish
+Comment[es]=Gestiona  y configura JACK y ladish
+Comment[ca_ES@valencia]=Gestiona i configura JACK i ladish
+Comment[ca_ES.UTF-8@valencia]=Gestiona i configura JACK i ladish
+Terminal=false
+Exec=ladi-system-tray
+TryExec=ladi-system-tray
+Icon=laditools
+Categories=GNOME;GTK;AudioVideo;
+GenericName=LADI tray icon
+GenericName[es]=Icono de la bandeja de LADI
+GenericName[ca_ES@valencia]=Icona de la safata de LADI
+GenericName[ca_ES.UTF-8@valencia]=Icona de la safata de LADI
+Keywords=Audio;JACK;Player;Studio;Indicator;Start;Stop;Monitor;

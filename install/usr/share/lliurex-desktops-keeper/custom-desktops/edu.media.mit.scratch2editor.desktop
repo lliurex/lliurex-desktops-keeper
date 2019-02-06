@@ -1,0 +1,22 @@
+[Desktop Entry]
+Name=Scratch 2 Desktop Editor
+Comment=Desktop programming system and content development tool
+GenericName=Scratch 2 Desktop Editor
+Name[es]=Scratch 2 Editor de Escritorio
+Comment[es]=Editor de escritorio, sistema de programación visual para la educación
+Name[ca_ES@valencia]=Scratch 2 Editor d'Escriptori
+Comment[ca_ES@valencia]=Editor d'escriptori, sistema de programació visual per a l'educació
+Name[ca_ES.UTF-8@valencia]=Scratch 2 Editor d'Escriptori
+Comment[ca_ES.UTF-8@valencia]=Editor d'escriptori, sistema de programació visual per a l'educació
+
+Exec=env http_proxy="" '/opt/AdobeAirApp'/'Scratch 2'/bin/'Scratch 2'
+TryExec='/opt/AdobeAirApp'/'Scratch 2'/bin/'Scratch 2'
+Type=Application
+Terminal=false
+Icon=edu.media.mit.scratch2editor
+StartupNotify=true
+X-KDE-StartupNotify=true
+Categories=Application;Education;
+X-AppInstall-Package=edu.media.mit.scratch2editor
+X-AppInstall-Section=main
+

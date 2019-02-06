@@ -1,0 +1,24 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=guitarix
+Name[es]=guitarix
+Name[ca_ES@valencia]=guitarix
+Name[ca_ES.UTF-8@valencia]=guitarix
+Name[fr]=guitarix
+GenericName=Mono Amplifier
+GenericName[es]=Amplificador mono
+GenericName[ca_ES@valencia]=Amplificador mono
+GenericName[ca_ES.UTF-8@valencia]=Amplificador mono
+GenericName[fr]=Ampli mono
+Comment=Simple mono amplifier simulation
+Comment[es]=Simulador de amplificador mono simple
+Comment[ca_ES@valencia]=Simulació d'amplificador mono simple
+Comment[ca_ES.UTF-8@valencia]=Simulació d'amplificador mono simple
+Comment[fr]=Simulation d'ampli mono simple
+Exec=guitarix
+TryExec=guitarix
+Icon=gx_head
+Categories=AudioVideo;Audio;X-Jack;Midi;X-MIDI;
+Terminal=false
+Type=Application

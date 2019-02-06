@@ -1,0 +1,18 @@
+[Desktop Entry]
+MimeType=text/pro
+Name=Fritzing
+Name[es]=Fritzing, un editor de circuitos electrónicos
+Comment[es]=Fritzing, un editor de circuitos electrónicos
+Name[ca_ES@valencia]=Fritzing, un editor de circuits electrònics
+Comment[ca_ES@valencia]=Fritzing, un editor de circuits electrònics
+Name[ca_ES.UTF-8@valencia]=Fritzing, un editor de circuits electrònics
+Comment[ca_ES.UTF-8@valencia]=Fritzing, un editor de circuits electrònics
+Exec=Fritzing
+TryExec=Fritzing
+Icon=fritzing_icon
+Categories=LliureX-Secundaria
+Type=Application
+Terminal=false
+Comment=PCB-Suite
+GenericName[en]=Easy-to-use electronic design software
+GenericName[es]=Software de diseño electrónico de fácil uso

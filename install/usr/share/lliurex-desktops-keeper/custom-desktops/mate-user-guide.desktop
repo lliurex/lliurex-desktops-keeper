@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=Application
+Name=Help
+Comment=Get help with MATE
+Name[es]=Ayuda
+Name[ca_ES@valencia]=Ajuda
+Name[ca_ES.UTF-8@valencia]=Ajuda
+Comment[es]=Obtener ayuda con MATE
+Comment[ca_ES@valencia]=Obtindre ajuda amb MATE
+Comment[ca_ES.UTF-8@valencia]=Obtindre ajuda amb MATE
+Keywords=documentation;information;manual;
+Icon=help-browser
+Exec=yelp help:mate-user-guide
+TryExec=
+StartupNotify=true
+Terminal=false
+Categories=GTK;Core;Documentation;
+OnlyShowIn=MATE;

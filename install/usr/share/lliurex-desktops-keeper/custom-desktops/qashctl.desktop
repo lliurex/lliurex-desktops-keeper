@@ -1,0 +1,26 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=QasHctl
+Name[es]=QasHctl
+Name[ca_ES@valencia]=QasHctl
+Name[ca_ES.UTF-8@valencia]=QasHctl
+GenericName=ALSA HCTL mixer
+GenericName[es]=Mezclador ALSA HCTL
+GenericName[ca_ES@valencia]=Mesclador ALSA HCTL
+GenericName[ca_ES.UTF-8@valencia]=Mesclador ALSA HCTL
+GenericName[de]=ALSA HCTL mixer
+GenericName[he]=מערבל ALSA HCTL
+Exec=qashctl
+TryExec=qashctl
+Icon=qashctl
+StartupNotify=false
+Terminal=false
+Categories=AudioVideo;Audio;Mixer;
+Comment=ALSA HCTL mixer
+Comment[es]=Mezclador ALSA HCTL
+Comment[ca_ES@valencia]=Mesclador ALSA HCTL
+Comment[ca_ES.UTF-8@valencia]=Mesclador ALSA HCTL
+Comment[de]=ALSA HCTL mixer
+Comment[he]=מערבל ALSA HCTL

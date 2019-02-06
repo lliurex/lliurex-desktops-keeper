@@ -1,0 +1,18 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Exec=scratch %f
+TryExec=scratch
+Icon=scratch
+Terminal=false
+Name=Scratch
+Comment= Programming system and content development tool
+Name[es]=Scratch, programación visual
+Comment[es]=Sistema de programación visual para la educación
+Name[ca_ES@valencia]=Scratch, programació visual
+Comment[ca_ES@valencia]=Sistema de programació visual per a l'educació
+Name[ca_ES.UTF-8@valencia]=Scratch, programació visual
+Comment[ca_ES.UTF-8@valencia]=Sistema de programació visual per a l'educació
+Categories=Application;Education;
+MimeType=application/x-scratch-project

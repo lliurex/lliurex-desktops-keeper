@@ -1,0 +1,23 @@
+[Desktop Entry]
+Version=2.0
+Comment=Create, play and print sheet music
+Comment[es]=Crea, ejecuta e imprime partituras
+Comment[ca_ES.UTF-8@valencia]=Crega, executa i imprimix partitures
+Comment[ca_ES@valencia]=Crega, executa i imprimix partitures
+Comment[ru]=Визуальный редактор нотных партитур
+Comment[fr]=Gravure de partitions musicales
+Exec=mscore
+TryExec=mscore
+GenericName=Music notation
+GenericName[de]=Notensatz
+Icon=mscore
+Name=MuseScore
+Name[es]=MuseScore, editor de partituras
+Name[ca_ES.UTF-8@valencia]=MuseScore, editor de partitures
+Name[ca_ESvalencia]=MuseScore, editor de partitures
+StartupNotify=true
+StartupWMClass=mscore.real
+Terminal=false
+Type=Application
+Categories=Qt;Sequencer;Midi;AudioVideoEditing;Music;AudioVideo;Player;Audio;LliureX-Audio;
+MimeType=application/x-musescore;application/x-musescore+xml;application/vnd.recordare.musicxml;application/vnd.recordare.musicxml+xml;

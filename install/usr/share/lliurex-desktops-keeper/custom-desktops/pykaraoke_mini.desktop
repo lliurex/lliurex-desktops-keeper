@@ -1,0 +1,22 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=PyKaraoke Mini
+Name[es]=PyKaraoke Mini
+Name[ca_ES@valencia]=PyKaraoke Mini
+Name[ca_ES.UTF-8@valencia]=PyKaraoke Mini
+GenericName=Karaoke player
+GenericName[es]=Reproductor para karaoke
+GenericName[ca_ES@valencia]=Reproductor per a karaoke
+GenericName[ca_ES.UTF-8@valencia]=Reproductor per a karaoke
+Comment=Minimum-interface PyKaraoke
+Comment[es]=Interfaz mínima del PyKaraoke
+Comment[ca_ES@valencia]=Interfície mínima del PyKaraoke
+Comment[ca_ES.UTF-8@valencia]=Interfície mínima del PyKaraoke
+Icon=/usr/share/pykaraoke/icons/pykaraoke.xpm
+Exec=pykaraoke_mini
+TryExec=pykaraoke_mini
+Terminal=false
+MimeType=audio/x-karaoke;audio/x-midi;audio/midi;
+Categories=AudioVideo;Player;

@@ -1,0 +1,23 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=JAMin
+Name[es]=JAMin
+Name[ca_ES@valencia]=JAMin
+Name[ca_ES.UTF-8@valencia]=JAMin
+Name[fr]=JAMin
+Name[ru]=JAMin
+Comment=JACK Audio Mastering interface
+Comment[es]=Interfaz de masterización de audio JACK
+Comment[ca_ES@valencia]=Interfície de masterització d'àudio JACK
+Comment[ca_ES.UTF-8@valencia]=Interfície de masterització d'àudio JACK
+Comment[fr]=Interface de masterisation JACK Audio
+Comment[ru]=JAMin -- приложение для мастеринга звука
+Categories=AudioVideo;Audio;
+Exec=jamin
+TryExec=jamin
+Icon=jamin.svg
+MimeType=application/x-jamin;
+StartupNotify=true
+Terminal=false
+Type=Application

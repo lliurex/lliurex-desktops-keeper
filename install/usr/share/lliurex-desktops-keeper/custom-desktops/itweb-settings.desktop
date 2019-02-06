@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=IcedTea Web Control Panel
+Name[es]=Panel de Control IcedTea Web
+Name[ca_ES@valencia]=Panel de Control IcedTea Web 
+Name[ca_ES.UTF-8@valencia]=Panel de Control IcedTea Web 
+Comment=Configure IcedTea Web (javaws and plugin)
+Comment[es]=Configura IcedTea Web (javaws y plugin)
+Comment[ca_ES@valencia]=Configura IcedTea Web (javaws i plugin)
+Comment[ca_ES.UTF-8@valencia]=Configura IcedTea Web (javaws i plugin)
+Exec=/usr/bin/itweb-settings
+Icon=javaws
+Terminal=false
+Type=Application
+Categories=System

@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=Rmedigicontrol
+Name[es]=Rmedigicontrol
+Name[ca_ES@valencia]=Rmedigicontrol
+Name[ca_ES.UTF-8@valencia]=Rmedigicontrol
+Comment=Control RME Digi32 and RME Digi96 soundcards
+Comment[es]=Controles para tarjetas de sonido RME Digi32 y RME Digi96
+Comment[ca_ES@valencia]=Controls per a targetes de so RME Digi32 i RME Digi96
+Comment[ca_ES.UTF-8@valencia]=Controls per a targetes de so RME Digi32 i RME Digi96
+Comment[fr]=Contrôles pour interfaces audio RME Digi32 et RME Digi96
+Icon=alsa-tools
+Exec=rmedigicontrol
+TryExec=rmedigicontrol
+Terminal=false
+Categories=AudioVideo;Audio;

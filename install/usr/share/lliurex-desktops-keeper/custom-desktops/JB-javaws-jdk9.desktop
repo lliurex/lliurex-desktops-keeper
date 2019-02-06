@@ -1,0 +1,23 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Oracle Java 9 Web Start
+Name[ca_ES@valencia]=Oracle Java 9, per al web
+Name[ca_ES.UTF-8@valencia]=Oracle Java 9, per al web
+Name[es]=Oracle Java 9, para la web
+Comment=Oracle Java 9 Web Start
+Comment[ca_ES@valencia]=Oracle Java 9, per al web
+Comment[ca_ES.UTF-8@valencia]=Oracle Java 9, per al web
+Comment[es]=Oracle Java 9, para la web
+Exec=/usr/lib/jvm/java-9-oracle/jre/bin/javaws %u
+TryExec=/usr/lib/jvm/java-9-oracle/jre/bin/javaws %u
+Terminal=false
+Type=Application
+Icon=oracle_java9
+MimeType=application/x-java-jnlp-file;
+X-GNOME-Settings-Panel=oracle_java9
+Keywords=Settings;
+X-Desktop-File-Install-Version=0.22
+X-GNOME-Settings-Panel=Oracle Java 9 Web Start
+X-Unity-Settings-Panel=Oracle Java 9 Web Start
+Categories=System;
+

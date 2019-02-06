@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=Calibrate Touchscreen
+Name[es]=Calibrador de pantallas
+Name[ca_ES.UTF-8@valencia]=Calibrador de pantalles
+Name[ca_ES@valencia]=Calibrador de pantalles
+Name[de]=Touchscreen Kalibrieren
+Name[nl]=Touchscreen Kalibreren
+Comment=Run the calibration tool for touchscreens
+Comment[es]=Ejecuta la herramienta de calibración de pantallas
+Comment[ca_ES@valencia]=Executeu l'eina de calibratge de pantalles
+Comment[ca_ES.UTF-8@valencia]=Executeu l'eina de calibratge de pantalles
+Exec=/bin/sh -c "xinput_calibrator; cat"
+TryExec=xinput_calibrator
+Terminal=true
+Type=Application
+Icon=xinput_calibrator
+StartupNotify=true
+Categories=Settings;X-GNOME-Settings-Panel;X-GNOME-PersonalSettings;
+Keywords=calibrate;Touchscreen;

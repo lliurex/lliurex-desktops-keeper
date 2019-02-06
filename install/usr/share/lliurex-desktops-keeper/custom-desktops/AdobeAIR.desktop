@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Adobe AIR Application Installer
+Comment=Adobe AIR Application Installer
+Name[es]=Instalador de Adobre AIR
+Name[ca_ES@valencia]=Instal·lador d'Adobe AIR
+Name[ca_ES.UTF-8@valencia]=Instal·lador d'Adobe AIR
+Comment[es]=Instalador de Adobre AIR
+Comment[ca_ES@valencia]=Instal·lador d'Adobe AIR
+Comment[ca_ES.UTF-8@valencia]=Instal·lador d'Adobe AIR
+GenericName=Adobe AIR Application Installer
+MimeType=application/vnd.adobe.air-application-installer-package+zip;
+Exec="/usr/bin/Adobe AIR Application Installer"
+TryExec="/usr/bin/Adobe AIR Application Installer"
+Type=Application
+Categories=Utility;
+Terminal=false
+Icon=AdobeAIR
+

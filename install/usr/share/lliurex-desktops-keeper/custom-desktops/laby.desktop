@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=Laby
+Name[es]=Laby, aprender a programar
+Name[ca_ES@valencia]=Laby, per a aprendre a programar
+Name[ca_ES.UTF-8@valencia]=Laby, per a aprendre a programar
+Comment=Learn how to program with ants and spider webs
+Comment[es]=Aprender a programar con ejercicios
+Comment[ca_ES@valencia]=Aprén a programar mitjançant exercicis
+Comment[ca_ES.UTF-8@valencia]=Aprén a programar mitjançant exercicis
+Comment[fr]=Apprendre à programmer avec des fourmis
+Exec=/usr/games/laby
+TryExec=/usr/games/laby
+Icon=laby
+Terminal=false
+Type=Application
+Categories=LliureX-Infantil;
+StartupNotify=true

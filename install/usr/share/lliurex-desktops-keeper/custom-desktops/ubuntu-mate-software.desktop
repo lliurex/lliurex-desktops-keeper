@@ -1,0 +1,16 @@
+[Desktop Entry]
+Terminal=false
+Type=Application
+Categories=PackageManager;System;
+Name=Software Boutique
+Name[es]=Tienda de aplicaciones
+Name[ca_ES@valencia]=Botiga d'aplicacions
+Name[ca_ES.UTF-8@valencia]=Botiga d'aplicacions
+Comment=Ubuntu MATE Software Boutique
+Comment[es]=Tienda de aplicaciones de Ubuntu MATE
+Comment[ca_ES@valencia]=Botiga d'aplicacions d'Ubuntu MATE
+Comment[ca_ES.UTF-8@valencia]=Botiga d'aplicacions d'Ubuntu MATE
+Exec=ubuntu-mate-welcome --software-only
+TryExec=ubuntu-mate-welcome --software-only
+Icon=system-software-install
+StartupNotify=false

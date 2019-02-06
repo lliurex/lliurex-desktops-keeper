@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=Childsplay
+GenericName=Childsplay
+Comment=Suite of educational games for young children
+Name[es]=Childsplay, juegos infantiles
+Comment[es]=Conjunto de juegos educativos para niños
+Name[ca_ES.UTF-8@valencia]=Childsplay, jocs educatius
+Name[ca_ES@valencia]=Childsplay, jocs educatius
+Comment[ca_ES.UTF-8@valencia]=Conjunt de jocs educatius infantils
+Comment[ca_ES@valencia]=Conjunt de jocs educatius infantis
+Exec=childsplay
+Terminal=false
+StartupNotify=false
+Categories=LliureX-Infantil;
+Icon=childsplay
+TryExec=/usr/games/childsplay

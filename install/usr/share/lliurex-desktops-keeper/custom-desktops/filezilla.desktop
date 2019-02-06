@@ -1,0 +1,21 @@
+[Desktop Entry]
+Name=FileZilla
+Name[es]=FileZilla, cliente FTP
+Name[ca_ES.UTF-8@valencia]=FileZilla, client FTP
+Name[ca_ES@valencia]=FileZilla, client FTP
+GenericName=FTP client
+GenericName[de]=FTP-Client
+GenericName[fr]=Client FTP
+Comment=Download and upload files via FTP, FTPS and SFTP
+Comment[es]=Descarga y sube ficheros via FTP, FTPS y SFTP
+Comment[ca_ES.UTF-8@valencia]=Baixa i puja fitxers a través d'FTP, FTPS i SFTP
+Comment[ca_ES@valencia]=Baixa i puja fitxers a través d'FTP, FTPS i SFTP
+Comment[de]=Dateien über FTP, FTPS und SFTP übertragen
+Comment[fr]=Transférer des fichiers via FTP, FTPS et SFTP
+Exec=filezilla
+Terminal=false
+Icon=filezilla
+Type=Application
+Categories=Network;FileTransfer;
+Version=1.0
+TryExec=/usr/bin/filezilla

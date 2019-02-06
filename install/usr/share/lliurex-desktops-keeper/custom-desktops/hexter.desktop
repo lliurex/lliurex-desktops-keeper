@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Hexter
+Name[es]=Hexter
+Name[ca_ES@valencia]=Hexter
+Name[ca_ES.UTF-8@valencia]=Hexter
+Comment=Yamaha DX7 modeling DSSI plugin
+Comment[es]=Plugin para modelizar DSSI Yamaha DX7
+Comment[ca_ES@valencia]=Connector per a modelització DSSI per a Yamaha DX7
+Comment[ca_ES.UTF-8@valencia]=Connector per a modelització DSSI per a Yamaha DX7
+Exec=jack-dssi-host hexter.so
+TryExec=jack-dssi-host hexter.so
+Icon=hexter
+Terminal=false
+Type=Application
+Categories=GTK;GNOME;AudioVideo;Audio;X-Synthesis;

@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name=Adobe Reader 9
+Name[es]=Adobe Reader 9, visor de PDFs
+Name[ca_ES@valencia]=Adobe Reader 9, visualitzador de PDF
+Name[ca_ES.UTF-8@valencia]=Adobe Reader 9, visualitzador de PDF
+Comment=PDF documents viewer
+Comment[es]=Visor de documentos PDF
+Comment[ca_ES@valencia]=Visualitzador de documents PDF
+Comment[ca_ES.UTF-8@valencia]=Visualitzador de documents PDF
+MimeType=application/pdf;application/vnd.fdf;application/vnd.adobe.pdx;application/vnd.adobe.xdp+xml;application/vnd.adobe.xfdf;
+Exec=acroread 
+TryExec=acroread
+Type=Application
+GenericName=PDF Viewer
+Terminal=false
+Icon=AdobeReader9
+Caption=PDF Viewer
+X-KDE-StartupNotify=false
+Categories=Application;Office;Viewer;X-Red-Hat-Base;
+InitialPreference=9

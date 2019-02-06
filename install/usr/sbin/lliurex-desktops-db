@@ -1,0 +1,323 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import sys
+import os
+import re
+import threading
+import subprocess
+import shutil
+
+
+diversion_db="/var/lib/lliurex-desktops-keeper/lliurex-desktops.db"
+diversion_db_hide="/var/lib/lliurex-desktops-keeper/lliurex-desktops_hide.db"
+mate_db="/usr/share/lliurex-desktops-keeper/desktops-hide/mate-desktops"
+destination_path="/usr/share/applications/"
+db=[]
+db_hide=[]
+db_mate=[]
+
+
+#performs a full path search
+def lookup(path):
+	ret = -1
+
+	for c in db:
+		name,pvalue = c
+
+		if name==path:
+			ret = pvalue
+
+	return int(ret)
+
+
+def lookup_mate(file):
+	matefile= -1
+
+	for c in db_mate:
+		if c==file:
+			matefile=0
+	return int(matefile)		
+        
+#add command        
+def add(path,priority):     
+	must_save=False   
+	
+
+	initdb()
+	initdb_mate()
+	
+	for file in os.listdir(path):
+		match=re.match(".*\.desktop$",file)
+		if not match==None:
+	
+			ret=lookup(path+os.sep+file)
+			matefile=lookup_mate(file)
+
+			if ret==-1:
+				#print "* Desktop not found in database, inserting: ",file
+				must_save=True
+				db.append((path+os.sep+file,priority))
+				if matefile ==-1:
+					subprocess.call(["dpkg-divert","--package","lliurex-desktops-keeper","--rename","--quiet","--add","--divert", str(destination_path+file+".diverted"),str(destination_path+file)])
+				shutil.copy(str(path+os.sep+file),str(destination_path+file))
+			else:
+
+				must_save=True
+				db.append((path+os.sep+file,priority))  
+
+				if ret > priority:
+					#print "* Low priority, not diverted"
+					pass
+				
+				if ret < priority:
+					#print "* Inserting with a higher priority: ",file
+					if matefile==-1:
+						subprocess.call(["dpkg-divert","--package","lliurex-desktops-keeper","--rename","--quiet","--add","--divert", str(destination_path+file+".diverted"),str(destination_path+file)])
+					shutil.copy(str(path+os.sep+file),str(destination_path+file))
+					
+				if ret == priority:	
+					#simply update .desktop file
+					shutil.copy(str(path+os.sep+file),str(destination_path+file))
+				
+
+		if must_save:
+			#saving database
+			dbfile=open(diversion_db,"w+")
+			for c in db:
+				dbfile.write(str(c[0]+":"+str(c[1])+"\n"))
+
+			dbfile.close()
+
+	#print "* Terminating"        
+
+
+#performs a single name search
+def search(name):
+	max=-1
+	candidate=None
+	
+	for c in db:
+		pname,priority = c
+		match=re.match(".*\/"+name+"$",pname)
+		if not match==None:
+			if priority>max:
+				candidate = c
+				max = priority
+				
+	return candidate
+			
+		
+#delete command
+def delete(path):
+	must_save = False
+	global db
+	
+	initdb()
+	
+	
+	for file in os.listdir(path):
+						
+		tmp=[]
+		for c in db:
+			pname,priority = c
+			if not pname==path+os.sep+file:
+				tmp.append(c)
+		
+		db=tmp	
+				
+		candidate = search(file)
+		if not candidate==None:
+			cname,cpriority = candidate
+			#print "* Copying :",cname
+			shutil.copy(str(cname),str(destination_path+file))
+			
+		else:
+			if os.path.exists(destination_path+file):
+				#print "* Removing :",destination_path+file
+				os.remove(destination_path+file)
+				#print "* Removing diversion"
+				subprocess.call(["dpkg-divert","--package","lliurex-desktops-keeper","--rename","--quiet","--remove", str(destination_path+file)])
+				# rm "destination_path $f"; dpkg-divert --package lliurex-desktops-keepers --rename --quiet --remove destination_path $f
+	
+
+	
+	#saving database
+	dbfile=open(diversion_db,"w+")
+	for c in db:
+		dbfile.write(str(c[0]+":"+str(c[1])+"\n"))
+	dbfile.close()
+
+
+#purge command
+def purge():
+	global db
+
+	initdb()
+	initdb_mate()
+
+	todel=[]
+
+	for c in db:
+		cname,cpriority = c
+		tmp = cname.split("/")
+		todel.append(tmp[len(tmp)-1])
+		
+		
+		
+	for file in todel:
+		matefile=lookup_mate(file)
+		if os.path.exists(destination_path+file+".diverted"):
+
+			if os.path.exists(destination_path+file):
+				#print "* Removing:",file
+				os.remove(destination_path+file)
+			#print "* Removing Diversion"
+			subprocess.call(["dpkg-divert","--package","lliurex-desktops-keeper","--rename","--quiet","--remove", str(destination_path+file)])
+	
+		else:
+			if matefile==0:
+				if os.path.exists(destination_path+file):
+				#print "* Removing:",file
+					os.remove(destination_path+file)	
+
+	#print "* Removing db file"
+	os.remove(diversion_db)
+
+
+	
+# hide command
+def hide(path):
+	global db_hide
+
+	initdb_hide()
+
+	must_save=False
+
+	for file in os.listdir(path):
+
+		hide_desktop_file=open(path+os.sep+file, "r")
+
+		for line in hide_desktop_file:
+			xfile=line.strip()
+			must_save=True
+			db_hide.append(xfile)
+			
+			if not (os.path.exists(xfile +".diverted")) and xfile!="":
+
+				subprocess.call(["dpkg-divert","--package","lliurex-desktops-keeper","--rename","--quiet","--add","--divert", str(xfile+".diverted"),str(xfile)])
+
+			if must_save:
+			#saving database
+				dbfile=open(diversion_db_hide,"w+")
+				for c in db_hide:
+					dbfile.write(c+"\n")
+				dbfile.close()
+	
+		hide_desktop_file.close()
+
+#show command
+def show():
+	global db_hide
+
+	initdb_hide()
+
+	toshow=[]
+
+	for c in db_hide:
+		tmp=c.strip()
+		toshow.append(tmp)
+		
+	for line in toshow:
+		xfile=line.strip()
+		if os.path.exists(xfile+".diverted"):
+			subprocess.call(["dpkg-divert","--package","lliurex-desktops-keeper","--rename","--quiet","--remove", str(xfile)])
+	
+	#print "* Removing db file"
+	os.remove(diversion_db_hide)
+
+
+def initdb():
+	global db
+
+	#print "* Opening Database"
+	if not os.path.exists(diversion_db):
+		#print "* Database not found"
+		#exit(-1)
+		subprocess.call(["touch", str(diversion_db)])
+
+	dbfile=open(diversion_db,"r")
+	for line in dbfile:
+		tmp = line.split(":")
+		if(len(tmp)>1):
+			db.append((tmp[0].strip(),int(tmp[1].strip())))
+
+	dbfile.close()
+
+
+def initdb_hide():
+	global db_hide
+
+	#print "* Opening Database"
+	if not os.path.exists(diversion_db_hide):
+		#print "* Database not found"
+		#exit(-1)
+		subprocess.call(["touch", str(diversion_db_hide)])
+
+	dbfile_hide=open(diversion_db_hide,"r")
+	for line in dbfile_hide:
+		tmp = line.strip()
+		if(len(tmp)>1):
+			db_hide.append(tmp)
+
+	dbfile_hide.close()
+
+
+def initdb_mate():
+	global db_mate
+	if os.path.exists(mate_db):
+		mate_file=open(mate_db,"r")
+		for line in mate_file:
+			tmp=line.split("/")
+			if (len(tmp)>1):
+				db_mate.append(tmp[5].strip())
+		mate_file.close()			
+
+            
+def main():
+
+	priority=25
+	path=""
+
+	if len(sys.argv)<2:
+		return
+		
+	if len(sys.argv)>3:
+		priority=int(sys.argv[3])
+		
+		
+	
+	order= sys.argv[1].upper()
+	if len(sys.argv)>2:
+		path = sys.argv[2].rstrip("/")
+
+	if order=="ADD":
+		add(path,priority)
+
+	if order=="DEL":
+		delete(path)
+		
+	if order=="PURGE":
+		purge()  
+			
+	if order=="HIDE":
+		hide(path)		
+	
+	if order=="SHOW":
+		show()	
+	
+	exit(0)
+
+
+if __name__=="__main__":
+	main()

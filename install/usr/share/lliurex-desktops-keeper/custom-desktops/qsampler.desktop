@@ -1,0 +1,24 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Qsampler
+Name[es]=Qsampler
+Name[ca_ES@valencia]=Qsampler
+Name[ca_ES.UTF-8@valencia]=Qsampler
+GenericName=LinuxSampler GUI
+GenericName[es]=LinuxSampler GUI
+GenericName[ca_ES@valencia]=LinuxSampler GUI
+GenericName[ca_ES.UTF-8@valencia]=LinuxSampler GUI
+Comment=Qsampler is a LinuxSampler Qt GUI Interface
+Comment[es]=Qsampler es una GUI basada en Qt para LinuxSampler
+Comment[ca_ES@valencia]=Qsampler és una GUI basada en Qt per a LinuxSampler
+Comment[ca_ES.UTF-8@valencia]=Qsampler és una GUI basada en Qt per a LinuxSampler
+
+Keywords=audio;sound;jackd;midi;sampler;
+Exec=/usr/bin/qsampler
+TryExec=/usr/bin/qsampler
+Icon=qsampler
+Categories=Audio;AudioVideo;Midi;X-Alsa;X-Jack;Qt;
+Terminal=false
+Type=Application
+X-SuSE-translate=true

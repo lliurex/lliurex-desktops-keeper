@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=JACK Rack
+Name[es]=Rack del JACK
+Name[ca_ES@valencia]=Rack del JACK
+Name[ca_ES.UTF-8@valencia]=Rack del JACK
+Comment=Stereo LADSPA effects rack
+Comment[es]=Tablero de efectos LADSPA estéreo
+Comment[ca_ES@valencia]=Tauler d'efectes LADSPA estèreo
+Comment[ca_ES.UTF-8@valencia]=Tauler d'efectes LADSPA estèreo
+Comment[ru]=Стойка эффектов LADSPA
+Exec=jack-rack
+TryExec=jack-rack
+Icon=jack-rack-icon.png
+Terminal=false
+Type=Application
+Categories=GNOME;Application;AudioVideo;

@@ -1,0 +1,25 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=drumkv1
+Name[es]=drumkv1
+Name[ca_ES@valencia]=drumkv1
+Name[ca_ES.UTF-8@valencia]=drumkv1
+Version=1.0
+GenericName=MIDI
+GenericName[es]=MIDI
+GenericName[ca_ES@valencia]=MIDI
+GenericName[ca_ES.UTF-8@valencia]=MIDI
+Comment=drumkv1 is an old school drum-kit sampler
+Comment[es]=drumkv1 es un sampler de bateria de la vieja escuela
+Comment[ca_ES@valencia]=El drumkv1 és un mostrejador de bateria de la vella escola
+Comment[ca_ES.UTF-8@valencia]=El drumkv1 és un mostrejador de bateria de la vella escola
+Comment[fr]=drumkv1 est un échantilloneur de batterie de la vieille école
+Exec=/usr/bin/drumkv1_jack
+TryExec=/usr/bin/drumkv1_jack
+Icon=drumkv1
+Categories=Audio;AudioVideo;Midi;X-Alsa;X-Jack;Qt;
+Keywords=audio;sound;jackd;lv2;plugin;sampler;
+Terminal=false
+Type=Application
+X-SuSE-translate=true

@@ -1,0 +1,25 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=dvdisaster
+Name[es]=dvdisater
+Name[ca_ES@valencia]=dvdisater
+Name[ca_ES.UTF-8@valencia]=dvdisater
+GenericName=data archival
+GenericName[es]=datos de archivo
+GenericName[ca_ES@valencia]=dades d'arxiu
+GenericName[ca_ES.UTF-8@valencia]=dades d'arxiu
+GenericName[de]=Daten-Archivierung
+Comment=Additional error protection for CD/DVD media
+Comment[es]=Protección de error adicional para CD/DVD
+Comment[ca_ES@valencia]=Protecció d'error addicional per a CD/DVD
+Comment[ca_ES.UTF-8@valencia]=Protecció d'error addicional per a CD/DVD
+Comment[cs]=Přídavná ochrana pro média CD/DVD
+Comment[de]=Zusätzliche Fehlerkorrektur für CD/DVD
+Exec=dvdisaster
+TryExec=dvdisaster
+Icon=dvdisaster.png
+Terminal=false
+Type=Application
+Categories=Application;System;

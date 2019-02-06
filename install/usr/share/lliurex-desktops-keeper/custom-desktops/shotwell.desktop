@@ -1,0 +1,27 @@
+[Desktop Entry]
+Version=1.0
+Name=Shotwell
+GenericName=Photo Manager
+Comment=Organize your photos
+Name[es]=Shotwell, organizador de fotos
+GenericName[es]=Shotwell, organizador de fotos
+Comment[es]=Organizador de fotos personal
+Name[ca_ES@valencia]=Shotwell, organitzador de fotos
+GenericName[ca_ES@valencia]=Shotwell, organitzador de fotos
+Comment[ca_ES@valencia]=Organitzador de fotos personal
+Name[ca_ES.UTF-8@valencia]=Shotwell, organitzador de fotos 
+GenericName[ca_ES.UTF-8@valencia]=Shotwell, organitzador de fotos
+Comment[ca_ES.UTF-8@valencia]=Organitzador de fotos personal
+Exec=shotwell %U
+TryExec=shotwell
+Icon=shotwell
+Terminal=false
+Type=Application
+MimeType=x-content/image-dcf;
+Categories=Graphics;Photography;GNOME;GTK;
+X-GIO-NoFuse=true
+X-GNOME-Gettext-Domain=shotwell
+X-GNOME-FullName=Shotwell Photo Manager
+X-GNOME-FullName[ca_ES@valencia]=Shotwell, organitzador de fotos
+X-GNOME-FullName[ca_ES.UTF-8@valencia]=Shotwell, organitzador de fotos
+X-Ayatana-Appmenu-Show-Stubs=false

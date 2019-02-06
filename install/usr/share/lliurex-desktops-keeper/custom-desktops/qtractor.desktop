@@ -1,0 +1,26 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Qtractor
+Name[es]=Qtractor
+Name[ca_ES@valencia]=Qtractor
+Name[ca_ES.UTF-8@valencia]=Qtractor
+GenericName=Multi-track Sequencer
+GenericName[es]=Secuenciador multipista
+GenericName[ca_ES@valencia]=Seqüenciador multipista
+GenericName[ca_ES.UTF-8@valencia]=Seqüenciador multipista
+GenericName[fr]=Séquenceur multi-pistes
+Comment=Qtractor is an Audio/MIDI multi-track sequencer application
+Comment[es]=Qtractor es un secuenciador multipista audio/MIDI
+Comment[ca_ES@valencia]=Qtractor és un seqüenciador multipista àudio/MIDI
+Comment[ca_ES.UTF-8@valencia]=Qtractor és un seqüenciador multipista àudio/MIDI
+Comment[fr]=Qtractor est un séquenceur multi-pistes audio/MIDI
+Exec=/usr/bin/qtractor %U
+TryExec=/usr/bin/qtractor %U
+Icon=qtractor
+Categories=Audio;AudioVideo;Midi;Sequencer;X-Multitrack;X-Alsa;X-Jack;Qt;
+Keywords=jackd;audio;sound;DAW;
+MimeType=application/x-qtractor-session;application/x-qtractor-template;application/x-qtractor-archive;
+Terminal=false
+Type=Application
+X-SuSE-translate=true

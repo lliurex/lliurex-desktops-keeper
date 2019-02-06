@@ -1,0 +1,23 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=QmidiNet
+Name[es]=QmidiNet
+Name[ca_ES@valencia]=QmidiNet
+Name[ca_ES.UTF8@valencia]=QmidiNet
+GenericName=MIDI Network
+GenericName[es]=Red MIDI
+GenericName[ca_ES@valencia]=Xarxa MIDI
+GenericName[ca_ES.UTF-8@valencia]=Xarxa MIDI
+Comment=QmidiNet is a MIDI Network Gateway via UDP/IP Multicast
+Comment[es]=QmidiNet es una pasarela de red MIDI a través UDP/IP Multicast
+Comment[ca_ES@valencia]=QmidiNet és una passarel·la de xarxa MIDI a través UDP/IP Multicast
+Comment[ca_ES.UTF-8@valencia]=QmidiNet és una passarel·la de xarxa MIDI a través UDP/IP Multicast
+Keywords=alsa;jackd;midi;network;
+Exec=/usr/bin/qmidinet
+TryExec=/usr/bin/qmidinet
+Icon=qmidinet
+Categories=Audio;AudioVideo;Midi;X-Alsa;X-Jack;Qt;
+Terminal=false
+Type=Application
+X-SuSE-translate=true

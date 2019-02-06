@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Network Connections
+Name[ca_ES@valencia]=Connexions de xarxa
+Name[ca_ES.UTF-8@valencia]=Connexions de xarxa
+Comment=Manage and change your network connection settings
+Comment[ca_ES@valencia]=Gestioneu i canvieu la configuració de les connexions de xarxa
+Comment[ca_ES.UTF-8@valencia]=Gestioneu i canvieu la configuració de les connexions de xarxa
+Icon=preferences-system-network
+Exec=nm-connection-editor
+Terminal=false
+StartupNotify=true
+Type=Application
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=NetworkManager
+X-GNOME-Bugzilla-Component=nm-connection-editor
+Categories=GNOME;GTK;Settings;X-GNOME-NetworkSettings;
+NotShowIn=KDE;GNOME;
+X-Ubuntu-Gettext-Domain=nm-applet

@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.0
+Enconding=UTF-8
+Type=Application
+Name=HDSPConf
+Name[es]=HDSPConf
+Name[ca_ES@valencia]=HDSPConf
+Name[ca_ES.UTF-8@valencia]=HDSPConf
+Comment=Control the Hammerfall HDSP ALSA settings
+Comment[es]=Controla la configuración de ALSA Hammerfall HDSP
+Comment[ca_ES@valencia]=Controla la configuració d'ALSA Hammerfall HDSP
+Comment[ca_ES.UTF-8@valencia]=Controla la configuració d'ALSA Hammerfall HDSP
+Comment[fr]=Contrôles pour les paramètres ALSA des Hammerfall HDSP
+Icon=alsa-tools
+Exec=hdspconf
+TryExec=hdspconf
+Terminal=false
+Categories=AudioVideo;Audio;

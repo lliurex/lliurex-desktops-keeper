@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name=OpenJDK Java 9 Policy Tool
+Name[es]=OpenJDK Java 9, políticas
+Name[ca_ES@valencia]=OpenJDK Java 9, polítiques
+Name[ca_ES.UTF-8@valencia]=OpenJDK Java 9, polítiques
+Name[fi]=OpenJDK Java 9 - käytäntötyökalu
+Name[fr]=OpenJDK Java 9 - Outil de réglage
+Comment=OpenJDK Java 9 Policy Tool
+Comment[es]=Herramienta de gestión de políticas OpenJDK Java 9
+Comment[ca_ES@valencia]=Eina de gestió de polítiques OpenJDK Java 9
+Comment[ca_ES.UTF-8@valencia]=Eina de gestió de polítiques OpenJDK Java 9
+Comment[fi]=OpenJDK Java 9 - käytäntötyökalu
+Comment[fr]=OpenJDK Java 9 - Outil de réglage
+Keywords=java;security;policytool
+Exec=/usr/lib/jvm/java-9-openjdk-amd64/bin/policytool "" /usr/lib/jvm/java-9-openjdk-i386/bin/policytool;
+TryExec=/usr/lib/jvm/java-9-openjdk-amd64/bin/policytool "" /usr/lib/jvm/java-9-openjdk-i386/bin/policytool;
+Terminal=false
+Type=Application
+Icon=openjdk-9
+Categories=System;

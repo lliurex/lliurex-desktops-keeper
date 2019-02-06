@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=xine
+Name[es]=xine
+Name[ca_ES@valencia]=xine
+Name[ca_ES.UTF-8@valencia]=xine
+Comment=Video Player
+Comment[es]=Reproductor de vídeo
+Comment[ca_ES@valencia]=Reproductor de vídeo
+Comment[ca_ES.UTF-8@valencia]=Reproductor de vídeo
+Exec=xine %U
+TryExec=xine %U
+Icon=xine
+Terminal=false
+Type=Application
+Categories=Application;AudioVideo;Player;
+MimeType=application/annodex;application/x-annodex;audio/annodex;audio/x-annodex;video/annodex;video/x-annodex;audio/x-pn-realaudio;audio/x-pn-realaudio-plugin;audio/x-real-audio;application/vnd.rn-realmedia;video/x-flv;video/flv;application/x-flash-video;video/mkv;video/x-matroska;video/webm;application/ogg;application/x-ogm;application/x-ogm-audio;application/x-ogm-video;application/x-ogg;audio/ogg;audio/x-ogg;video/ogg;video/x-ogg;audio/x-aiff;audio/aiff;audio/x-pn-aiff;audio/x-flac;audio/flac;audio/x-realaudio;audio/basic;audio/x-basic;audio/x-pn-au;video/mp2p;audio/x-mod;audio/mod;audio/it;audio/x-it;audio/x-stm;audio/x-s3m;audio/s3m;application/playerpro;application/adrift;audio/med;audio/x-amf;audio/x-xm;audio/xm;audio/x-8svx;audio/8svx;audio/x-16sv;audio/168sv;image/x-ilbm;image/ilbm;video/x-anim;video/anim;video/x-flic;video/mp2t;audio/mpegurl;audio/x-mpegurl;audio/x-scpls;audio/x-ms-wax;audio/x-ms-wvx;application/smil;application/x-quicktimeplayer;application/xspf+xml;video/x-ms-asf;video/x-ms-wmv;audio/x-ms-wma;application/vnd.ms-asf;application/x-mplayer2;video/x-ms-asf-plugin;video/x-ms-wvx;video/x-ms-wax;image/png;image/x-png;video/mng;video/x-mng;video/quicktime;video/x-quicktime;audio/x-m4a;video/mp4;audio/mp4;video/msvideo;video/x-msvideo;video/mpeg;video/x-mpeg;audio/ac3;audio/x-wav;audio/wav;audio/x-pn-wav;audio/x-pn-windows-acm;audio/musepack;audio/x-musepack;audio/x-wavpack;audio/mpeg2;audio/x-mpeg2;audio/mpeg3;audio/x-mpeg3;audio/mpeg;audio/x-mpeg;audio/x-mpegurl;audio/mpegurl;audio/mp3;audio/x-mp3;application/x-flac;

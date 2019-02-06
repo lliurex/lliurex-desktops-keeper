@@ -1,0 +1,22 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Calf Plugin Pack for JACK
+Name[es]=Paquete de conectores Calf para JACK
+Name[ca_ES@valencia]=Paquet de connectors Calf per al JACK
+Name[ca_ES.UTF-8@valencia]=Paquet de connectors Calf per al JACK
+Name[pl]=Zestaw wtyczek Calf
+Name[ru]=Набор эффектов и инструментов Calf для JACK
+Version=0.0.60
+Comment=Process and produce sounds using a set of plugins with JACK interface
+Comment[es]=Procesa y produce sonidos usando un conjunto de plugins con el interface JACK
+Comment[ca_ES@valencia]=Processa i produeix so utilitzant un conjunt de connectors amb la interfície del JACK
+Comment[ca_ES.UTF-8@valencia]=Processa i produeix so utilitzant un conjunt de connectors amb la interfície del JACK
+Comment[pl]=Przetwarzaj i generuj dźwięk używając zestawu wtyczek zgodnych z JACK
+Comment[ru]=Обработка и создание музыки при помощи эффектов и инструментов через JACK
+Exec=calfjackhost
+TryExec=calfjackhost
+Terminal=false
+Type=Application
+Categories=Application;AudioVideo;Audio;GNOME
+Icon=calf

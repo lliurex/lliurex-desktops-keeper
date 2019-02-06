@@ -1,0 +1,22 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Zita-Rev1
+Name[es]=Zita-Rev1
+Name[ca_ES@valencia]=Zita-Rev1
+Name[ca_ES.UTF-8@valencia]=Zita-Rev1
+GenericName=standalone JACK reverb
+GenericName[es]=Reverberación JACK independiente
+GenericName[ca_ES@valencia]=Reverberació JACK independent
+GenericName[ca_ES.UTF-8@valencia]=Reverberació JACK independent
+Comment=amazing reverb by kokkinizita - more bang per byte
+Comment[es]=Reverberación increïble para kokkinizita - mas bang por byte
+Comment[ca_ES@valencia]=Reverberació increïble per kokkinizita - més bang per byte
+Comment[ca_ES.UTF-8@valencia]=Reverberació increïble per kokkinizita - més bang per byte
+Keywords=audio;sound;jackd,reverb
+Exec=zita-rev1
+TryExec=zita-rev1
+Icon=zita-rev1
+Terminal=false
+Type=Application
+Categories=AudioVideo;Audio;

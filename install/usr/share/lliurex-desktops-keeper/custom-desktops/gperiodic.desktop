@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment=A program for looking up data of elements from the periodic table.
+Comment[da]=Et program til at vise data om grundstofferne i det priodiske system.
+Comment[pl]=Program do wyszukiwania danych pierwiastków z tablicy okresowej.
+Comment[sv]=En lathund för information om grundämnena i den periodiska tabellen.
+Exec=gperiodic
+Icon=gperiodic
+Name=GPeriodic
+Terminal=false
+Type=Application
+X-KDE-SubstituteUID=false
+Comment[ca_ES.UTF-8@valencia]=Un programa per a buscar dades dels elements de la taula periòdica.
+Comment[ca_ES@valencia]=Un programa per a buscar dades dels elements de la taula periòdica.
+Name[ca_ES.UTF-8@valencia]=GPeriodic, taula periòdica
+Name[ca_ES@valencia]=GPeriodic, taula periòdica
+Comment[es]=Un programa para buscar datos de los elementos de la tabla periódica.
+Name[es]=GPeriodic, tabla periódica
+Categories=LliureX-Secundaria;
+TryExec=/usr/bin/gperiodic

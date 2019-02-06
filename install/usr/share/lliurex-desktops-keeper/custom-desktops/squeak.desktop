@@ -1,0 +1,20 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Exec=squeak
+TryExec=squeak
+Icon=/usr/share/pixmaps/squeak.png
+Terminal=false
+Name=Squeak
+Name[es_ES]=Squeak
+Name[ca_ES@valencia]=Squeak, màquina virtual de Smalltalk
+Name[ca_ES.UTF-8@valencia]=Squeak, máquina virtual de Smalltalk
+Name[de_DE]=Squeak
+Comment= Programming system and content development tool
+Comment[es_ES]=Herramienta de desarrollo de contenidos y aplicaciones
+Comment[ca_ES@valencia]=Eina de desenvolupament en Smalltalk
+Comment[ca_ES.UTF-8@valencia]=Eina de desenvolupament en Smalltalk
+Comment[de_DE]=Programmier- und Multimediaentwicklungsumgebung
+Categories=Education;
+MimeType=application/x-image;application/squeak-image;application/squeak-project

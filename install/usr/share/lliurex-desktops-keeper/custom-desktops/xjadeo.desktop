@@ -1,0 +1,22 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=Xjadeo
+Name[es]=Xjadeo
+Name[ca_ES@valencia]=Xjadeo
+Name[ca_ES.UTF-8@valencia]=Xjadeo
+GenericName=X jack video monitor
+GenericName[es]=Monitor de vídeo para X jack
+GenericName[ca_ES@valencia]=Monitor de vídeo per a X jack
+GenericName[ca_ES.UTF-8@valencia]=Monitor de vídeo per a X jack
+Comment=A simple video player that gets sync from jack transport.
+Comment[es]=Un reproductor de vídeo sencillo que se sincroniza desde el transport del jack
+Comment[ca_ES@valencia]=Un reproductor de vídeo senzill que se sincronitza des del transport del jack
+Comment[ca_ES.UTF-8@valencia]=Un reproductor de vídeo senzill que se sincronitza des del transport del jack
+Keywords=video;sound;jackd;synchronization 
+Icon=qjadeo
+Exec=/usr/bin/xjadeo
+TryExec=/usr/bin/xjadeo
+Terminal=false
+Categories=AudioVideo;Video;Player;

@@ -1,0 +1,26 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=MyPaint
+Name[es]=MyPaint, software de pintura
+Name[ca_ES.UTF-8@valencia]=MyPaint, programari de pintura
+Name[ca_ES@valencia]=MyPaint, programari de pintura
+TryExec=mypaint
+Exec=mypaint %f
+Comment=Painting program for digital artists
+Comment[es]=Software de pintura para artistas digitales
+Comment[ca_ES.UTF-8@valencia]=Programari de pintura per a artistes digitals
+Comment[ca_ES@valencia]=Programari de pintura per a artistes digitals
+Comment[ro]=Software de artă plastică digitală
+Comment[fr]=Logiciel de peinture numérique pour artistes
+Comment[zh_CN]=艺术家的电脑绘画
+Comment[zh_TW]=藝術家的电脑绘画
+Comment[zh_HK]=藝術家的电脑绘画
+GenericName=Raster Graphics Editor
+GenericName[fr]=Éditeur d'Image Matricielle
+MimeType=image/openraster;image/png;image/jpeg;
+Type=Application
+Icon=mypaint
+StartupNotify=true
+Categories=Graphics;GTK;2DGraphics;RasterGraphics;
+Terminal=false

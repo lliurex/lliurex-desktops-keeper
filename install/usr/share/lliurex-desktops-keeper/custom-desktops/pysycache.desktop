@@ -1,0 +1,19 @@
+[Desktop Entry]
+Encoding=UTF-8
+Exec=pysycache
+Icon=pysycache
+Type=Application
+Name=PySyCache
+Name[es]=PySyCache, para aprender a usar el ratón
+Name[ca_ES.UTF-8@valencia]=PySyCache, per a aprendre a usar el ratolí
+Name[ca_ES@valencia]=PySyCache, per a aprendre a usar el ratolí
+GenericName=PySyCache
+Comment=Teach kids to move the mouse
+Comment[fr]=Apprendre aux enfants à manipuler la souris
+Comment[es]=Enseña a los niños a usar el ratón
+Comment[ca_ES.UTF-8@valencia]=Ensenya a usar el ratolí
+Comment[ca_ES@valencia]=Ensenya a usar el ratolí
+Terminal=true
+StartupNotify=false
+Categories=LliureX-Infantil;
+TryExec=/usr/games/pysycache

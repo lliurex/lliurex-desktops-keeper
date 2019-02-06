@@ -1,0 +1,23 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Oracle Java 9 VisualVM
+Name[ca_ES@valencia]=Oracle Java 9, màquina virtual
+Name[ca_ES.UTF-8@valencia]=Oracle Java 9, màquina virtual
+Name[es]=Oracle Java 9, máquina virtual
+Name=Oracle Java 9 VisualVM
+Comment=Oracle Java 8 Monitoring & Management (VisualVM)
+Comment[es]=Monitorización y gestión de Java 9 máquina virtual
+Comment[ca_ES@valencia]=Monitorització i gestió de Java 9 màquina virtual
+Comment[ca_ES.UTF-8@valencia]=Monitorització i gestió de Java 9 màquina virtual
+Exec=/usr/lib/jvm/java-9-oracle/bin/jvisualvm
+TryExec=/usr/lib/jvm/java-9-oracle/bin/jvisualvm
+Terminal=false
+Type=Application
+Icon=oracle_java9
+X-GNOME-Settings-Panel=oracle_java9
+Keywords=Settings;
+X-Desktop-File-Install-Version=0.22
+X-GNOME-Settings-Panel=Oracle Java 9 VisualVM
+X-Unity-Settings-Panel=Oracle Java 9 VisualVM
+Categories=System;
+

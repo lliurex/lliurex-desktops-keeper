@@ -1,0 +1,36 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Hydrogen
+Name[es]=Hydrogen
+Name[ca_ES@valencia]=Hydrogen
+Name[ca_ES.UTF-8@valencia]=Hydrogen
+Comment=Create drum sequences
+Comment[es]=Creador de secuencias de tambor
+Comment[ca_ES@valencia]=Crea seqüències de tambor
+Comment[ca_ES.UTF-8@valencia]=Crea seqüències de tambor
+Comment[de]=Schlagzeugsequenzen erstellen
+Comment[ru]=Создание партий ударных инструментов
+Comment[hu]=Dobszekvenciákat lehet vele készíteni
+Comment[tr]=Davul partisyonu yaz
+
+GenericName=Drum Machine
+GenericName=Secuenciador de tambor
+GenericName[ca_ES@valencia]=Drum Machine
+GenericName[ca_ES.UTF-8@valencia]=Drum Machine
+GenericName[de]=Drumsequencer
+GenericName[ru]=Драм-машина
+GenericName[tr]=Davul Makinası
+
+Type=Application
+Categories=AudioVideo;Audio;Qt;
+Keywords=audio;sound;jackd;sampler;drum;
+
+MimeType=text/xml;
+
+Exec=hydrogen %F
+TryExec=hydrogen
+Terminal=false
+StartupNotify=true
+
+Icon=h2-icon

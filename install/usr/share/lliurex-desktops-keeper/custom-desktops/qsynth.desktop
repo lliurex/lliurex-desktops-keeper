@@ -1,0 +1,26 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Qsynth
+Name[es]=Qsynth
+Name[ca_ES@valencia]=Qsynth
+Name[ca_ES.UTF-8@valencia]=Qsynth
+GenericName=FluidSynth GUI
+GenericName[es]=FluidSynth GUI
+GenericName[ca_ES@valencia]=FluidSynth GUI
+GenericName[ca_ES.UTF-8@valencia]=FluidSynth GUI
+GenericName[sr]=Кју-синт
+Comment=Qsynth is a FluidSynth Qt GUI Interface
+Comment[es]=Qsynth es una GUI basada en Qt para FluidSynth
+Comment[ca_ES@valencia]=Qsynth és una GUI basada en Qt per a FluidSynth
+Comment[ca_ES.UTF-8@valencia]=Qsynth és una GUI basada en Qt per a FluidSynth
+
+Comment[sr]=Програм за управљање програмом Флуид-синт, у графичком окружењу.
+Keywords=audio;sound;jackd;midi;synth;
+Exec=/usr/bin/qsynth
+TryExec=/usr/bin/qsynth
+Icon=qsynth
+Categories=Audio;AudioVideo;Midi;X-Alsa;X-Jack;Qt;
+Terminal=false
+Type=Application
+X-SuSE-translate=true

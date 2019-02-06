@@ -1,0 +1,35 @@
+[Desktop Entry]
+Name=Audacity
+Name[de]=Audacity
+Name[ru]=Audacity
+Name[uk]=Audacity
+GenericName=Sound Editor
+GenericName[de]=Audio-Editor
+GenericName[ru]=Редактор звуковых файлов
+GenericName[uk]=Редактор звукових файлів
+Comment=Record and edit audio files
+Comment[de]=Audio-Dateien aufnehmen und bearbeiten
+Comment[ru]=Запись и редактирование звуковых файлов
+Comment[uk]=Запис і редагування звукових фйлов
+
+Icon=audacity
+
+Type=Application
+
+Exec=env UBUNTU_MENUPROXY=0 audacity %F
+StartupNotify=false
+Terminal=false
+MimeType=  video/mpeg;audio/flac;audio/x-flac;audio/mpeg;audio/basic;audio/x-aiff;audio/x-wav;audio/aac;audio/ac3;audio/mp4;audio/x-ms-wma;application/ogg;audio/x-vorbis+ogg;audio/basic;audio/mpeg;audio/x-aiff;audio/x-mp3;audio/x-wav;application/x-audacity-project;
+	       
+
+Name[ca_ES.UTF-8@valencia]=Audacity, editor de so
+Name[ca_ES@valencia]=Audacity, editor de so
+GenericName[ca_ES.UTF-8@valencia]=Editor de so
+GenericName[ca_ES.@valencia]=Editor de so
+Comment[ca_ES.UTF-8@valencia]=Grava i edita fitxers de so
+Comment[ca_ES@valencia]=Grava i edita fitxers de so
+Name[es]=Audacity, Editor de sonido
+GenericName[es]=Editor de sonido
+Comment[es]=Graba y edita ficheros de sonido
+Categories=AudioVideo;Player;Audio;AudioVideoEditing;LliureX-Audio;
+TryExec=/usr/bin/audacity

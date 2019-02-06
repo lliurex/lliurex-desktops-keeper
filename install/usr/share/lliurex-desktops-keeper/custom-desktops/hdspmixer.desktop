@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=HDSPMixer
+Name[es]=HDSPMixer
+Name[ca_ES@valencia]=HDSPMixer
+Name[ca_ES.UTF-8@valencia]=HDSPMixer
+Comment=Control the advanced routing features of the RME Hammerfall DSP
+Comment[es]=Control de las funciones avanzadas de enrutamiento del RME Hammerfall DSP
+Comment[ca_ES@valencia]=Controla les funcionalitats avançades d'encaminament de la targeta RME Hammerfall DSP
+Comment[ca_ES.UTF-8@valencia]=Controla les funcionalitats avançades d'encaminament de la targeta RME Hammerfall DSP
+Comment[fr]=Contrôles des fonctionnalités de routage avançé des DSP Hammerfall RME
+Icon=alsa-tools
+Exec=hdspmixer
+TryExec=hdspmixer
+Terminal=false
+Categories=AudioVideo;Audio;

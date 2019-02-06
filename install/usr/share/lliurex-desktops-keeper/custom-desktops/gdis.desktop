@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.0
+Name=GDIS Molecule Modeller
+GenericName=Molecule Modeller
+Comment=Model and manipulate molecules, and create high-quality renderings of them
+Type=Application
+Exec=gdis
+Name[ca_ES.UTF-8@valencia]=GDIS, dissenyador de molècules
+Name[ca_ES@valencia]=GDIS, dissenyador de molècules
+GenericName[ca_ES.UTF-8@valencia]=Dissenyador de molècules
+Comment[ca_ES.UTF-8@valencia]=Dissenya i manipula molècules, i en crea renderitzacions d'alta qualitat.
+Comment[ca_ES@valencia]=Dissenya i manipula molècules, i en crea renderitzacions d'alta qualitat.
+Name[es]=GDIS, diseñador de moléculas
+GenericName[es]=Diseñador de moléculas
+Comment[es]=Diseña y manipula moléculas, y crea renderizaciones de alta calidad.
+Categories=LliureX-Secundaria;
+Icon=gdis
+TryExec=/usr/bin/gdis

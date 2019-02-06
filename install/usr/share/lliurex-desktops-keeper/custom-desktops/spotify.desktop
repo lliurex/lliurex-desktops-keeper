@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=Spotify
+Name[es]=Spotify
+Name[ca_ES@valencia]=Spotify
+Name[ca_ES.UTF-8@valencia]=Spotify
+GenericName=Music Player
+Comment=Spotify streaming music client
+Comment[es]=Cliente de Spotify para música en streaming
+Comment[ca_ES@valencia]=Client de Spotify per a la reproducció de música en temps real
+Comment[ca_ES.UTF-8@valencia]=Client de Spotify per a la reproducció de música en temps real
+Icon=spotify-client
+Exec=spotify %U
+TryExec=spotify
+Terminal=false
+Type=Application
+Categories=Audio;Music;Player;AudioVideo;
+MimeType=x-scheme-handler/spotify;

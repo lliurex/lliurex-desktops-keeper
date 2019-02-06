@@ -1,0 +1,22 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=Zita-mu1
+Name[es]=Zita-mu1
+Name[ca_ES@valencia]=Zita-mu1
+Name[ca_ES.UTF-8@valencia]=Zita-mu1
+GenericName=Stereo monitoring app
+GenericName[es]=Aplicación de monitorización estéreo
+GenericName[ca_ES@valencia]=Aplicació de monitoratge estèreo
+GenericName[ca_ES.UTF-8@valencia]=Aplicació de monitoratge estèreo
+Comment=App used to organise stereo monitoring for JACK
+Comment[es]=Aplicación que sirve para organizar la monitorización estéreo por JACK
+Comment[ca_ES@valencia]=Aplicació que serveix per a organitzar el monitoratge estèreo per a JACK
+Comment[ca_ES.UTF-8@valencia]=Aplicació que serveix per a organitzar el monitoratge estèreo per a JACK
+Keywords=audio;sound;jackd,monitoring,meter,speaker
+Icon=zita-mu1
+Exec=zita-mu1
+TryExec=zita-mu1
+Terminal=false
+Categories=AudioVideo;Audio;

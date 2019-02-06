@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=Gmidimonitor (with ALSA support)
+Name[es]=Gmidimonitor (con soporte de ALSA)
+Name[ca_ES@valencia]=Gmidimonitor (amb suport d'ALSA)
+Name[ca_ES.UTF-8@valencia]=Gmidimonitor (amb suport d'ALSA)
+GenericName=Gmidimonitor
+GenericName[ca_ES@valencia]=Gmidimonitor
+GenericName[ca_ES.UTF-8@valencia]=Gmidimonitor
+Comment=Analyse MIDI messages through ALSA
+Comment[es]=Monitoriza mensajes MIDI a traves de ALSA
+Comment[ca_ES@valencia]=Analitza missatges MIDI a través d'ALSA
+Comment[ca_ES.UTF-8@valencia]=Analitza missatges MIDI a través d'ALSA
+Icon=gmidimonitor_32x32
+Exec=gmidimonitor --alsa
+TryExec=gmidimonitor --alsa
+Terminal=false
+Categories=AudioVideo;Music;

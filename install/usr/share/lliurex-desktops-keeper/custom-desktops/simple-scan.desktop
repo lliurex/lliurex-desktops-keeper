@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Simple Scan
+Name[es]=Simple Scan
+Name[ca_ES.UTF-8@valencia]=Escaneig senzill
+Name[ca_ES@valencia]=Escaneig senzill
+Comment=Scan Documents
+Comment[es]=Escanea documentos
+Comment[ca_ES.UTF-8@valencia]=Escaneja documents
+Comment[ca_ES@valencia]=Escaneja documents
+Exec=simple-scan
+TryExec=simple-scan
+Icon=scanner
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Graphics;Scanning;
+NotShowIn=LXDE;
+#X-GNOME-Gettext-Domain=simple-scan

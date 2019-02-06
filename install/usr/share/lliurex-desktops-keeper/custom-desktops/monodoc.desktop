@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.0
+Name=Mono Documentation
+GenericName=Documentation Browser
+Comment=View, search and edit documentation related to Mono
+Comment[es]=Visualiza, busca y edita documentación relacionada con Mono
+Comment[ca_ES@valencia]=Visualitza, busca i edita documentació relacionada amb Mono
+Comment[ca_ES.UTF-8@valencia]=Visualitza, busca i edita documentació relacionada amb Mono
+NoDisplay=true
+Exec=/usr/bin/monodoc
+TryExec=/usr/bin/monodoc
+Icon=monodoc
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Documentation;Development;
+

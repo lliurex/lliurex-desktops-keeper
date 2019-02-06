@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=HDAJackRetask
+Name[es]=HDAJackRetask
+Name[ca_ES@valencia]=HDAJackRetask
+Name[ca_ES.UTF-8@valencia]=HDAJackRetask
+Comment=Retask jacks on Intel HDA sound cards
+Comment[es]=Reasigna los jacks en las tarjetas de sonido Intel HDA
+Comment[ca_ES@valencia]=Reassigna jacks sobre targetes de so Intel HDA
+Comment[ca_ES.UTF-8@valencia]=Reassigna jacks sobre targetes de so Intel HDA
+Comment[fr]=Réassignement des jacks sur les interfaces audio Intel HDA
+Icon=alsa-tools
+Exec=hdajackretask
+TryExec=hdajackretask
+Terminal=false
+Categories=AudioVideo;Audio;

@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=Printers
+Name[ca_ES@valencia]=Impressores
+Name[ca_ES.UTF-8@valencia]=Impressores
+Comment=Configure printers
+Comment[ca_ES@valencia]=Configureu les impressores
+Comment[ca_ES.UTF-8@valencia]=Configureu les impressores
+Exec=system-config-printer
+Terminal=false
+Type=Application
+Icon=printer
+StartupNotify=true
+NotShowIn=KDE;GNOME;
+X-Ubuntu-Gettext-Domain=system-config-printer
+Categories=GNOME;GTK;Settings;HardwareSettings;X-GNOME-Settings-Panel;X-Unity-Settings-Panel;Printing;
+X-GNOME-Settings-Panel=printing
+X-Unity-Settings-Panel=printing
+Keywords=Printer;Queue;Print;Paper;Ink;Toner;
+X-Desktop-File-Install-Version=0.22

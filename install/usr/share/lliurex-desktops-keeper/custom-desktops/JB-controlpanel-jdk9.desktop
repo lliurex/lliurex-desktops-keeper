@@ -1,0 +1,21 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Oracle Java 9 Plugin Control Panel
+Name[ca_ES@valencia]=Oracle Java 9, tauler de control
+Name[ca_ES.UTF-8@valencia]=Oracle Java 9, tauler de control
+Name[es_ES]=Oracle Java 9, panel de control
+Comment=Oracle Java 9 Plugin Control Panel
+Comment[es]=Oracle Java 9, panel de control
+Comment[ca_ES.UTF-8@valencia]=Oracle Java 9, tauler de control
+Comment[ca_ES@valencia]=Oracle Java 9, tauler de control
+Exec=/usr/lib/jvm/java-9-oracle/bin/ControlPanel
+TryExec=/usr/lib/jvm/java-9-oracle/bin/ControlPanel
+Terminal=false
+Type=Application
+Icon=oracle_java9
+Keywords=Settings;
+X-Desktop-File-Install-Version=0.22
+X-GNOME-Settings-Panel=Oracle Java 9 Plugin Control Panel
+X-Unity-Settings-Panel=Oracle Java 9 Plugin Control Panel
+Categories=System;
+

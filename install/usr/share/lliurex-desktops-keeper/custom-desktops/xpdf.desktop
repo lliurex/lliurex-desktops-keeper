@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=xpdf
+GenericName=PDF viewer
+Comment=View PDF files
+Comment[es]=Visor de ficheros PDF
+Comment[ca_ES@valencia]=Visor de fitxers PDF
+Comment[ca_ES.UTF-8@valencia]=Visor de fitxers PDF
+Exec=xpdf
+Icon=xpdf
+Terminal=false
+Type=Application
+MimeType=application/pdf;
+Categories=Viewer;Graphics;
+Keywords=Viewer;Graphics;
+TryExec=xpdf

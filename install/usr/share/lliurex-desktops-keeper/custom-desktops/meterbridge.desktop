@@ -1,0 +1,22 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=Meterbridge
+Name[es]=Meterbridge
+Name[ca_ES@valencia]=Meterbridge
+Name[ca_ES.UTF-8@valencia]=Meterbridge
+GenericName=Audio Level Meter
+GenericName[es]=Medidor del nivel de audio
+GenericName[ca_ES@valencia]=Mesurador del nivell d'àudio
+GenericName[ca_ES.UTF-8@valencia]=Mesurador del nivell d'àudio
+Comment=Audio level meter for JACK
+Comment[es]=Medidor del nivel de audio para JACK
+Comment[ca_ES@valencia]=Mesurador del nivell d'àudio per al JACK
+Comment[ca_ES.UTF-8@valencia]=Mesurador del nivell d'àudio per al JACK
+Keywords=audio;sound;jackd;measure;meter;
+Icon=meterbridge32x32.xpm
+Exec=/usr/bin/meterbridge -t vu alsa_pcm:playback_1 alsa_pcm:playback_2
+TryExec=/usr/bin/meterbridge -t vu alsa_pcm:playback_1 alsa_pcm:playback_2
+Terminal=false
+Categories=AudioVideo;Audio;

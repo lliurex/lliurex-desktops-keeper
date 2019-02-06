@@ -1,0 +1,19 @@
+[Desktop Entry]
+Categories=Qt;Settings;
+Exec=/usr/bin/qtconfig-qt4
+TryExec=/usr/bin/qtconfig-qt4
+Name=Qt 4 Settings
+X-KDE-StartupNotify=true
+Icon=qtconfig-qt4
+Terminal=false
+Type=Application
+
+Name[en]=Qt 4 settings
+Name[es]=Ajustes de Qt 4
+Comment=Qt 4 settings tool
+Comment[es]=Herramienta para configurar Qt 4
+Name[ca_ES@valencia]=Paràmetres de Qt 4
+Comment[ca_ES@valencia]=Eina per a configurar Qt 4
+Name[ca_ES.UTF-8@valencia]=Paràmetres de Qt 4
+Comment[ca_ES.UTF-8@valencia]=Eina per a configurar Qt 4
+

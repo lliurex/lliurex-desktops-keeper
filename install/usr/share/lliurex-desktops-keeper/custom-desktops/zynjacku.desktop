@@ -1,0 +1,21 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=Zynjacku
+Name[es]=Zynjacku
+Name[ca_ES@valencia]=Zynjacku
+Name[ca_ES.UTF-8@valencia]=Zynjacku
+GenericName=LV2 synths host
+GenericName[es]=Servidor de síntesis LV2
+GenericName[ca_ES@valencia]=Servidor de síntesi LV2
+GenericName[ca_ES.UTF-8@valencia]=Servidor de síntesi LV2
+Comment=LV2 synths host for JACK
+Comment[es]=Servidor de síntesis LV2 para JACK
+Comment[ca_ES@valencia]=Servidor de síntesi LV2 per a JACK
+Comment[ca_ES.UTF-8@valencia]=Servidor de síntesi LV2 per a JACK
+Icon=zynjacku32x32
+Exec=zynjacku 
+TryExec=zynjacku 
+Terminal=false
+Categories=AudioVideo;Audio;

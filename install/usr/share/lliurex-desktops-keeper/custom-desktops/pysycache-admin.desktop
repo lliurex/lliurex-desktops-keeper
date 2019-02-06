@@ -1,0 +1,17 @@
+[Desktop Entry]
+Encoding=UTF-8
+Exec=pysycache -admin
+Icon=pysycache
+Type=Application
+Name=Pysycache Admin
+Name[es]=Administración de PySyCache
+Name[ca_ES.UTF-8@valencia]=Administració del PySyCache
+Name[ca_ES@valencia]=Administració del PySyCache
+Comment=Configuration of PySyCache
+Comment[es]=Configuración de PySyCache
+Comment[ca_ES.UTF-8@valencia]=Configuració del PySyCache
+Comment[ca_ES@valencia]=Configuració del PySyCache
+Terminal=false
+StartupNotify=true
+TryExec=/usr/games/pysycache
+Categories=GNOME;GTK;Settings;DesktopSettings;X-Unity-Settings-Panel;X-GNOME-PersonalSettings

@@ -1,0 +1,22 @@
+[Desktop Entry]
+Name=Tux Paint
+GenericName=Drawing program
+Comment=A drawing program for children
+
+Name[es]=Tux Paint, un programa de dibujo
+GenericName[es]=Programa de dibujo
+Comment[es]=Un programa de dibujo para niños
+Name[ca_ES@valencia]=Tux Paint, un programa de dibuix
+GenericName[ca_ES@valencia]=Programa de dibuix
+Comment[ca_ES@valencia]=Un programa de dibuix per a xiquets i xiquetes
+Name[ca_ES.UTF-8@valencia]=Tux Paint, un programa de dibuix
+GenericName[ca_ES.UTF-8@valencia]=Programa de dibuix
+Comment[ca_ES.UTF-8@valencia]=Un programa de dibuix per a xiquets i xiquetes
+
+
+Type=Application
+Exec=tuxpaint
+Icon=tuxpaint
+Terminal=false
+Categories=Graphics;
+TryExec=tuxpaint

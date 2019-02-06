@@ -1,0 +1,23 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=FFADO Mixer
+Name[es]=Mezclador FFADO
+Name[ca_ES@valencia]=Mesclador FFADO
+Name[ca_ES.UTF-8@valencia]=Mesclador FFADO
+Name[ru]=Микшер FFADO
+Comment=Audio mixer for Firewire devices
+Comment[es]=Mezclador de audio para dispositivos Firewire
+Comment[ca_ES@valencia]=Mesclador de so per a dispositius Firewire
+Comment[ca_ES.UTF-8@valencia]=Mesclador de so per a dispositius Firewire
+Comment[ru]=Микшер для звуковых устройств с интерфейсом Firewire
+Exec=ffado-mixer
+TryExec=ffado-mixer
+GenericName=Firewire audio mixer
+GenericName[es]=Mezclador de audio Firewire
+GenericName[ca_ES@valencia]=Mesclador de so Firewire
+GenericName[ca_ES.UTF-8@valencia]=Mesclador de so Firewire
+GenericName[ru]=Звуковой микшер Firewire
+Icon=ffado
+Type=Application
+Categories=Mixer;Audio;AudioVideo;HardwareSettings;Qt;

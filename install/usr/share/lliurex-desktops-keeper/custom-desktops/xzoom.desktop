@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Screen Magnifier
+GenericName=Screen Magnifier
+Comment=Magnify part of display, with real-time updates.
+Name[es]=Zoom de pantalla
+Name[ca_ES@valencia]=Zoom de pantalla
+Name[ca_ES.UTF-8@valencia]=Zoom de pantalla
+Comment[es]=Ampliar una parte de la pantalla, con actualizaciones en tiempo real
+Comment[ca_ES@valencia]=Amplia una part de la pantalla, amb actualitzacions en temps real
+Comment[ca_ES.UTF-8@valencia]=Amplia una part de la pantalla, amb actualitzacions en temps real
+Keywords=screen magnifier;
+Exec=xzoom -mag 3 -geometry 320x240
+TryExec=xzoom
+Icon=system-search
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;GNOME;Utility;Accessibility;

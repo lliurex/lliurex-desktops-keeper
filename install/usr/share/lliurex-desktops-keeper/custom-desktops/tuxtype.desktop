@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Tux Typing
+GenericName=Educational typing game
+Comment=Educational typing tutor game starring Tux
+Exec=tuxtype
+Terminal=false
+Type=Application
+StartupNotify=true
+#X-Ubuntu-Gettext-Domain=tuxtype
+Name[ca_ES.UTF-8@valencia]=TuxType, joc de mecanografia
+Name[ca_ES@valencia]=TuxType, joc de mecanografia
+Comment[ca_ES.UTF-8@valencia]=Joc per a aprendre mecanografia
+Comment[ca_ES]=Joc per a aprendre mecanografia
+Name[es]=TuxType, juego de mecanografía
+Comment[es]=Juego para aprender mecanografía
+Categories=LliureX-Infantil;
+Icon=tuxtype
+TryExec=/usr/games/tuxtype

@@ -1,0 +1,21 @@
+[Desktop Entry]
+Name=Bluetooth Adapters
+Comment=Set Bluetooth Adapter Properties
+Name[es]=Adaptador Bluetooth
+Comment[es]=Establece las propiedades del adaptador Bluetooh
+Name[ca_ES@valencia]=Adaptador Bluetooth
+Comment[ca_ES@valencia]=Establiu les propietats de l'adaptador Bluetooh
+Name[ca_ES.UTF-8@valencia]=Adaptador Bluetooth
+Comment[ca_ES.UTF-8@valencia]=Estableiu les propietats de l'adaptador Bluetooh
+Exec=blueman-adapters
+TryExec=blueman-adapters
+Icon=blueman-device
+Terminal=false
+Type=Application
+Categories=X-XFCE;Settings;HardwareSettings;X-XFCE-SettingsDialog;GTK;
+StartupNotify=true
+OnlyShowIn=XFCE;MATE;
+NoDisplay=false
+X-XfceSettingsName=Bluetooth
+X-XfcePluggable=false
+#X-Ubuntu-Gettext-Domain=blueman

@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=JACK Keyboard
+Name[es]=JACK Keyboard
+Name[ca_ES@valencia]=JACK Keyboard
+Name[ca_ES.UTF-8@valencia]=JACK Keyboard
+Comment=Virtual keyboard for JACK MIDI
+Comment[es]=Teclado virtual para JACK MIDI
+Comment[ca_ES@valencia]=Teclat virtual per a JACK MIDI
+Comment[ca_ES.UTF-8@valencia]=Teclat virtual per a JACK MIDI
+Exec=jack-keyboard
+TryExec=jack-keyboard
+Icon=jack-keyboard
+Categories=AudioVideo;Audio;Midi;
+Terminal=false
+Type=Application

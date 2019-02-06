@@ -1,0 +1,24 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=Petri-Foo
+Name[es]=Petri-Foo
+Name[ca_ES@valencia]=Petri-Foo
+Name[ca_ES.UTF-8@valencia]=Petri-Foo
+GenericName=Petri-Foo
+GenericName[es]=Petri-Foo
+GenericName[ca_ES@valencia]=Petri-Foo
+GenericName[ca_ES.UTF-8@valencia]=Petri-Foo
+Comment=Sound Sampler
+Comment[es]=Muestrador de sonido
+Comment[ca_ES@valencia]=Mostrejador de so
+Comment[ca_ES.UTF-8@valencia]=Mostrejador de so
+Comment[ru]=Звуковой сэмплер Petri-Foo
+Keywords=audio;sound;jackd;midi;sampler;
+Icon=petri-foo
+TryExec=petri-foo
+Exec=petri-foo
+Terminal=false
+Categories=Application;Audio;AudioVideo;AudioVideoEditing;X-Jack;Midi;X-Alsa;
+MimeType=application/petri-foo;

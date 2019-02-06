@@ -1,0 +1,23 @@
+[Desktop Entry]
+Name=Software & Updates
+Name[ca_ES@valencia]=Programari i actualitzacions
+Name[ca_ES.UTF-8@valencia]=Programari i actualitzacions
+GenericName=Software & Updates
+GenericName[ca_ES@valencia]=Programari i actualitzacions
+GenericName[ca_ES.UTF-8@valencia]=Programari i actualitzacions
+Comment=Configure the sources for installable software and updates
+Comment[ca_ES@valencia]=Configureu les fonts per al programari instal·lable i les actualitzacions
+Comment[ca_ES.UTF-8@valencia]=Configureu les fonts per al programari instal·lable i les actualitzacions
+Keywords=Drivers;Repositories;Repository;PPA;
+Exec=software-properties-gtk
+Icon=software-properties
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+NotShowIn=GNOME;
+Categories=System;
+X-GNOME-Settings-Panel=software-properties
+X-Unity-Settings-Panel=software-properties
+MimeType=text/x-apt-sources-list;
+X-KDE-SubstituteUID=true
+X-Ubuntu-Gettext-Domain=software-properties

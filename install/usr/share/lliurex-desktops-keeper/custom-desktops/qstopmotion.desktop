@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=qStopMotion
+Name[ca_ES@valencia]=qStopMotion, per a crear animacions
+Name[ca_ES.UTF-8@valencia]=qStopMotion, per a crear animacions
+Name[es]=qStopMotion, para crear animaciones
+Comment=Program to create stop-motion animations
+Comment[ca_ES@valencia]=qStopMotion, per a crear animacions
+Comment[ca_ES.UTF-8@valencia]=qStopMotion, per a crear animacions
+Comment[es]=qStopMotion, para crear animaciones
+Exec=qstopmotion %f
+TryExec=qstopmotion
+Icon=qstopmotion
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Categories=AudioVideo;Video;AudioVideoEditing;LliureX-Video;
+StartupNotify=true
+MimeType=application/x-qstopmotion;

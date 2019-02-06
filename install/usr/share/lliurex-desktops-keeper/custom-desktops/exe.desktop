@@ -1,0 +1,21 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=eXe
+Comment=eLearning XHTML editor
+Exec=exe %f
+Icon=exe
+Terminal=false
+MimeType=application/x-exe-learning
+StartupWMClass=eXe
+#X-Desktop-File-Install-Version=0.10
+
+
+Name[ca_ES.UTF-8@valencia]=eXe, editor d'ODE
+Name[ca_ES@valencia]=eXe, editor d'ODE
+Comment[ca_ES.UTF-8@valencia]=Editor d'XHTML per a eLearning
+Comment[ca_ES@valencia]=Editor d'XHTML per a eLearning
+Name[es]=eXe, editor ODE
+Comment[es]=Editor de XHTML para eLearning
+Categories=ODE-Creation;
+TryExec=/usr/bin/exe

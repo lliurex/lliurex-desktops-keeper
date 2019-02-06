@@ -1,0 +1,22 @@
+[Desktop Entry]
+Name=Transmission
+GenericName=BitTorrent Client
+X-GNOME-FullName=Transmission BitTorrent Client
+X-GNOME-FullName[ca_ES@valencia]=Client de BitTorrent Transmission
+X-GNOME-FullName[es]=Cliente de BitTorrent Transmission
+Comment=Download and share files over BitTorrent
+Exec=transmission-gtk %U
+Icon=transmission
+Terminal=false
+TryExec=transmission-gtk
+Type=Application
+MimeType=application/x-bittorrent;x-scheme-handler/magnet;
+Name[es]=Transmission, cliente de BitTorrent
+Name[ca_ES@valencia]=Transmission, client de BitTorrent
+Name[ca_ES.UTF-8@valencia]=Transmission, client de BitTorrent
+GenericName[es]=Transmission, cliente de BitTorrent
+Comment[es]=Descargar y compartir archivos mediante BitTorrent
+Comment[ca_ES@valencia]=Baixeu i compartiu fitxers amb el BitTorrent
+Comment[ca_ES.UTF-8@valencia]=Baixeu i compartiu fitxers amb el BitTorrent
+Categories=Network;FileTransfer;P2P;GTK;
+#X-Ubuntu-Gettext-Domain=transmission

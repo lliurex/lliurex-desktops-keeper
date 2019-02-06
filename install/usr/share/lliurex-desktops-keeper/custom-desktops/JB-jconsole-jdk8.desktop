@@ -1,0 +1,22 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Oracle Java 8 Console
+Name[ca_ES@valencia]=Oracle Java 8, consola
+Name[ca_ES.UTF-8@valencia]=Oracle Java 8, consola
+Name[es]=Oracle Java 8, consola
+Comment=Java Monitoring & Management Console
+Comment[es]=Consola de monitorización y gestión de Java 8
+Comment[ca_ES@valencia]=Consola de monitorització i gestió de Java 8
+Comment[ca_ES.UTF-8@valencia]=Consola de monitorització i gestió de Java 8
+Exec=/usr/lib/jvm/java-8-oracle/bin/jconsole
+TryExec=/usr/lib/jvm/java-8-oracle/bin/jconsole
+Terminal=false
+Type=Application
+Icon=oracle_java8
+X-GNOME-Settings-Panel=oracle_java8
+Keywords=Settings;
+X-Desktop-File-Install-Version=0.22
+X-GNOME-Settings-Panel=Oracle Java 8 Console
+X-Unity-Settings-Panel=Oracle Java 8 Console
+Categories=System;
+

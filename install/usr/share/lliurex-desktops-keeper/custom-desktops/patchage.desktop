@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Patchage
+Name[es]=Patchage
+Name[ca_ES@valencia]=Patchage
+Name[ca_ES.UTF-8@valencia]=Patchage
+Comment=Connect audio and MIDI applications together and manage audio sessions
+Comment[es]=Conecta la aplicación de audio y MIDI juntas y gestiona sesiones de audio
+Comment[ca_ES@valencia]=Connecta aplicacions d'àudio i MIDI juntes i gestiona sessions d'àudio
+Comment[ca_ES.UTF-8@valencia]=Connecta aplicacions d'àudio i MIDI juntes i gestiona sessions d'àudio
+Exec=/usr/bin/patchage
+TryExec=/usr/bin/patchage
+Terminal=false
+Icon=patchage
+Type=Application
+Categories=AudioVideo;Audio;

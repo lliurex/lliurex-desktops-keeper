@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=Ri-li
+Name[ca_ES@valencia]=Ri-li, un joc de trens
+Name[ca_ES.UTF-8@valencia]=Ri-li, un joc de trens
+Name[es]=Ri-li, un juego de trenes
+Comment=a toy simulator game
+Comment[ca_ES@valencia]=Un joc de trens
+Comment[ca_ES.UTF-8@valencia]=Un joc de trens
+Comment[es]=Un juego de trenes 
+Comment[fr]=un jeu de petit train
+Comment[ro_RO]=un joc cu un tren de jucărie
+Exec=ri-li
+TryExec=ri-li
+Icon=ri-li
+Terminal=false
+Type=Application
+Categories=LliureX-Infantil;

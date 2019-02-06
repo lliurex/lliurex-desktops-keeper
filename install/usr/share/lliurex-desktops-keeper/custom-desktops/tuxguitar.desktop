@@ -1,0 +1,21 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=tuxguitar
+Name[es]=tuxguitar
+Name[ca_ES@valencia]=tuxguitar
+Name[ca_ES.UTF-8@valencia]=tuxguitar
+Comment=Edit, playback guitar tablatures
+Comment[es]=Edita, reproduce tabuladores de guitarra
+Comment[ca_ES@valencia]=Edita, reprodueix tabulatures de guitarra
+Comment[ca_ES.UTF-8@valencia]=Edita, reprodueix tabulatures de guitarra
+Comment[fr]=Edite, joue des tablatures de guitare
+Comment[es]=Edita, reproduce tablaturas de guitarra
+Exec=tuxguitar
+TryExec=tuxguitar
+Icon=tuxguitar
+Terminal=false
+Type=Application
+Categories=AudioVideo;Audio;
+MimeType=audio/x-tuxguitar;audio/x-gtp;audio/x-ptb;
+#eof "$Id: tuxguitar.desktop,v 1.2 2008/03/22 23:32:25 rzr Exp $"

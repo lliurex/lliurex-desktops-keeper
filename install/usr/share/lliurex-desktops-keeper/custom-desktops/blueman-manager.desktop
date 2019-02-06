@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Bluetooth Manager
+Name[ca_ES@valencia]=Gestor de Bluetooth
+Name[ca_ES.UTF-8@valencia]=Gestor de Bluetooth
+Comment=Blueman Bluetooth Manager
+Comment[ca_ES@valencia]=Gestor de Bluetooth Blueman
+Comment[ca_ES.UTF-8@valencia]=Gestor de Bluetooth Blueman
+Icon=blueman
+Exec=blueman-manager
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;GNOME;Settings;HardwareSettings;
+X-Ubuntu-Gettext-Domain=blueman

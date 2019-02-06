@@ -1,0 +1,27 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=Pure Data
+Name[es]=Pure Data
+Name[ca_ES@valencia]=Pure Data
+Name[ca_ES.UTF-8@valencia]=Pure Data
+GenericName=Pd
+GenericName[es]=Pd
+GenericName[ca_ES@valencia]=Pd
+GenericName[ca_ES.UTF-8@valencia]=Pd
+Comment=Visual dataflow programming platform for multimedia
+Comment[ca_ES@valencia]=Plataforma de programació visual per aplicacions multimèdia
+Comment[ca_ES.UTF-8@valencia]=Plataforma de programació visual per a aplicacions multimèdia
+Comment[de]=Grafische Datenflussprogrammierung für Multimedia
+Comment[es]=Plataforma de programación visual para aplicaciones multimedia
+Comment[fr]=Plateforme de programmation visuelle pour applications multimédia
+Comment[it]=Piattaforma di programmazione visuale per applicazioni multimedia
+Comment[pt]=Plataforma de programação visuais para multimedia
+Icon=puredata.xpm
+Exec=/usr/lib/puredata/tcl/pd-gui.tcl %F
+TryExec=/usr/lib/puredata/tcl/pd-gui.tcl %F
+Terminal=false
+Categories=AudioVideo;Audio;
+MimeType=text/x-puredata;text/x-maxmsp;
+Keywords=Audio;Video;Programming;Synthesis;Analysis

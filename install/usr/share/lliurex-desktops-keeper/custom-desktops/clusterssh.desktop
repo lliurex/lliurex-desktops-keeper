@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=ClusterSSH
+Name[es]=ClusterSSH, administración remota múltiple
+Name[ca_ES@valencia]=ClusterSSH, administració remota múltiple
+Name[ca_ES.UTF-8@valencia]=ClusterSSH, administració remot
+GenericName=SSH/RSH Cluster Control Client
+Comment=Control multiple ssh or rsh sessions from a single input window
+Comment[es]=Controla remotamente múltiples sesiones ssh o rsh desde un único ordenador
+Comment[ca_ES@valencia]=Controla remotament múltiples sessions ssh o rsh des d'un únic ordinador
+Comment[ca_ES.UTF-8@valencia]=Controla remotament múltiples sessions ssh o rsh des d'un únic ordinador
+Exec=cssh
+TryExec=cssh
+Icon=clusterssh
+Terminal=false
+NoDisplay=true
+Type=Application
+Categories=LliureX-Administration
+Version=1.0

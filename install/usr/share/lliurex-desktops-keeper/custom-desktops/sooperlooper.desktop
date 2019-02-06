@@ -1,0 +1,22 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=SooperLooper
+Name[es]=SooperLooper
+Name[ca_ES@valencia]=SooperLooper
+Name[ca_ES.UTF-8@valencia]=SooperLooper
+GenericName=SooperLooper
+GenericName[es]=SooperLooper
+GenericName[ca_ES@valencia]=SooperLooper
+GenericName[ca_ES.UTF-8@valencia]=SooperLooper
+Comment=Looping Sampler
+Comment[es]=Muestreador para hacer repeticiones
+Comment[ca_ES@valencia]=Mostrejador per a fer repeticions
+Comment[ca_ES.UTF-8@valencia]=Mostrejador per a fer repeticions
+Keywords=audio;sound;jackd,sampler,looper,loop
+Icon=sooperlooper
+Exec=/usr/bin/slgui
+TryExec=/usr/bin/slgui
+Terminal=false
+Categories=AudioVideo;Audio;

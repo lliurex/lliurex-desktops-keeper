@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Aeolus
+Name[es]=Aeolus
+Name[ca_ES@valencia]=Aeolus
+Name[ca_ES.UTF-8@valencia]=Aeolus
+Comment=Organ Emulator
+Comment[es]=Emulador de órgano
+Comment[ca_ES@valencia]=Emulador d'orgues
+Comment[ca_ES.UTF-8@valencia]=Emulador d'orgues
+Exec=/usr/bin/aeolus
+TryExec=/usr/bin/aeolus
+Terminal=false
+Type=Application
+Icon=audio-x-generic
+Categories=AudioVideo;Audio;

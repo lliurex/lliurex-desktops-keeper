@@ -1,0 +1,27 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Categories=GTK;Network;
+Comment=Create your live radio show or podcast
+Comment[es]=Crea tu programa de radio o podcast en vivo
+Comment[ca_ES@valencia]=Crea un programa de ràdio en directe o un podcast
+Comment[ca_ES.UTF-8@valencia]=Crea un programa de ràdio en directe o un podcast
+Exec=/usr/bin/idjc
+TryExec=/usr/bin/idjc
+GenericName=Graphical shoutcast/icecast client
+GenericName[es]=Cliente grafico shoutcast/icecast
+GenericName[ca_ES@valencia]=Client gràfic de shoutcast/icecast
+GenericName[ca_ES.UTF-8@valencia]=Client gràfic de shoutcast/icecast
+Icon=/usr/share/pixmaps/idjc.png
+Name=Internet DJ Console
+Name[es]=Internet DJ Console
+Name[ca_ES@valencia]=Internet DJ Console
+Name[ca_ES.UTF-8@valencia]=Internet DJ Console
+StartupNotify=true
+Terminal=false
+Type=Application
+X-DCOP-ServiceType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+X-Ubuntu-Gettext-Domain=idjc
+Keywords=shoutcast;icecast;internet;radio;podcast;

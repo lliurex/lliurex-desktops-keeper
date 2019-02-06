@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.0
+Name=Shutter
+Name[es]=Shutter, una herramienta de captura de pantalla
+Name[ca_ES.UTF-8@valencia]=Shutter, una eina per a capturar la pantalla
+Name[ca_ES@valencia]=Shutter, una eina per a capturar la pantalla
+Name[de_DE]=Shutter
+Comment=Feature-rich screenshot application
+Comment[es]=Herramienta para realizar y modificar capturas de pantalla
+Comment[ca_ES.UTF-8@valencia]=Eina per a realitzar i modificar captures de pantalla
+Comment[ca_ES@valencia]=Eina per a realitzar i modificar captures de pantalla
+Comment[de_DE]=Vielseitiges Programm zur Aufnahme von Bildschirmfotos
+Exec=shutter %F
+TryExec=/usr/bin/shutter
+Icon=shutter
+Terminal=false
+Type=Application
+Categories=ODE-Creation
+MimeType=image/bmp;image/jpeg;image/gif;image/png;image/tiff;image/x-bmp;image/x-ico;image/x-png;image/x-pcx;image/x-tga;image/xpm;image/svg+xml;

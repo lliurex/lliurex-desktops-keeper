@@ -1,0 +1,23 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Xournal
+Comment=Take handwritten notes
+Name[fr]=Xournal
+Comment[fr]=Prise de notes manuscrites
+Name[ca]=Xournal
+Comment[ca]=Preneu notes a mà
+Name[es]=Xournal, para tomar notas
+Comment[es]=Tomar notas a mano
+Name[ca_ES@valencia]=Xournal, per a prendre notes
+Comment[ca_ES@valenica]=Preneu notes a mà
+Name[ca_ES.UTF-8@valencia]=Xournal, per a prendre notes
+Comment[qcv_ES]=Preneu notes a mà
+Comment[ca_ES.UTF-8@valencia]=Preneu notes a mà
+Exec=xournal %f
+TryExec=xournal
+Terminal=false
+StartupNotify=true
+MimeType=application/x-xoj;application/pdf;
+Icon=xournal
+Categories=ODE-Creation;

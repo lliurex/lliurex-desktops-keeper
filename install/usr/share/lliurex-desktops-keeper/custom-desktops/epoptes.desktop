@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Epoptes
+Name[ca_ES@valencia]=Epoptes, control d'aula
+Name[ca_ES.UTF-8@valencia]=Epoptes, control d'aula
+Name[es]=Epoptes, control de aula
+Comment[ca_ES.UTF-8@valencia]=Un control d'aula per al sistema LTSP
+Comment[es]=Un control de aula para el sistema LTSP
+Comment[ca_ES@valencia]=Un control d'aula per al sistema LTSP
+Comment=Epoptes computer lab administration tool
+TryExec=/usr/bin/epoptes
+Exec=/usr/bin/epoptes
+Icon=epoptes
+Terminal=false
+Type=Application
+Categories=LliureX-Administration;
+X-Ubuntu-Gettext-Domain=epoptes

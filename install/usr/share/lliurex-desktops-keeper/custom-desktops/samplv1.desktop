@@ -1,0 +1,21 @@
+[Desktop Entry]
+Name=samplv1
+Version=1.0
+Encoding=UTF-8
+GenericName=MIDI
+GenericName[es]=MIDI
+GenericName[ca_ES@valencia]=MIDI
+GenericName[ca_ES.UTF-8@valencia]=MIDI
+Comment=samplv1 is an old school polyphonic sampler
+Comment[es]=samplv1 es un muestreador polifónico de la vieja escuela
+Comment[ca_ES@valencia]=samplv1 és un mostrejador polifònic de la vella escola
+Comment[ca_ES.UTF-8@valencia]=samplv1 és un mostrejador polifònic de la vella escola
+Comment[fr]=samplv1 est un échantilloneur polyphonique de la vieille école
+Exec=/usr/bin/samplv1_jack
+TryExec=/usr/bin/samplv1_jack
+Icon=samplv1
+Categories=Audio;AudioVideo;Midi;X-Alsa;X-Jack;Qt;
+Keywords=audio;sound;jackd;lv2;plugin;sampler;
+Terminal=false
+Type=Application
+X-SuSE-translate=true

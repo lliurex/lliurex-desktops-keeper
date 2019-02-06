@@ -1,0 +1,24 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=synthv1
+Name[es]=synthv1
+Name[ca_ES@valencia]=synthv1
+Name[ca_ES.UTF-8@valencia]=synthv1
+GenericName=MIDI
+GenericName[ca_ES@valencia]=MIDI
+GenericName[es]=MIDI
+GenericName[ca_ES.UTF-8@valencia]=MIDI
+Comment=synthv1 is an old school polyphonic synthtesizer
+Comment[es]=synthv1 es un sintetizador polifónico de la vieja escuela
+Comment[ca_ES@valencia]=synthv1 és un sintetitzador polifònic de la vella escola
+Comment[ca_ES.UTF-8@valencia]=synthv1 és un sintetitzador polifònic de la vella escola
+Comment[fr]=synthv1 est un synthétiseur polyphonique de la vieille école
+Exec=/usr/bin/synthv1_jack
+TryExec=/usr/bin/synthv1_jack
+Icon=synthv1
+Categories=Audio;AudioVideo;Midi;X-Alsa;X-Jack;Qt;
+Keywords=audio;sound;jackd;lv2;plugin;synth;
+Terminal=false
+Type=Application
+X-SuSE-translate=true

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Gscriptor
+Comment=Send commands to smart cards
+Comment[es]=Envía comandos a tarjetas inteligentes
+Comment[ca_ES@valencia]=Envia comandos a targetes intel·ligents
+Comment[ca_ES.UTF-8@valencia]=Envia comandos a targetes intel·ligents
+Exec=gscriptor
+TryExec=gscriptor
+Icon=gscriptor
+Terminal=false
+Type=Application
+Categories=Utility;GTK;

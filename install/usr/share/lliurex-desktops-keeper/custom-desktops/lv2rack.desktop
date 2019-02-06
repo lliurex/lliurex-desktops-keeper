@@ -1,0 +1,21 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=Lv2rack
+Name[es]=Lv2rack
+Name[ca_ES@valencia]=Lv2rack
+Name[ca_ES.UTF-8@valencia]=Lv2rack
+GenericName=LV2 plugins host
+GenericName[es]=Servidor de conectores de LV2
+GenericName[ca_ES@valencia]=Servidor de connectors d'LV2
+GenericName[ca_ES.UTF-8@valencia]=Servidor de connectors d'LV2
+Comment=LV2 plugins host for JACK
+Comment[es]=Servidor de conectores de LV2 para JACK
+Comment[ca_ES@valencia]=Servidor de connectors d'LV2 per a JACK
+Comment[ca_ES.UTF-8@valencia]=Servidor de connectors d'LV2 per a JACK
+Icon=lv2rack32x32
+Exec=lv2rack
+TryExec=lv2rack 
+Terminal=false
+Categories=AudioVideo;Audio;
