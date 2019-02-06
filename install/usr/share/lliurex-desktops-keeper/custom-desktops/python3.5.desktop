@@ -2,6 +2,7 @@
 Name=Python (v3.5)
 Comment=Python Interpreter (v3.5)
 Exec=/usr/bin/python3.5
+TryExec=/usr/bin/python3.5
 Icon=python
 Terminal=true
 Type=Application

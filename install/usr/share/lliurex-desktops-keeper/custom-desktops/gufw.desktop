@@ -10,6 +10,7 @@ Comment[ca_ES@valencia]=Una manera senzilla de configurar el teu tallafoc
 Comment[ca_ES.UTF-8@valencia]=Una manera senzilla de configurar el teu tallafoc
 Categories=GNOME;GTK;Settings;Security;X-GNOME-Settings-Panel;X-GNOME-SystemSettings;X-Unity-Settings-Panel;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
 Exec=gufw
+TryExec=gufw
 Icon=gufw
 Terminal=false
 Type=Application

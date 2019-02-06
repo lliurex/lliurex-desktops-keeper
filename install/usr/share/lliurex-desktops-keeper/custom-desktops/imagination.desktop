@@ -35,6 +35,7 @@ Comment[ca_ES@valencia]=Un programa lleuger per crear presentacions amb DVD util
 Comment[zh_CN]=一个GTK+2介面下的简易DVD影片秀制作工具
 Comment[zh_TW]=一個GTK+2介面下的簡易DVD影片秀製作工具
 Exec=imagination %F
+TryExec=imagination
 Icon=imagination
 Terminal=false
 Categories=AudioVideo;

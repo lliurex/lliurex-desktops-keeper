@@ -7,6 +7,7 @@ Comment=Configure network devices and connections
 Comment[ca_ES@valencia]=Configureu la xarxa i les connexions
 Comment[ca_ES.UTF-8@valencia]=Configureu la xarxa i les connexions
 Exec=network-admin
+TryExec=network-admin
 Icon=preferences-system-network
 Terminal=false
 Type=Application

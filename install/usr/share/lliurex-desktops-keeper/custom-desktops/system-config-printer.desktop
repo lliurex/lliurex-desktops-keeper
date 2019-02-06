@@ -6,6 +6,7 @@ Comment=Configure printers
 Comment[ca_ES@valencia]=Configureu les impressores
 Comment[ca_ES.UTF-8@valencia]=Configureu les impressores
 Exec=system-config-printer
+TryExec=system-config-printer
 Terminal=false
 Type=Application
 Icon=printer

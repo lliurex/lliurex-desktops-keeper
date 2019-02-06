@@ -7,6 +7,7 @@ Comment[ca_ES@valencia]=Gestioneu i canvieu la configuració de les connexions d
 Comment[ca_ES.UTF-8@valencia]=Gestioneu i canvieu la configuració de les connexions de xarxa
 Icon=preferences-system-network
 Exec=nm-connection-editor
+TryExec=nm-connection-editor
 Terminal=false
 StartupNotify=true
 Type=Application

@@ -81,6 +81,7 @@ Comment[uk]=Налаштувати IBus
 Comment[zh_CN]=设定 IBus 首选项
 Comment[zh_TW]=設置 iBus 偏好設定
 Exec=ibus-setup
+TryExec=ibus-setup
 Icon=ibus-setup
 Terminal=false
 Type=Application

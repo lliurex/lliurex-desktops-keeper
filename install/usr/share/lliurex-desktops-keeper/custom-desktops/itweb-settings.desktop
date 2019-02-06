@@ -8,6 +8,7 @@ Comment[es]=Configura IcedTea Web (javaws y plugin)
 Comment[ca_ES@valencia]=Configura IcedTea Web (javaws i plugin)
 Comment[ca_ES.UTF-8@valencia]=Configura IcedTea Web (javaws i plugin)
 Exec=/usr/bin/itweb-settings
+TryExec=/usr/bin/itweb-settings
 Icon=javaws
 Terminal=false
 Type=Application

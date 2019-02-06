@@ -9,6 +9,7 @@ Comment=Change Onboard settings
 Comment[ca_ES@valencia]=Canvieu la configuració de l'Onboard
 Comment[ca_ES.UTF-8@valencia]=Canvieu la configuració de l'Onboard
 Exec=onboard-settings
+TryExec=onboard-settings
 Terminal=false
 Type=Application
 Categories=Settings;

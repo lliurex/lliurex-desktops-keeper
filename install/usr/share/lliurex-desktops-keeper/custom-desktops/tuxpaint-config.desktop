@@ -90,6 +90,7 @@ Comment[vi]=Cấu hình TuxPaint
 Comment[zh_TW]=設定 Tux Paint
 Icon=tuxpaint-config
 Exec=tuxpaint-config
+TryExec=tuxpaint-config
 Terminal=false
 Type=Application
 Categories=Settings;

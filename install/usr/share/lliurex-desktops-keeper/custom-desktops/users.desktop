@@ -7,6 +7,7 @@ Comment=Add or remove users and groups
 Comment[ca_ES@valencia]=Afegiu o suprimiu usuaris i grups
 Comment[ca_ES.UTF-8@valencia]=Afegiu o suprimiu usuaris i grups
 Exec=users-admin
+TryExec=users-admin
 Icon=config-users
 Terminal=false
 Type=Application

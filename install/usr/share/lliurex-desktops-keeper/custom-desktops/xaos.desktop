@@ -2,6 +2,7 @@
 Name=Xaos - Fractal Zoomer
 Comment=Fractal Generator
 Exec=/usr/bin/xaos -driver x11
+TryExec=/usr/bin/xaos -driver
 Icon=xaos
 Terminal=false
 X-MultipleArgs=false

@@ -6,6 +6,7 @@ Comment=Configure multiple and native language support on your system
 Comment[ca_ES@valencia]=Configureu el suport per a diversos idiomes
 Comment[ca_ES.UTF-8@valencia]=Configureu el suport per a diversos idiomes
 Exec=/usr/bin/gnome-language-selector
+TryExec=/usr/bin/gnome-language-selector
 Icon=preferences-desktop-locale
 Terminal=false
 Type=Application

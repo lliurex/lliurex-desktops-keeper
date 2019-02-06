@@ -7,6 +7,7 @@ Comment=Change system time, date, and timezone
 Comment[ca_ES@valencia]=Canvieu l'hora, la data i la zona horària del sistema
 Comment[ca_ES.UTF-8@valencia]=Canvieu l'hora, la data i la zona horària del sistema.
 Exec=time-admin
+TryExec=time-admin
 Icon=time-admin
 Terminal=false
 Type=Application

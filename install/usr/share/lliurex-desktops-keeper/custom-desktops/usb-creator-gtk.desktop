@@ -9,6 +9,7 @@ Comment[es]=Crea un disco de arranque a partir de un CD o una imagen
 Comment[ca_ES@valencia]=Creeu un disc d'arrancada a partir d'un CD o una imatge
 Comment[ca_ES.UTF-8@valencia]=Creeu un disc d'arrancada a partir d'un CD o una imatge
 Exec=usb-creator-gtk
+TryExec=usb-creator-gtk
 Icon=usb-creator-gtk
 Terminal=false
 Type=Application

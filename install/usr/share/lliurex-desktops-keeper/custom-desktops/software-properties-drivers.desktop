@@ -1,6 +1,7 @@
 [Desktop Entry]
 Keywords=Drivers;
 Exec=/usr/bin/software-properties-gtk --open-tab=4
+TryExec=/usr/bin/software-properties-gtk
 Icon=jockey
 Terminal=false
 Type=Application

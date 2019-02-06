@@ -10,6 +10,7 @@ Comment[ca_ES@valencia]=Configureu les fonts per al programari instal·lable i l
 Comment[ca_ES.UTF-8@valencia]=Configureu les fonts per al programari instal·lable i les actualitzacions
 Keywords=Drivers;Repositories;Repository;PPA;
 Exec=software-properties-gtk
+TryExec=software-properties-gtk
 Icon=software-properties
 Terminal=false
 X-MultipleArgs=false

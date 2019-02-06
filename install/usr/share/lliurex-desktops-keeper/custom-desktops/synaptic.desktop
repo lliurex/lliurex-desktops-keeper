@@ -9,6 +9,7 @@ Comment=Install, remove and upgrade software packages
 Comment[ca_ES@valencia]=Instal·leu, suprimiu i actualitzeu paquets de programari
 Comment[ca_ES.UTF-8@valencia]=Instal·leu, suprimiu i actualitzeu paquets de programari
 Exec=synaptic-pkexec
+TryExec=synaptic-pkexec
 Icon=synaptic
 Terminal=false
 Type=Application
