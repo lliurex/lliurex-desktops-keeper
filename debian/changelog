@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.38) bionic; urgency=medium
+
+  * Fixed xaos.desktop
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 06 Feb 2019 16:30:24 +0100
+
 lliurex-desktops-keeper (1.37) bionic; urgency=medium
 
   * Initial release for bionic
