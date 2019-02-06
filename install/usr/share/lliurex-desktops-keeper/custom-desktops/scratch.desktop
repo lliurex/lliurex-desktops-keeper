@@ -14,5 +14,5 @@ Name[ca_ES@valencia]=Scratch, programació visual
 Comment[ca_ES@valencia]=Sistema de programació visual per a l'educació
 Name[ca_ES.UTF-8@valencia]=Scratch, programació visual
 Comment[ca_ES.UTF-8@valencia]=Sistema de programació visual per a l'educació
-Categories=Application;Education;
+Categories=Application;Education;LliureX-Computational-Thinking;
 MimeType=application/x-scratch-project

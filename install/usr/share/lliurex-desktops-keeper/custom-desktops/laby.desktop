@@ -13,5 +13,5 @@ TryExec=/usr/games/laby
 Icon=laby
 Terminal=false
 Type=Application
-Categories=LliureX-Infantil;
+Categories=LliureX-Computational-Thinking;
 StartupNotify=true

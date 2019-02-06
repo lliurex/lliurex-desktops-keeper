@@ -72,6 +72,6 @@ Comment[ca_ES.UTF-8@valencia]=Eina matemàtica Dr. Geo
 Comment[ca_ES@valencia]=Eina matemàtica Dr. Geo
 Name[es]=Dr. Geo, Matemáticas
 Comment[es]=Herramienta matemática Dr. Geo
-Categories=LliureX-Secundaria;
+Categories=LliureX-Laboratory;
 Icon=drgeo
 TryExec=/usr/bin/drgeo

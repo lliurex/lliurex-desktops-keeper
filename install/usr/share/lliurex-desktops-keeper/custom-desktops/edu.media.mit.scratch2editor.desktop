@@ -16,7 +16,7 @@ Terminal=false
 Icon=edu.media.mit.scratch2editor
 StartupNotify=true
 X-KDE-StartupNotify=true
-Categories=Application;Education;
+Categories=Application;Education;LliureX-Computational-Thinking;
 X-AppInstall-Package=edu.media.mit.scratch2editor
 X-AppInstall-Section=main
 

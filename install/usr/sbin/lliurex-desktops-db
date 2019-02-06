@@ -11,11 +11,11 @@ import shutil
 
 diversion_db="/var/lib/lliurex-desktops-keeper/lliurex-desktops.db"
 diversion_db_hide="/var/lib/lliurex-desktops-keeper/lliurex-desktops_hide.db"
-mate_db="/usr/share/lliurex-desktops-keeper/desktops-hide/mate-desktops"
+#mate_db="/usr/share/lliurex-desktops-keeper/desktops-hide/mate-desktops"
 destination_path="/usr/share/applications/"
 db=[]
 db_hide=[]
-db_mate=[]
+#db_mate=[]
 
 
 #performs a full path search
@@ -30,14 +30,15 @@ def lookup(path):
 
 	return int(ret)
 
-
+'''
 def lookup_mate(file):
 	matefile= -1
 
 	for c in db_mate:
 		if c==file:
 			matefile=0
-	return int(matefile)		
+	return int(matefile)	
+'''		
         
 #add command        
 def add(path,priority):     
@@ -45,21 +46,21 @@ def add(path,priority):
 	
 
 	initdb()
-	initdb_mate()
+	#initdb_mate()
 	
 	for file in os.listdir(path):
 		match=re.match(".*\.desktop$",file)
 		if not match==None:
 	
 			ret=lookup(path+os.sep+file)
-			matefile=lookup_mate(file)
+			#matefile=lookup_mate(file)
 
 			if ret==-1:
 				#print "* Desktop not found in database, inserting: ",file
 				must_save=True
 				db.append((path+os.sep+file,priority))
-				if matefile ==-1:
-					subprocess.call(["dpkg-divert","--package","lliurex-desktops-keeper","--rename","--quiet","--add","--divert", str(destination_path+file+".diverted"),str(destination_path+file)])
+				#if matefile ==-1:
+				subprocess.call(["dpkg-divert","--package","lliurex-desktops-keeper","--rename","--quiet","--add","--divert", str(destination_path+file+".diverted"),str(destination_path+file)])
 				shutil.copy(str(path+os.sep+file),str(destination_path+file))
 			else:
 
@@ -72,8 +73,8 @@ def add(path,priority):
 				
 				if ret < priority:
 					#print "* Inserting with a higher priority: ",file
-					if matefile==-1:
-						subprocess.call(["dpkg-divert","--package","lliurex-desktops-keeper","--rename","--quiet","--add","--divert", str(destination_path+file+".diverted"),str(destination_path+file)])
+					#if matefile==-1:
+					subprocess.call(["dpkg-divert","--package","lliurex-desktops-keeper","--rename","--quiet","--add","--divert", str(destination_path+file+".diverted"),str(destination_path+file)])
 					shutil.copy(str(path+os.sep+file),str(destination_path+file))
 					
 				if ret == priority:	
@@ -154,7 +155,7 @@ def purge():
 	global db
 
 	initdb()
-	initdb_mate()
+	#initdb_mate()
 
 	todel=[]
 
@@ -166,7 +167,7 @@ def purge():
 		
 		
 	for file in todel:
-		matefile=lookup_mate(file)
+		#matefile=lookup_mate(file)
 		if os.path.exists(destination_path+file+".diverted"):
 
 			if os.path.exists(destination_path+file):
@@ -175,12 +176,13 @@ def purge():
 			#print "* Removing Diversion"
 			subprocess.call(["dpkg-divert","--package","lliurex-desktops-keeper","--rename","--quiet","--remove", str(destination_path+file)])
 	
+		'''
 		else:
 			if matefile==0:
 				if os.path.exists(destination_path+file):
 				#print "* Removing:",file
 					os.remove(destination_path+file)	
-
+		'''
 	#print "* Removing db file"
 	os.remove(diversion_db)
 
@@ -272,7 +274,7 @@ def initdb_hide():
 
 	dbfile_hide.close()
 
-
+'''
 def initdb_mate():
 	global db_mate
 	if os.path.exists(mate_db):
@@ -282,7 +284,7 @@ def initdb_mate():
 			if (len(tmp)>1):
 				db_mate.append(tmp[5].strip())
 		mate_file.close()			
-
+'''
             
 def main():
 

@@ -13,5 +13,5 @@ Name[ca_ES@valencia]=Xaos, fractals
 Comment[es]=Generador de fractales
 Comment[ca_ES.UTF-8@valencia]=Generador de fractals
 Comment[ca_ES@valencia]=Generador de fractals
-Categories=LliureX-Secundaria;
+Categories=LliureX-Laboratori;
 TryExec=/usr/bin/xaos

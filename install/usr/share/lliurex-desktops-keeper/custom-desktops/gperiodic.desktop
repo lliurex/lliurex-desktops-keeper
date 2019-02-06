@@ -15,5 +15,5 @@ Name[ca_ES.UTF-8@valencia]=GPeriodic, taula periòdica
 Name[ca_ES@valencia]=GPeriodic, taula periòdica
 Comment[es]=Un programa para buscar datos de los elementos de la tabla periódica.
 Name[es]=GPeriodic, tabla periódica
-Categories=LliureX-Secundaria;
+Categories=LliureX-Laboratory;
 TryExec=/usr/bin/gperiodic
