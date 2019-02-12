@@ -15,5 +15,5 @@ Comment[ca_ES.UTF-8@valencia]=Una interfície per a gravar l'escriptori
 Comment[ca_ES@valencia]=Una interfície per a gravar l'escriptori
 Name[es]=Grabación del escritorio
 Comment[es]=Una interfaz para gabar el escritorio
-Categories=ODE-Creation;
+Categories=LliureX-Author-Tools;
 TryExec=/usr/bin/gtk-recordmydesktop
