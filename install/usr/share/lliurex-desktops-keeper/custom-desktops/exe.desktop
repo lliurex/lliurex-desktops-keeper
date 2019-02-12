@@ -17,5 +17,5 @@ Comment[ca_ES.UTF-8@valencia]=Editor d'XHTML per a eLearning
 Comment[ca_ES@valencia]=Editor d'XHTML per a eLearning
 Name[es]=eXe, editor ODE
 Comment[es]=Editor de XHTML para eLearning
-Categories=ODE-Creation;
+Categories=LliureX-Author-Tools;
 TryExec=/usr/bin/exe
