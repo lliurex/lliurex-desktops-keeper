@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=dnietif (1.5.0) PKCS#11 module registry
+Name[en]=dnietif (1.5.0) PKCS#11 module registry
+Name[es]=Registrar módulo PKCS#11 dnietif (1.5.0)
+Name[ca]=Registrar mòdul PKCS#11 dnietif (1.5.0)
+Name[gl]=Rexistrar módulo PKCS#11 dnietif (1.5.0)
+Name[eu]=dnietif (1.5.0) PKCS#11 modulua erregistratu
+Exec=/usr/share/libpkcs11-dnietif/launch.pl
+Icon=/usr/share/libpkcs11-dnietif/launch_icon.gif
+Terminal=false
+Type=Application
+NoDisplay=true
+Categories=Application;
