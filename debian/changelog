@@ -1,6 +1,12 @@
+lliurex-desktops-keeper (1.40) bionic; urgency=medium
+
+  * Updated xournal.desktop and shutter.desktop category to LliureX-Author-Tools
+
+ -- lliurex <lliurex@lliurex>  Thu, 11 Apr 2019 10:06:14 +0200
+
 lliurex-desktops-keeper (1.39) bionic; urgency=medium
 
-  * Updated exe.desktop and gtk-recordmydesktop.dekstop category to LliureX-Auhtor-Tools
+  * Updated exe.desktop and gtk-recordmydesktop.desktop category to LliureX-Auhtor-Tools
 
  -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 12 Feb 2019 09:50:35 +0100
 
