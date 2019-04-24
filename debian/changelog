@@ -1,8 +1,14 @@
+lliurex-desktops-keeper (1.41) bionic; urgency=medium
+
+  * Removed updated-manager desktop
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 24 Apr 2019 08:25:21 +0200
+
 lliurex-desktops-keeper (1.40) bionic; urgency=medium
 
   * Updated xournal.desktop and shutter.desktop category to LliureX-Author-Tools
 
- -- lliurex <lliurex@lliurex>  Thu, 11 Apr 2019 10:06:14 +0200
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 11 Apr 2019 10:06:14 +0200
 
 lliurex-desktops-keeper (1.39) bionic; urgency=medium
 
