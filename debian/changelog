@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.42) bionic; urgency=medium
+
+  * Fixed valencian translations
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 18 Jun 2019 09:53:48 +0200
+
 lliurex-desktops-keeper (1.41) bionic; urgency=medium
 
   * Removed updated-manager desktop
