@@ -5,10 +5,14 @@ Name=Virtual MIDI Keyboard
 Name[es]=Teclado virtual MIDI
 Name[ca_ES@valencia]=Teclat virtual MIDI
 Name[ca_ES.UTF-8@valencia]=Teclat virtual MIDI
+Name[ca]=Teclat virtual MIDI
+Name[ca_ES]=Teclat virtual MIDI
 Comment=MIDI Virtual Keyboard
 Comment[es]=Teclado virtual MIDI
 Comment[ca_ES@valencia]=Teclat virtual MIDI
 Comment[ca_ES.UTF-8@valencia]=Teclat virtual MIDI
+Comment[ca]=Teclat virtual MIDI
+Comment[ca_ES]=Teclat virtual MIDI
 Icon=vkeybd
 
 Type=Application

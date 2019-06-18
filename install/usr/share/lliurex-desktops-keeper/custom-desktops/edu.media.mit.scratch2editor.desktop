@@ -1,13 +1,17 @@
 [Desktop Entry]
 Name=Scratch 2 Desktop Editor
-Comment=Desktop programming system and content development tool
-GenericName=Scratch 2 Desktop Editor
 Name[es]=Scratch 2 Editor de Escritorio
-Comment[es]=Editor de escritorio, sistema de programación visual para la educación
 Name[ca_ES@valencia]=Scratch 2 Editor d'Escriptori
-Comment[ca_ES@valencia]=Editor d'escriptori, sistema de programació visual per a l'educació
 Name[ca_ES.UTF-8@valencia]=Scratch 2 Editor d'Escriptori
+Name[ca]=Scratch 2 Editor d'Escriptori
+Name[ca_ES]=Scratch 2 Editor d'Escriptori
+Comment=Desktop programming system and content development tool
+Comment[es]=Editor de escritorio, sistema de programación visual para la educación
+Comment[ca_ES@valencia]=Editor d'escriptori, sistema de programació visual per a l'educació
 Comment[ca_ES.UTF-8@valencia]=Editor d'escriptori, sistema de programació visual per a l'educació
+Comment[ca]=Editor d'escriptori, sistema de programació visual per a l'educació
+Comment[ca_ES]=Editor d'escriptori, sistema de programació visual per a l'educació
+GenericName=Scratch 2 Desktop Editor
 
 Exec=env http_proxy="" '/opt/AdobeAirApp'/'Scratch 2'/bin/'Scratch 2'
 TryExec='/opt/AdobeAirApp'/'Scratch 2'/bin/'Scratch 2'

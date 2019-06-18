@@ -4,6 +4,8 @@ Comment=Share this desktop by VNC
 Comment[es]=Comparte este escritorio por VNC
 Comment[ca_ES@valencia]=Compartix  este escriptori per VNC
 Comment[ca_ES.UTF-8@valencia]=Compartix  este escriptori per VNC
+Comment[ca]=Compartix  este escriptori per VNC
+Comment[ca_ES]=Compartix  este escriptori per VNC
 Exec=x11vnc -gui tray=setpass -rfbport PROMPT -bg -o %%HOME/.x11vnc.log.%%VNCDISPLAY
 TryExec=x11vnc
 Icon=computer

@@ -1,16 +1,20 @@
 [Desktop Entry]
 Encoding=UTF-8
-Exec=pysycache -admin
-Icon=pysycache
-Type=Application
 Name=Pysycache Admin
 Name[es]=Administración de PySyCache
 Name[ca_ES.UTF-8@valencia]=Administració del PySyCache
 Name[ca_ES@valencia]=Administració del PySyCache
+Name[ca]=Administració del PySyCache
+Name[ca_ES]=Administració del PySyCache
 Comment=Configuration of PySyCache
 Comment[es]=Configuración de PySyCache
 Comment[ca_ES.UTF-8@valencia]=Configuració del PySyCache
 Comment[ca_ES@valencia]=Configuració del PySyCache
+Comment[ca]=Configuració del PySyCache
+Comment[ca_ES]=Configuració del PySyCache
+Exec=pysycache -admin
+Icon=pysycache
+Type=Application
 Terminal=false
 StartupNotify=true
 TryExec=/usr/games/pysycache

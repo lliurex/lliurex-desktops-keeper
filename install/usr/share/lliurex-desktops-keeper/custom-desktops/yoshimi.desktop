@@ -1,18 +1,24 @@
 [Desktop Entry]
 Encoding=UTF-8
+Version=1.3.8.2
 Name=Yoshimi
 Name[es]=Yoshimi
 Name[ca_ES@valencia]=Yoshimi
 Name[ca_ES.UTF-8@valencia]=Yoshimi
+Name[ca]=Yoshimi
+Name[ca_ES]=Yoshimi
 Comment=Real Time Synthesizer
 Comment[es]=Sintetizador en tiempo real
 Comment[ca_ES@valencia]=Sintetitzador en temps real
 Comment[ca_ES.UTF-8@valencia]=Sintetitzador en temps real
+Comment[ca]=Sintetitzador en temps real
+Comment[ca_ES]=Sintetitzador en temps real
 GenericName=Synthesizer
 GenericName[es]=Sintetizador
 GenericName[ca_ES@valencia]=Sintetitzador
 GenericName[ca_ES.UTF-8@valencia]=Sintetitzador
-Version=1.3.8.2
+GenericName[ca]=Sintetitzador
+GenericName[ca_ES]=Sintetitzador
 Type=Application
 Categories=Music;Midi;AudioVideo;X-Sound;Audio;X-Multitrack;X-Alsa;X-Jack;
 Keywords=music;synthesiser;softsynth;microtonal;multichannel;midi;alsa;jack;realtime;standalone;lv2;

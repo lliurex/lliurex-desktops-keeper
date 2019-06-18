@@ -1,20 +1,24 @@
 [Desktop Entry]
 Encoding=UTF-8
+X-Desktop-File-Install-Version=0.22
 Name=Oracle Java 8 Policy Tool
 Name[ca_ES@valencia]=Oracle Java 8, polítiques
 Name[ca_ES.UTF-8@valencia]=Oracle Java 8, polítiques
 Name[es]=Oracle Java 8, políticas
+Name[ca]=Oracle Java 8, polítiques
+Name[ca_ES]=Oracle Java 8, polítiques
 Comment=Oracle Java 8 Policy Tool
 Comment[ca_ES@valencia]=Eina de gestió de polítiques Java 8
 Comment[ca_ES.UTF-8@valencia]=Eina de gestió de polítiques Java 8
 Comment[es]=Herramienta de gestión de políticas Java 8
+Comment[ca]=Eina de gestió de polítiques Java 8
+Comment[ca_ES]=Eina de gestió de polítiques Java 8
 Exec=/usr/lib/jvm/java-8-oracle/bin/policytool
 TryExec=/usr/lib/jvm/java-8-oracle/bin/policytool
 Terminal=false
 Type=Application
 Icon=oracle_java8
 Keywords=Settings;
-X-Desktop-File-Install-Version=0.22
 X-GNOME-Settings-Panel=Oracle Java 8 Policy Tool
 X-Unity-Settings-Panel=Oracle Java 8 Policy Tool
 Categories=System;

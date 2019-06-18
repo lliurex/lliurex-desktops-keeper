@@ -1,17 +1,23 @@
 [Desktop Entry]
 Name=GPRename
-GenericName=Files renamer
-Comment=To rename files and directories in batch
-
 Name[es]=Gprename, renombrador de ficheros
-GenericName[es]=Renombrador masivo de ficheros
-Comment[es]=Un programa para renombrar de manera masiva los ficheros
 Name[ca_ES@valencia]=Gprename, reanomenador de fitxers
-GenericName[ca_ES@valencia]=Reanomenador massiu de fitxers
-Comment[ca_ES@valencia]=Un programa per a reanomenar de manera massiva els fitxers
 Name[ca_ES.UTF-8@valencia]=Gprename, reanomenador de fitxers
-GenericName[ca_ES.UTF-8@valencia]=Renomenador massiu de fitxers
+Name[ca]=Gprename, reanomenador de fitxers
+Name[ca_ES]=Gprename, reanomenador de fitxers
+Comment=To rename files and directories in batch
+Comment[es]=Un programa para renombrar de manera masiva los ficheros
+Comment[ca_ES@valencia]=Un programa per a reanomenar de manera massiva els fitxers
 Comment[ca_ES.UTF-8@valencia]=Un programa per a reanomenar de manera massiva els fitxers
+Comment[ca]=Un programa per a reanomenar de manera massiva els fitxers
+Comment[ca_ES]=Un programa per a reanomenar de manera massiva els fitxers
+GenericName=Files renamer
+GenericName[es]=Renombrador masivo de ficheros
+GenericName[ca_ES@valencia]=Reanomenador massiu de fitxers
+GenericName[ca_ES.UTF-8@valencia]=Renomenador massiu de fitxers
+GenericName[ca]=Reanomenador massiu de fitxers
+GenericName[ca_ES]=Reanomenador massiu de fitxers
+
 
 
 Exec=gprename

@@ -1,14 +1,19 @@
 [Desktop Entry]
 Encoding=UTF-8
+X-Desktop-File-Install-Version=0.22
 Name=Oracle Java 8 VisualVM
 Name[ca_ES@valencia]=Oracle Java 8, màquina virtual
 Name[ca_ES.UTF-8@valencia]=Oracle Java 8, màquina virtual
 Name[es]=Oracle Java 8, máquina virtual
 Name=Oracle Java 8 VisualVM
+Name[ca]=Oracle Java 8, màquina virtual
+Name[ca_ES]=Oracle Java 8, màquina virtual
 Comment=Oracle Java 8 Monitoring & Management (VisualVM)
 Comment[es]=Monitorización y gestión de Java 8 máquina virtual
 Comment[ca_ES@valencia]=Monitorització i gestió de Java 8 màquina virtual
 Comment[ca_ES.UTF-8@valencia]=Monitorització i gestió de Java 8 màquina virtual
+Comment[ca]=Monitorització i gestió de Java 8 màquina virtual
+Comment[ca_ES]=Monitorització i gestió de Java 8 màquina virtual
 Exec=/usr/lib/jvm/java-8-oracle/bin/jvisualvm
 TryExec=/usr/lib/jvm/java-8-oracle/bin/jvisualvm
 Terminal=false
@@ -16,7 +21,6 @@ Type=Application
 Icon=oracle_java8
 X-GNOME-Settings-Panel=oracle_java8
 Keywords=Settings;
-X-Desktop-File-Install-Version=0.22
 X-GNOME-Settings-Panel=Oracle Java 8 VisualVM
 X-Unity-Settings-Panel=Oracle Java 8 VisualVM
 Categories=System;

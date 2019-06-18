@@ -1,17 +1,21 @@
 [Desktop Entry]
 Version=1.0
-Exec=avogadro %f
-Terminal=false
-Type=Application
-StartupNotify=true
 Name=Avogadro
 Name[es]=Editor molecular Avogadro
 Name[ca_ES.UTF-8@valencia]=Editor molecular Avogadro
 Name[ca_ES@valencia]=Editor molecular Avogadro
+Name[ca]=Editor molecular Avogadro
+Name[ca_ES]=Editor molecular Avogadro
 Comment=Advanced molecular editor
 Comment[ca_ES.UTF-8@valencia]=Editor molecular avançat Avogadro
 Comment[ca_ES@valencia]=Editor molecular avançat Avogadro
 Comment[es]=Editor molecular avanzado Avogadro
+Comment[ca]=Editor molecular avançat Avogadro
+Comment[ca_ES]=Editor molecular avançat Avogadro
+Exec=avogadro %f
+Terminal=false
+Type=Application
+StartupNotify=true
 Categories=LliureX-Laboratory;
 Icon=avogadro
 TryExec=/usr/bin/avogadro

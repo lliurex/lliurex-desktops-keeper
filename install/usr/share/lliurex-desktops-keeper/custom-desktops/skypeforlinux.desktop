@@ -1,26 +1,9 @@
 [Desktop Entry]
+Encoding=UTF-8
 Name=Skype
 Name[es]=Skype
 Name[ca_ES@valencia]=Skype
 Name[ca_ES.UTF-8@valencia]=Skype
-Comment=Skype Internet Telephony
-Comment[es]=Skype: Telefonía a través de Internet
-Comment[ca_ES@valencia]=Skype: Telefonia a través d'Internet
-Comment[ca_ES.UTF-8@valencia]=Skype: Telefonia a través d'Internet
-Exec=/usr/bin/skypeforlinux %U
-TryExec=/usr/bin/skypeforlinux %U
-Icon=skypeforlinux
-Terminal=false
-Type=Application
-StartupNotify=true
-StartupWMClass=Skype
-Encoding=UTF-8
-Categories=Network;Application;
-MimeType=x-scheme-handler/skype;
-X-KDE-Protocols=skype
-Actions=QuitSkype;
-
-[Desktop Action QuitSkype]
 Name=Quit Skype
 Name[ar]=إنهاء اسكايب
 Name[bg]=Изход от Skype
@@ -64,6 +47,27 @@ Name[uk]=Вийти зі Skype
 Name[vi]=Thoát Skype
 Name[zh_CN]=退出 Skype
 Name[zh_TW]=結束 Skype
+Name[ca]=Skype
+Name[ca_ES]=Skype
+Comment=Skype Internet Telephony
+Comment[es]=Skype: Telefonía a través de Internet
+Comment[ca_ES@valencia]=Skype: Telefonia a través d'Internet
+Comment[ca_ES.UTF-8@valencia]=Skype: Telefonia a través d'Internet
+Comment[ca]=Skype: Telefonia a través d'Internet
+Comment[ca_ES]=Skype: Telefonia a través d'Internet
+Exec=/usr/bin/skypeforlinux %U
+TryExec=/usr/bin/skypeforlinux %U
+Icon=skypeforlinux
+Terminal=false
+Type=Application
+StartupNotify=true
+StartupWMClass=Skype
+Categories=Network;Application;
+MimeType=x-scheme-handler/skype;
+X-KDE-Protocols=skype
+Actions=QuitSkype;
+
+[Desktop Action QuitSkype]
 Exec=/usr/bin/skypeforlinux --shutdown
 TryExec=/usr/bin/skypeforlinux --shutdown
 OnlyShowIn=Unity;

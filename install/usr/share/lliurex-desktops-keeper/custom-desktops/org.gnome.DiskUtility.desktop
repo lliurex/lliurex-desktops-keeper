@@ -2,9 +2,13 @@
 Name=Disks
 Name[ca_ES@valencia]=Discs
 Name[ca_ES.UTF-8@valencia]=Discs
+Name[ca]=Discs
+Name[ca_ES]=Discs
 Comment=Manage Drives and Media
 Comment[ca_ES@valencia]=Gestioneu els dispositius i els suports
 Comment[ca_ES.UTF-8@valencia]=Gestioneu els dispositius i els suports
+Comment[ca]=Gestioneu els dispositius i els suports
+Comment[ca_ES]=Gestioneu els dispositius i els suports
 Keywords=disk;drive;volume;harddisk;hdd;disc;cdrom;dvd;partition;iso;image;backup;restore;benchmark;raid;luks;encryption;S.M.A.R.T.;smart;
 Exec=gnome-disks
 TryExec=gnome-disks

@@ -1,17 +1,21 @@
 [Desktop Entry]
 Version=1.0
 Encoding=UTF-8
-Type=Application
-Categories=AudioVideo;Audio;
-Exec=rakarrack
-TryExec=rakarrack
 Name=Rakarrack
 Name[es]=Rakarrack
 Name[ca_ES@valencia]=Rakarrack
 Name[ca_ES.UTF-8@valencia]=Rakarrack
+Name[ca]=Rakarrack
+Name[ca_ES]=Rakarrack
 Comment=Guitar Effects Processor
 Comment[es]=Procesador de efectos para guitarra
 Comment[ca_ES@valencia]=Processador d'efectes per a guitarra
 Comment[ca_ES.UTF-8@valencia]=Processador d'efectes per a guitarra
+Comment[ca]=Processador d'efectes per a guitarra
+Comment[ca_ES]=Processador d'efectes per a guitarra
+Type=Application
+Categories=AudioVideo;Audio;
+Exec=rakarrack
+TryExec=rakarrack
 Terminal=false
 Icon=icono_rakarrack_128x128

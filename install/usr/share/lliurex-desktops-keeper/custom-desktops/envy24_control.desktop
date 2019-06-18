@@ -1,17 +1,21 @@
 [Desktop Entry]
 Version=1.0
-Encodig=UTF-8
-Type=Application
 Name=Envy24 control
 Name[es]=Envy24 control
 Name[ca_ES@valencia]=Envy24 control
 Name[ca_ES.UTF-8@valencia]=Envy24 control
-GenericName=
+Name[ca]=Envy24 control
+Name[ca_ES]=Envy24 control
 Comment=Control Envy24 (ice1712) based soundcards
 Comment[es]=Control para tarjetas de audio basadas en Envy24(ice1712)
 Comment[ca_ES@valencia]=Controla targetes de so basades en Envy24 (ice1712)
 Comment[ca_ES.UTF-8@valencia]=Controla targetes de so basades en Envy24 (ice1712)
 Comment[fr]=Contrôles pour interfaces audio basées sur Envy24 (ice1712)
+Comment[ca]=Controla targetes de so basades en Envy24 (ice1712)
+Comment[ca_ES]=Controla targetes de so basades en Envy24 (ice1712)
+GenericName=
+Encodig=UTF-8
+Type=Application
 Icon=alsa-tools
 Exec=envy24control
 TryExec=envy24control

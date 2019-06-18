@@ -2,9 +2,13 @@
 Name=Network Connections
 Name[ca_ES@valencia]=Connexions de xarxa
 Name[ca_ES.UTF-8@valencia]=Connexions de xarxa
+Name[ca]=Connexions de xarxa
+Name[ca_ES]=Connexions de xarxa
 Comment=Manage and change your network connection settings
 Comment[ca_ES@valencia]=Gestioneu i canvieu la configuració de les connexions de xarxa
 Comment[ca_ES.UTF-8@valencia]=Gestioneu i canvieu la configuració de les connexions de xarxa
+Comment[ca]=Gestioneu i canvieu la configuració de les connexions de xarxa
+Comment[ca_ES]=Gestioneu i canvieu la configuració de les connexions de xarxa
 Icon=preferences-system-network
 Exec=nm-connection-editor
 TryExec=nm-connection-editor

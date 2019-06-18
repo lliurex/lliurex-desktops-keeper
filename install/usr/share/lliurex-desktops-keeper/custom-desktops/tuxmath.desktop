@@ -1,15 +1,19 @@
 [Desktop Entry]
 Name=TuxMath
+Name[ca_ES.UTF-8@valencia]=TuxMath, joc de matemàtiques
+Name[ca_ES@valencia]=TuxMath, joc de matemàtiques
+Name[es]=TuxMath, juego de matemáticas
+Name[ca]=TuxMath, joc de matemàtiques
+Name[ca_ES]=TuxMath, joc de matemàtiques
 Comment=Math Training Game
+Comment[ca_ES.UTF-8@valencia]=Joc de matemàtiques
+Comment[ca_ES@valencia]=Joc de matemàtiques
+Comment[es]=Juego de matemáticas
+Comment[ca]=Joc de matemàtiques
+Comment[ca_ES]=Joc de matemàtiques
 Exec=tuxmath
 Terminal=false
 Type=Application
-Name[ca_ES.UTF-8@valencia]=TuxMath, joc de matemàtiques
-Name[ca_ES@valencia]=TuxMath, joc de matemàtiques
-Comment[ca_ES.UTF-8@valencia]=Joc de matemàtiques
-Comment[ca_ES@valencia]=Joc de matemàtiques
-Name[es]=TuxMath, juego de matemáticas
-Comment[es]=Juego de matemáticas
 Categories=Application;Education;2DGraphics;
 Icon=tuxmath
 TryExec=/usr/games/tuxmath

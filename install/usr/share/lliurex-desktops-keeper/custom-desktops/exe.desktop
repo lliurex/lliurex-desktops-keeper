@@ -1,21 +1,25 @@
 [Desktop Entry]
-Type=Application
 Encoding=UTF-8
+#X-Desktop-File-Install-Version=0.10
 Name=eXe
+Name[ca_ES.UTF-8@valencia]=eXe, editor d'ODE
+Name[ca_ES@valencia]=eXe, editor d'ODE
+Name[es]=eXe, editor ODE
+Name[ca]=eXe, editor d'ODE
+Name[ca_ES]=eXe, editor d'ODE
 Comment=eLearning XHTML editor
+Comment[ca_ES.UTF-8@valencia]=Editor d'XHTML per a eLearning
+Comment[ca_ES@valencia]=Editor d'XHTML per a eLearning
+Comment[es]=Editor de XHTML para eLearning
+Comment[ca]=Editor d'XHTML per a eLearning
+Comment[ca_ES]=Editor d'XHTML per a eLearning
+Type=Application
 Exec=exe %f
 Icon=exe
 Terminal=false
 MimeType=application/x-exe-learning
 StartupWMClass=eXe
-#X-Desktop-File-Install-Version=0.10
 
 
-Name[ca_ES.UTF-8@valencia]=eXe, editor d'ODE
-Name[ca_ES@valencia]=eXe, editor d'ODE
-Comment[ca_ES.UTF-8@valencia]=Editor d'XHTML per a eLearning
-Comment[ca_ES@valencia]=Editor d'XHTML per a eLearning
-Name[es]=eXe, editor ODE
-Comment[es]=Editor de XHTML para eLearning
 Categories=LliureX-Author-Tools;
 TryExec=/usr/bin/exe
