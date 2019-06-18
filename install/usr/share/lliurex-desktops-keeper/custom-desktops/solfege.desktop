@@ -1,15 +1,19 @@
 [Desktop Entry]
 Name=GNU Solfege
-Exec=solfege
-Terminal=false
-Type=Application
-Icon=solfege
 Name[es]=GNU Solfege, percepción musical
 Name[ca_ES.UTF-8@valencia]=GNU Solfege, percepció musical
 Name[ca_ES@valencia]=GNU Solfege, percepció musical
+Name[ca]=GNU Solfege, percepció musical
+Name[ca_ES]=GNU Solfege, percepció musical
 Comment=Musical perception exercises
 Comment[es]=Ejercicios de percepción musical
 Comment[ca_ES.UTF-8@valencia]=Exercicis de percepció musical
 Comment[ca_ES@valencia]=Exercicis de percepció musical
+Comment[ca]=Exercicis de percepció musical
+Comment[ca_ES]=Exercicis de percepció musical
+Exec=solfege
+Terminal=false
+Type=Application
+Icon=solfege
 Categories=Education;
 TryExec=/usr/bin/solfege

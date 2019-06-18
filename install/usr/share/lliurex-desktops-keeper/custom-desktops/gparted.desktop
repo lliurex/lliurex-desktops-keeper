@@ -1,11 +1,13 @@
 [Desktop Entry]
 Name=GParted
-GenericName=Partition Editor
 X-GNOME-FullName=GParted Partition Editor
 Comment=Create, reorganize, and delete partitions
 Comment[es]=Crea, reorganiza y borra particiones
 Comment[ca_ES@valencia]=Crea, reorganitza i esborra particions
 Comment[ca_ES.UTF-8@valencia]=Crea, reorganitza i esborra particions
+Comment[ca]=Crea, reorganitza i esborra particions
+Comment[ca_ES]=Crea, reorganitza i esborra particions
+GenericName=Partition Editor
 Exec=gparted-pkexec
 TryExec=gparted-pkexec
 Icon=gparted

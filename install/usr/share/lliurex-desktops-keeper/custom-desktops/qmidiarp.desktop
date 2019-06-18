@@ -1,8 +1,6 @@
 [Desktop Entry]
 Version=1.0
 Encoding=UTF-8
-Type=Application
-Categories=AudioVideo;X-Sound;Midi;Audio;AudioVideoEditing;X-Jack;X-Midi;
 Name=QMidiArp
 Name[es]=QMidiArp
 Name[ca_ES@valencia]=QMidiArp
@@ -10,14 +8,8 @@ Name[ca_ES.UTF-8@valencia]=QMidiArp
 Name[de]=QMidiArp
 Name[fr]=QMidiArp
 Name[ru]=QMidiArp
-GenericName=Arpeggiator-Sequencer-LFO
-GenericName[es]=Arpegiador-secuenciador-LFO
-GenericName[ca_ES@valencia]=Arpegiador-secuenciador-LFO
-GenericName[ca_ES.UTF-8@valencia]=Arpegiador-secuenciador-LFO
-
-GenericName[de]=Arpeggiator-Sequenzer-LFO
-GenericName[fr]=Arpégiateur-Séquenceur-LFO
-GenericName[ru]=Арпеджиатор, секвенсер и LFO
+Name[ca]=QMidiArp
+Name[ca_ES]=QMidiArp
 Comment=Arpeggiator-Sequencer-LFO
 Comment[es]=Arpegiador-secuenciador-LFO
 Comment[ca_ES@valencia]=Arpegiador-secuenciador-LFO
@@ -25,6 +17,20 @@ Comment[ca_ES.UTF-8@valencia]=Arpegiador-secuenciador-LFO
 Comment[de]=Arpeggiator-Sequenzer-LFO
 Comment[fr]=Arpégiateur-Séquenceur-LFO
 Comment[ru]=Арпеджиатор, секвенсер и LFO
+Comment[ca]=Arpegiador-secuenciador-LFO
+Comment[ca_ES]=Arpegiador-secuenciador-LFO
+GenericName=Arpeggiator-Sequencer-LFO
+GenericName[es]=Arpegiador-secuenciador-LFO
+GenericName[ca_ES@valencia]=Arpegiador-secuenciador-LFO
+GenericName[ca_ES.UTF-8@valencia]=Arpegiador-secuenciador-LFO
+GenericName[de]=Arpeggiator-Sequenzer-LFO
+GenericName[fr]=Arpégiateur-Séquenceur-LFO
+GenericName[ru]=Арпеджиатор, секвенсер и LFO
+GenericName[ca]=Arpegiador-secuenciador-LFO
+GenericName[ca_ES]=Arpegiador-secuenciador-LFO
+Type=Application
+Categories=AudioVideo;X-Sound;Midi;Audio;AudioVideoEditing;X-Jack;X-Midi;
+
 Keywords=audio;sound;jackd;midi;arpeggiator;
 Icon=qmidiarp
 MimeType=application/qma;application/qmax;

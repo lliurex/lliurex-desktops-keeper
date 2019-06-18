@@ -1,6 +1,5 @@
 [Desktop Entry]
 Version=0.5
-Type=Application
 Name=OCRFeeder
 Name[ca]=OCRFeeder
 Name[ca@valencia]=OCRFeeder
@@ -30,6 +29,8 @@ Name[uk]=OCRFeeder
 Name[zh_CN]=OCRFeeder
 Name[zh_HK]=OCRFeeder
 Name[zh_TW]=OCRFeeder
+Name[ca]=OCRFeeder
+Name[ca_ES]=OCRFeeder
 Comment=The complete OCR suite.
 Comment[ca]=El paquet OCR complet.
 Comment[ca@valencia]=El paquet OCR complet.
@@ -60,6 +61,9 @@ Comment[uk]=Повноцінний набір OCR.
 Comment[zh_CN]=完整的 OCR 解决方案。
 Comment[zh_HK]=完整的 OCR 套裝軟件。
 Comment[zh_TW]=完整的 OCR 套裝軟體。
+Comment[ca]=El paquet OCR complet.
+Comment[ca_ES]=El paquet OCR complet.
+Type=Application
 TryExec=ocrfeeder
 Exec=ocrfeeder
 Icon=/usr/share/ocrfeeder/icons/ocrfeeder.svg

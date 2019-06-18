@@ -1,16 +1,20 @@
 [Desktop Entry]
 Version=1.0
 Encoding=UTF-8
-Type=Application
 Name=PHASEX
 Name[es]=PHASEX
 Name[ca_ES@valencia]=PHASEX
 Name[ca_ES.UTF-8@valencia]=PHASEX
-
+Name[ca]=PHASEX
+Name[ca_ES]=PHASEX
 Comment=PHASEX is an experimental MIDI softsynth for Linux/ALSA/JACK with a synth engine built around flexible phase modulation and flexible oscillator/LFO sources
 Comment[es]=PHASEX es un sintetizador software MIDI experimental para Linux / ALSA / JACK con un motor de síntesis en torno a la etapa de modulación flexible y osciladores fuentes flexible / LFO
 Comment[ca_ES@valencia]=PHASEX és un sintetitzador programari MIDI experimental per a Linux / ALSA / JACK amb un motor de síntesi entorn de l'etapa de modulació flexible i oscil·ladors fonts flexible / LFO"
 Comment[ca_ES.UTF-8@valencia]=PHASEX és un sintetitzador programari MIDI experimental per a Linux / ALSA / JACK amb un motor de síntesi entorn de l'etapa de modulació flexible i oscil·ladors fonts flexible / LFO"
+Comment[ca]=PHASEX és un sintetitzador programari MIDI experimental per a Linux / ALSA / JACK amb un motor de síntesi entorn de l'etapa de modulació flexible i oscil·ladors fonts flexible / LFO"
+Comment[ca_ES]=PHASEX és un sintetitzador programari MIDI experimental per a Linux / ALSA / JACK amb un motor de síntesi entorn de l'etapa de modulació flexible i oscil·ladors fonts flexible / LFO"
+Type=Application
+
 
 Icon=phasex
 Exec=phasex

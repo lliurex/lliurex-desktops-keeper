@@ -1,12 +1,14 @@
 [Desktop Entry]
 Name=Termit
-GenericName=Terminal emulator
-GenericName[ru]=Эмулятор терминала
 Comment=Lightweight terminal emulator
 Comment[ru]=Легкий эмулятор терминала
 Comment[es]=Emulador de terminal ligero
 Comment[ca_ES@valencia]=Emulador de terminal lleuger
 Comment[ca_ES.UTF-8@valencia]=Emulador de terminal lleuger
+Comment[ca]=Emulador de terminal lleuger
+Comment[ca_ES]=Emulador de terminal lleuger
+GenericName=Terminal emulator
+GenericName[ru]=Эмулятор терминала
 TryExec=termit
 Exec=termit
 Icon=utilities-terminal

@@ -1,11 +1,16 @@
 [Desktop Entry]
 Version=1.0
+X-GNOME-Bugzilla-Version=3.0.0
 Name=Time and Date
 Name[ca_ES@valencia]=Data i hora
 Name[ca_ES.UTF-8@valencia]=Data i hora
+Name[ca]=Data i hora
+Name[ca_ES]=Data i hora
 Comment=Change system time, date, and timezone
 Comment[ca_ES@valencia]=Canvieu l'hora, la data i la zona horària del sistema
 Comment[ca_ES.UTF-8@valencia]=Canvieu l'hora, la data i la zona horària del sistema.
+Comment[ca]=Canvieu l'hora, la data i la zona horària del sistema
+Comment[ca_ES]=Canvieu l'hora, la data i la zona horària del sistema
 Exec=time-admin
 TryExec=time-admin
 Icon=time-admin
@@ -15,6 +20,5 @@ Categories=GNOME;GTK;System;Settings;
 X-GNOME-Bugzilla-Bugzilla=GNOME
 X-GNOME-Bugzilla-Product=gnome-system-tools
 X-GNOME-Bugzilla-Component=time-admin
-X-GNOME-Bugzilla-Version=3.0.0
 StartupNotify=true
 X-Ubuntu-Gettext-Domain=gnome-system-tools

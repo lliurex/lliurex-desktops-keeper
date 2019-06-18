@@ -1,13 +1,18 @@
 [Desktop Entry]
 Version=1.0
-X-Ubuntu-Gettext-Domain=deja-dup
-
 Name=Backups
 Name[ca_ES@valencia]=Còpies de seguretat
 Name[ca_ES.UTF-8@valencia]=Còpies de seguretat
+Name=Back Up
+Name[ca]=Còpies de seguretat
+Name[ca_ES]=Còpies de seguretat
 Comment=Change your backup settings
 Comment[ca_ES@valencia]=Canvieu els paràmetres de les còpies de seguretat
 Comment[ca_ES.UTF-8@valencia]=Canvieu els paràmetres de les còpies de seguretat
+Comment[ca]=Canvieu els paràmetres de les còpies de seguretat
+Comment[ca_ES]=Canvieu els paràmetres de les còpies de seguretat
+X-Ubuntu-Gettext-Domain=deja-dup
+
 
 Icon=deja-dup
 TryExec=deja-dup-preferences
@@ -30,5 +35,4 @@ X-AppStream-Ignore=true
 Actions=BackUpNow;
 
 [Desktop Action BackUpNow]
-Name=Back Up
 Exec=deja-dup --backup

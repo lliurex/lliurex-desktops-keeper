@@ -1,11 +1,16 @@
 [Desktop Entry]
 Version=1.0
+X-GNOME-Bugzilla-Version=3.0.0
 Name=Network
 Name[ca_ES@valencia]=Xarxa
 Name[ca_ES.UTF-8@valencia]=Xarxa
+Name[ca]=Xarxa
+Name[ca_ES]=Xarxa
 Comment=Configure network devices and connections
 Comment[ca_ES@valencia]=Configureu la xarxa i les connexions
 Comment[ca_ES.UTF-8@valencia]=Configureu la xarxa i les connexions
+Comment[ca]=Configureu la xarxa i les connexions
+Comment[ca_ES]=Configureu la xarxa i les connexions
 Exec=network-admin
 TryExec=network-admin
 Icon=preferences-system-network
@@ -15,6 +20,5 @@ Categories=GNOME;GTK;Settings;X-GNOME-NetworkSettings;
 X-GNOME-Bugzilla-Bugzilla=GNOME
 X-GNOME-Bugzilla-Product=gnome-system-tools
 X-GNOME-Bugzilla-Component=network-admin
-X-GNOME-Bugzilla-Version=3.0.0
 StartupNotify=true
 X-Ubuntu-Gettext-Domain=gnome-system-tools

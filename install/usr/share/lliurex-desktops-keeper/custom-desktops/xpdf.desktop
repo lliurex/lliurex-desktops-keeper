@@ -1,10 +1,12 @@
 [Desktop Entry]
 Name=xpdf
-GenericName=PDF viewer
 Comment=View PDF files
 Comment[es]=Visor de ficheros PDF
 Comment[ca_ES@valencia]=Visor de fitxers PDF
 Comment[ca_ES.UTF-8@valencia]=Visor de fitxers PDF
+Comment[ca]=Visor de fitxers PDF
+Comment[ca_ES]=Visor de fitxers PDF
+GenericName=PDF viewer
 Exec=xpdf
 Icon=xpdf
 Terminal=false

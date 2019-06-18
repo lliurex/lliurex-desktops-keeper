@@ -1,16 +1,20 @@
 [Desktop Entry]
 Version=1.0
 Encoding=UTF-8
-Type=Application
 Name=Echomixer
 Name[es]=Echomixer
 Name[ca_ES@valencia]=Echomixer
 Name[ca_ES.UTF-8@valencia]=Echomixer
+Name[ca]=Echomixer
+Name[ca_ES]=Echomixer
 Comment=Control Echoaudio soundcards
 Comment[es]=Controles para tarjetas de audio Echoaudio
 Comment[ca_ES@valencia]=Controla targetes de so Echoaudio
 Comment[ca_ES.UTF-8@valencia]=Controla targetes de so Echoaudio
 Comment[fr]=Contrôles pour interfaces audio EchoAudio
+Comment[ca]=Controla targetes de so Echoaudio
+Comment[ca_ES]=Controla targetes de so Echoaudio
+Type=Application
 Icon=alsa-tools
 Exec=echomixer
 TryExec=echomixer

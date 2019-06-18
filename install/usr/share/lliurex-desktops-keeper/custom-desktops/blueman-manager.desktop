@@ -2,9 +2,13 @@
 Name=Bluetooth Manager
 Name[ca_ES@valencia]=Gestor de Bluetooth
 Name[ca_ES.UTF-8@valencia]=Gestor de Bluetooth
+Name[ca]=Gestor de Bluetooth
+Name[ca_ES]=Gestor de Bluetooth
 Comment=Blueman Bluetooth Manager
 Comment[ca_ES@valencia]=Gestor de Bluetooth Blueman
 Comment[ca_ES.UTF-8@valencia]=Gestor de Bluetooth Blueman
+Comment[ca]=Gestor de Bluetooth Blueman
+Comment[ca_ES]=Gestor de Bluetooth Blueman
 Icon=blueman
 Exec=blueman-manager
 TryExec=blueman-manager

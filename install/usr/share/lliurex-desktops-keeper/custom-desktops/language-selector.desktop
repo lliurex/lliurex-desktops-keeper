@@ -2,9 +2,13 @@
 Name=Language Support
 Name[ca_ES@valencia]=Suport d'idioma
 Name[ca_ES.UTF-8@valencia]=Suport d'idioma
+Name[ca]=Suport d'idioma
+Name[ca_ES]=Suport d'idioma
 Comment=Configure multiple and native language support on your system
 Comment[ca_ES@valencia]=Configureu el suport per a diversos idiomes
 Comment[ca_ES.UTF-8@valencia]=Configureu el suport per a diversos idiomes
+Comment[ca]=Configureu el suport per a diversos idiomes
+Comment[ca_ES]=Configureu el suport per a diversos idiomes
 Exec=/usr/bin/gnome-language-selector
 TryExec=/usr/bin/gnome-language-selector
 Icon=preferences-desktop-locale

@@ -1,13 +1,18 @@
 [Desktop Entry]
 Encoding=UTF-8
+X-Desktop-File-Install-Version=0.22
 Name=Oracle Java 8 Web Start
 Name[ca_ES@valencia]=Oracle Java 8, per al web
 Name[ca_ES.UTF-8@valencia]=Oracle Java 8, per al web
 Name[es]=Oracle Java 8, para la web
+Name[ca]=Oracle Java 8, per al web
+Name[ca_ES]=Oracle Java 8, per al web
 Comment=Oracle Java 8 Web Start
 Comment[ca_ES@valencia]=Oracle Java 8, per al web
 Comment[ca_ES.UTF-8@valencia]=Oracle Java 8, per al web
 Comment[es]=Oracle Java 8, para la web
+Comment[ca]=Oracle Java 8, per al web
+Comment[ca_ES]=Oracle Java 8, per al web
 Exec=/usr/lib/jvm/java-8-oracle/jre/bin/javaws %u
 TryExec=/usr/lib/jvm/java-8-oracle/jre/bin/javaws %u
 Terminal=false
@@ -16,7 +21,6 @@ Icon=oracle_java8
 MimeType=application/x-java-jnlp-file;
 X-GNOME-Settings-Panel=oracle_java8
 Keywords=Settings;
-X-Desktop-File-Install-Version=0.22
 X-GNOME-Settings-Panel=Oracle Java 8 Web Start
 X-Unity-Settings-Panel=Oracle Java 8 Web Start
 Categories=System;

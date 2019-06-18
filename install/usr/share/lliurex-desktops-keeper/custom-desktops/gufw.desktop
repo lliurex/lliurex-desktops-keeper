@@ -1,13 +1,17 @@
 [Desktop Entry]
 Version=1.0
 Name=Firewall Configuration
-Comment=An easy way to configure your firewall
 Name[es]=Configuración del cortafuegos
 Name[ca_ES@valencia]=Configuració del tallafoc
 Name[ca_ES.UTF-8@valencia]=Configuració del tallafoc
+Name[ca]=Configuració del tallafoc
+Name[ca_ES]=Configuració del tallafoc
+Comment=An easy way to configure your firewall
 Comment[es]=Una manera sencilla de configurar tu cortafuegos
 Comment[ca_ES@valencia]=Una manera senzilla de configurar el teu tallafoc
 Comment[ca_ES.UTF-8@valencia]=Una manera senzilla de configurar el teu tallafoc
+Comment[ca]=Una manera senzilla de configurar el teu tallafoc
+Comment[ca_ES]=Una manera senzilla de configurar el teu tallafoc
 Categories=GNOME;GTK;Settings;Security;X-GNOME-Settings-Panel;X-GNOME-SystemSettings;X-Unity-Settings-Panel;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
 Exec=gufw
 TryExec=gufw

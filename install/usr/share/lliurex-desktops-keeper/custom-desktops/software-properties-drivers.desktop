@@ -1,4 +1,16 @@
 [Desktop Entry]
+Name=Additional Drivers
+Name[es]=Controladores adicionales
+Name[ca_ES@valencia]=Controladors addicionals
+Name[ca_ES.UTF-8@valencia]=Controladors addicionals
+Name[ca]=Controladors addicionals
+Name[ca_ES]=Controladors addicionals
+Comment=Configure third-party and proprietary drivers
+Comment[es]=Configurar controladores de terceros y propietarios
+Comment[ca_ES@valencia]=Configureu controladors de tercers i propietaris
+Comment[ca_ES.UTF-8@valencia]=Configureu controladors de tercers i propietaris
+Comment[ca]=Configureu controladors de tercers i propietaris
+Comment[ca_ES]=Configureu controladors de tercers i propietaris
 Keywords=Drivers;
 Exec=/usr/bin/software-properties-gtk --open-tab=4
 TryExec=/usr/bin/software-properties-gtk
@@ -7,12 +19,4 @@ Terminal=false
 Type=Application
 NotShownIn=GNOME;Unity;KDE;
 Categories=X-XFCE;GTK;Settings;HardwareSettings
-Name=Additional Drivers
-Name[es]=Controladores adicionales
-Name[ca_ES@valencia]=Controladors addicionals
-Name[ca_ES.UTF-8@valencia]=Controladors addicionals
-Comment=Configure third-party and proprietary drivers
-Comment[es]=Configurar controladores de terceros y propietarios
-Comment[ca_ES@valencia]=Configureu controladors de tercers i propietaris
-Comment[ca_ES.UTF-8@valencia]=Configureu controladors de tercers i propietaris
 #X-Ubuntu-Gettext-Domain=software-properties

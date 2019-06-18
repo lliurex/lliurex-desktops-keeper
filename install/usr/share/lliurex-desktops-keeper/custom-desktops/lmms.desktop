@@ -1,4 +1,3 @@
-#!/usr/bin/env xdg-open
 [Desktop Entry]
 Version=1.0
 Encoding=UTF-8
@@ -6,17 +5,24 @@ Name=LMMS
 Name[es]=LMMS
 Name[ca_ES@valencia]=LMMS
 Name[ca_ES.UTF-8@valencia]=LMMS
+Name[ca]=LMMS
+Name[ca_ES]=LMMS
+Comment=easy music production for everyone!
+Comment[es]=Producción facil de música para todo el mundo!
+Comment[ca_ES@valencia]=Producció fàcil de música per a tot el món!
+Comment[ca_ES.UTF-8@valencia]=Producció fàcil de música per a tot el món!
+Comment[ca]=Producció fàcil de música per a tothom!
+Comment[ca]=Producció fàcil de música per a tot el món!
+Comment[ca_ES]=Producció fàcil de música per a tot el món!
 GenericName=music production suite
 GenericName[es]=Programa de producción musical
 GenericName[ca_ES@valencia]=Programari de producció musical
 GenericName[ca_ES.UTF-8@valencia]=Programari de producció musical
 GenericName[ca]=Programari de producció musical
 GenericName[de]=Software zur Musik-Produktion
-Comment=easy music production for everyone!
-Comment[es]=Producción facil de música para todo el mundo!
-Comment[ca_ES@valencia]=Producció fàcil de música per a tot el món!
-Comment[ca_ES.UTF-8@valencia]=Producció fàcil de música per a tot el món!
-Comment[ca]=Producció fàcil de música per a tothom!
+GenericName[ca]=Programari de producció musical
+GenericName[ca_ES]=Programari de producció musical
+#!/usr/bin/env xdg-open
 Icon=lmms
 Exec=env QT_X11_NO_NATIVE_MENUBAR=1 lmms %f
 TryExec=env QT_X11_NO_NATIVE_MENUBAR=1 lmms %f

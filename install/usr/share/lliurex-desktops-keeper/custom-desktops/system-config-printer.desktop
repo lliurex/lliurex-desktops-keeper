@@ -1,10 +1,15 @@
 [Desktop Entry]
+X-Desktop-File-Install-Version=0.22
 Name=Printers
 Name[ca_ES@valencia]=Impressores
 Name[ca_ES.UTF-8@valencia]=Impressores
+Name[ca]=Impressores
+Name[ca_ES]=Impressores
 Comment=Configure printers
 Comment[ca_ES@valencia]=Configureu les impressores
 Comment[ca_ES.UTF-8@valencia]=Configureu les impressores
+Comment[ca]=Configureu les impressores
+Comment[ca_ES]=Configureu les impressores
 Exec=system-config-printer
 TryExec=system-config-printer
 Terminal=false
@@ -17,4 +22,3 @@ Categories=GNOME;GTK;Settings;HardwareSettings;X-GNOME-Settings-Panel;X-Unity-Se
 X-GNOME-Settings-Panel=printing
 X-Unity-Settings-Panel=printing
 Keywords=Printer;Queue;Print;Paper;Ink;Toner;
-X-Desktop-File-Install-Version=0.22

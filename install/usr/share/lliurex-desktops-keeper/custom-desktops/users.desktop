@@ -1,11 +1,16 @@
 [Desktop Entry]
 Version=1.0
+X-GNOME-Bugzilla-Version=3.0.0
 Name=Users and Groups
 Name[ca_ES@valencia]=Usuaris i grups
 Name[ca_ES.UTF-8@valencia]=Usuaris i grups
+Name[ca]=Usuaris i grups
+Name[ca_ES]=Usuaris i grups
 Comment=Add or remove users and groups
 Comment[ca_ES@valencia]=Afegiu o suprimiu usuaris i grups
 Comment[ca_ES.UTF-8@valencia]=Afegiu o suprimiu usuaris i grups
+Comment[ca]=Afegiu o suprimiu usuaris i grups
+Comment[ca_ES]=Afegiu o suprimiu usuaris i grups
 Exec=users-admin
 TryExec=users-admin
 Icon=config-users
@@ -15,6 +20,5 @@ Categories=GNOME;GTK;System;
 X-GNOME-Bugzilla-Bugzilla=GNOME
 X-GNOME-Bugzilla-Product=gnome-system-tools
 X-GNOME-Bugzilla-Component=users-admin
-X-GNOME-Bugzilla-Version=3.0.0
 StartupNotify=true
 X-Ubuntu-Gettext-Domain=gnome-system-tools
