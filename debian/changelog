@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.43) bionic; urgency=medium
+
+  * Fixed spotify and squeak desktops
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 21 Jun 2019 14:27:10 +0200
+
 lliurex-desktops-keeper (1.42) bionic; urgency=medium
 
   * Fixed valencian translations
