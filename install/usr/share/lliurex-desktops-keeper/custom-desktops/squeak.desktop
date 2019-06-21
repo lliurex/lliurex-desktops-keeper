@@ -20,5 +20,6 @@ Exec=squeak
 TryExec=squeak
 Icon=/usr/share/pixmaps/squeak.png
 Terminal=false
+NoDisplay=true
 Categories=Education;
 MimeType=application/x-image;application/squeak-image;application/squeak-project
