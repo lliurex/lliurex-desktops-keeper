@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.45) bionic; urgency=medium
+
+  * Recategorized kde-gcompris desktop
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 05 Jul 2019 10:27:43 +0200
+
 lliurex-desktops-keeper (1.44) bionic; urgency=medium
 
   * Added groovyconsole and kde-gcompris desktops
