@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.44) bionic; urgency=medium
+
+  * Added groovyconsole and kde-gcompris desktops
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 05 Jul 2019 10:17:14 +0200
+
 lliurex-desktops-keeper (1.43) bionic; urgency=medium
 
   * Fixed spotify and squeak desktops
