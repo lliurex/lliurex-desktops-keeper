@@ -19,4 +19,5 @@ TryExec=cssh
 Icon=clusterssh
 Terminal=false
 Type=Application
+NoDisplay=true
 Categories=LliureX-Administration
