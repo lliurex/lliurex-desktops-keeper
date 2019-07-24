@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.47) bionic; urgency=medium
+
+  * Fixed mkchromecast desktop
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 24 Jul 2019 09:46:43 +0200
+
 lliurex-desktops-keeper (1.46) bionic; urgency=medium
 
   * Hide cssh and partitionmanager desktops
