@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.49) bionic; urgency=medium
+
+  * Migrated to python3
+  
+ -- Juan Ramon Pelegrina  <juapesai@hotmail.com>  Thu, 30 Jan 2020 13:18:52 +0100
+
 lliurex-desktops-keeper (1.48) bionic; urgency=medium
 
   * Fixed gparted desktop 
