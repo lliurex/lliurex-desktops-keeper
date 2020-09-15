@@ -1,0 +1,252 @@
+lliurex-desktops-keeper (1.49) bionic; urgency=medium
+
+  * Migrated to python3
+  
+ -- Juan Ramon Pelegrina  <juapesai@hotmail.com>  Thu, 30 Jan 2020 13:18:52 +0100
+
+lliurex-desktops-keeper (1.48) bionic; urgency=medium
+
+  * Fixed gparted desktop 
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 17 Sep 2019 12:48:21 +0200
+
+lliurex-desktops-keeper (1.47) bionic; urgency=medium
+
+  * Fixed mkchromecast desktop
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 24 Jul 2019 09:46:43 +0200
+
+lliurex-desktops-keeper (1.46) bionic; urgency=medium
+
+  * Hide cssh and partitionmanager desktops
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 19 Jul 2019 10:06:59 +0200
+
+lliurex-desktops-keeper (1.45) bionic; urgency=medium
+
+  * Recategorized kde-gcompris desktop
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 05 Jul 2019 10:27:43 +0200
+
+lliurex-desktops-keeper (1.44) bionic; urgency=medium
+
+  * Added groovyconsole and kde-gcompris desktops
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 05 Jul 2019 10:17:14 +0200
+
+lliurex-desktops-keeper (1.43) bionic; urgency=medium
+
+  * Fixed spotify and squeak desktops
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 21 Jun 2019 14:27:10 +0200
+
+lliurex-desktops-keeper (1.42) bionic; urgency=medium
+
+  * Fixed valencian translations
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 18 Jun 2019 09:53:48 +0200
+
+lliurex-desktops-keeper (1.41) bionic; urgency=medium
+
+  * Removed updated-manager desktop
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 24 Apr 2019 08:25:21 +0200
+
+lliurex-desktops-keeper (1.40) bionic; urgency=medium
+
+  * Updated xournal.desktop and shutter.desktop category to LliureX-Author-Tools
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 11 Apr 2019 10:06:14 +0200
+
+lliurex-desktops-keeper (1.39) bionic; urgency=medium
+
+  * Updated exe.desktop and gtk-recordmydesktop.desktop category to LliureX-Auhtor-Tools
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 12 Feb 2019 09:50:35 +0100
+
+lliurex-desktops-keeper (1.38) bionic; urgency=medium
+
+  * Fixed xaos.desktop
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 06 Feb 2019 16:30:24 +0100
+
+lliurex-desktops-keeper (1.37) bionic; urgency=medium
+
+  * Initial release for bionic
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 06 Feb 2019 13:08:57 +0100
+
+lliurex-desktops-keeper (1.27) xenial; urgency=medium
+
+  * Added Autofirma desktop
+  * Added FreeCAD desktop
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 29 Nov 2018 14:24:43 +0100
+
+lliurex-desktops-keeper (1.26) xenial; urgency=medium
+
+  * Added OBS-Studio desktop
+  * Added Skype desktop
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Mon, 16 Jul 2018 14:07:02 +0200
+
+lliurex-desktops-keeper (1.25) xenial; urgency=medium
+
+  * Added Mixxx custom desktop
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 05 Jun 2018 14:04:16 +0200
+
+lliurex-desktops-keeper (1.24) xenial; urgency=high
+
+  * Fixed some ca_ES@valencia translations.
+
+ -- Jose A. Murcia <joamuran@gmail.com>  Tue, 10 Apr 2018 10:35:17 +0200
+
+lliurex-desktops-keeper (1.23) xenial; urgency=medium
+
+  * Add new desktop for google-earth-pro
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 06 Sep 2017 12:06:03 +0200
+
+lliurex-desktops-keeper (1.22) xenial; urgency=medium
+
+  * Fix spotify desktop
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 06 Sep 2017 08:28:38 +0200
+
+lliurex-desktops-keeper (1.21) xenial; urgency=medium
+
+  * Adding new desktop for spotify
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 05 Sep 2017 17:56:16 +0200
+
+lliurex-desktops-keeper (1.20) xenial; urgency=high
+
+  * Adding new destop for caja-home 
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Thu, 20 Jul 2017 12:27:16 +0200
+
+lliurex-desktops-keeper (1.19) xenial; urgency=medium
+
+  * Fixed hide desktops command
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 15 Jun 2017 12:16:22 +0200
+
+lliurex-desktops-keeper (1.18) xenial; urgency=medium
+
+  * Fixed google-earth desktop
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 15 Jun 2017 10:31:47 +0200
+
+lliurex-desktops-keeper (1.17) xenial; urgency=medium
+
+  * Fixed aeolus,qmidiroute,fontforge and qmidi-monitor-alsa desktops
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 19 May 2017 10:12:03 +0200
+
+lliurex-desktops-keeper (1.16) xenial; urgency=medium
+
+  * Fixed google-earth desktop
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 19 May 2017 09:00:44 +0200
+
+lliurex-desktops-keeper (1.15) xenial; urgency=medium
+
+  * Add TryExec to some desktops
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 18 May 2017 12:01:11 +0200
+
+lliurex-desktops-keeper (1.14) xenial; urgency=medium
+
+  * Add desktops for lliurex-meta-musica applications
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 18 May 2017 08:38:51 +0200
+
+lliurex-desktops-keeper (1.13) xenial; urgency=medium
+
+  * Edit gscritor desktop to add icon
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 05 May 2017 11:14:38 +0200
+
+lliurex-desktops-keeper (1.12) xenial; urgency=high
+
+  * New scratch desktop 
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Thu, 04 May 2017 12:43:18 +0200
+
+lliurex-desktops-keeper (1.11) xenial; urgency=high
+
+  * Hiding atril desktop
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Thu, 04 May 2017 12:12:59 +0200
+
+lliurex-desktops-keeper (1.10) xenial; urgency=high
+
+  * not-displaying ubuntu-mate-welcome desktop
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 03 May 2017 17:14:21 +0200
+
+lliurex-desktops-keeper (1.0) xenial; urgency=medium
+
+  * Fixed icon name in cssh.desktop
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 03 May 2017 11:45:38 +0200
+
+lliurex-desktops-keeper (0.9) xenial; urgency=medium
+
+  * Fixed clusterssh desktop
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 03 May 2017 11:24:25 +0200
+
+lliurex-desktops-keeper (0.8) xenial; urgency=medium
+
+  * Fixed update-manager desktop
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 02 May 2017 12:05:48 +0200
+
+lliurex-desktops-keeper (0.7) xenial; urgency=high
+
+  * fixed scratch2 desktop 
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 18 Apr 2017 12:51:25 +0200
+
+lliurex-desktops-keeper (0.6) xenial; urgency=medium
+
+  * Add google-earth desktop
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 04 Apr 2017 12:54:46 +0200
+
+lliurex-desktops-keeper (0.5) xenial; urgency=medium
+
+  * Add new desktops
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Mon, 06 Feb 2017 13:45:47 +0100
+
+lliurex-desktops-keeper (0.4) xenial; urgency=medium
+
+  * Fix transmission-gtk and audacity desktops
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 13 Dec 2016 10:03:13 +0100
+
+lliurex-desktops-keeper (0.3) xenial; urgency=high
+
+  * Add gprename desktop 
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Wed, 16 Nov 2016 12:42:44 +0100
+
+lliurex-desktops-keeper (0.2) xenial; urgency=medium
+
+  * Fix some desktops 
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 20 Sep 2016 16:36:26 +0200
+
+lliurex-desktops-keeper (0.1) xenial; urgency=medium
+
+  [ kbut ]
+  * Initial Release.
+
+  [ Juan Ramon Pelegrina ]
+  * Add custom desktops
+  * Add hide and show functions
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Mon, 19 Sep 2016 12:44:32 +0200

@@ -1,0 +1,13 @@
+Source: lliurex-desktops-keeper
+Section: admin
+Priority: optional
+Maintainer: Lliurex Team <lliurex@edu.gva.es>
+Build-Depends: debhelper (>=10)
+Standards-Version: 4.1.2
+Homepage: http://www.lliurex.net
+
+Package: lliurex-desktops-keeper
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Desktop keeper
+ Lliurex Desktop keeper
