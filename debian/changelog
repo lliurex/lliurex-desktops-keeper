@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.59) focal; urgency=medium
+
+  * Initial release for focal
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 15 Sep 2020 16:43:35 +0200
+
 lliurex-desktops-keeper (1.49) bionic; urgency=medium
 
   * Migrated to python3
