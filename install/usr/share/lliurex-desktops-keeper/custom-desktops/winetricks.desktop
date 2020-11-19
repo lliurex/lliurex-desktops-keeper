@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Winetricks
+Comment=Work around problems and install applications under Wine
+Comment[pl]=Rozwiązuj problemy i instaluj aplikacje z użyciem Wine
+Comment[ru]=Решение проблем и установка программ с помощью Wine
+Comment[es]=Solucione problemas e instale aplicaciones en Wine
+Comment[ca@valencia]=Solucione problemes i instal·le aplicacions en Wine
+Exec=winetricks --gui
+TryExec=winetricks
+Terminal=false
+Icon=winetricks
+Type=Application
+Categories=Utility;
