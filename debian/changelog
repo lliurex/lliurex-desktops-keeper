@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.51) bionic; urgency=medium
+
+  * Added wine desktop
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Mon, 25 Jan 2021 10:54:15 +0100
+
 lliurex-desktops-keeper (1.50) bionic; urgency=medium
 
   * Added some desktops:wine,winetricks,q4wine
