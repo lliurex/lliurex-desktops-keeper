@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=Wine
+Name[ca]=Executeu programes del Wine
+Name[ca@valencia]=Executeu programes del Wine
+Name[es]=Ejecutar programas del Wine
+Comment=Exec Windows applications for Wine
+Comment[ca]=Executeu programes del Windows que hageu instaŀlat amb el Wine
+Comment[ca@valencia]=Executeu programes del Windows que hageu instaŀlat amb el Wine
+Comment[es]=Ejecuta una aplicación Windows en Wine
+Exec=wine %u
+TryExec=wine %u
+Terminal=false
+Type=Application
+Icon=wine
+Categories=Utility;
+MimeType=application/x-msdos-executable;
+X-AppStream-Ignore=true
