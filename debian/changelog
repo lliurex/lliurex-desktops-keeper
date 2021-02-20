@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.52) bionic; urgency=medium
+
+  * Fixed tryExec in wine.desktop
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Sat, 20 Feb 2021 11:32:06 +0100
+
 lliurex-desktops-keeper (1.51) bionic; urgency=medium
 
   * Added wine desktop
