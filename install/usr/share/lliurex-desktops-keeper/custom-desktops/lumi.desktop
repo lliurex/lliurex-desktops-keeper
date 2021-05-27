@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Lumi
+Exec=/opt/Lumi/lumi %U
+TryExec=/opt/Lumi/lumi
+Terminal=false
+Type=Application
+Icon=lumi
+StartupWMClass=Lumi
+Comment=A tool to create and display interactive content with H5P
+Categories=LliureX-Author-Tools;
