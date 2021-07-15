@@ -1,0 +1,23 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=JClic Author
+Name[ca]=JClicAuthor, creador d'activitats JClic
+Name[es]=JClicAuthor, creador de actividades JClic
+Name[qcv]=JClicAuthor, creador d'activitats JClic
+Name[ca_ES.UTF-8@valencia]=JClicAuthor, creador d'activitats JClic
+Name[ca_ES]=JClicAuthor, creador d'activitats JClic
+Name[ca@valencia]=JClicAuthor, creador d'activitats JClic
+Comment=Tool to create and modify JClic projects
+Comment[ca]=Eina per crear i modificar projectes JClic
+Comment[es]=Herramienta para crear y modificar proyectos JClic
+Comment[qcv]=Ferramenta per a crear i modificar projectes JClic
+Comment[ca_ES.UTF-8@valencia]=Ferramenta per a crear i modificar projectes JClic
+Comment[ca_ES]=Ferramenta per a crear i modificar projectes JClic
+Comment[ca@valencia]=Ferramenta per a crear i modificar projectes JClic
+Icon=author
+Exec=jclicauthor
+TryExec=/usr/bin/jclicauthor
+Terminal=false
+Type=Application
+Categories=LliureX-Author-Tools;
+StartupNotify=false
