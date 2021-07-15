@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=dnie (1.6.6) PKCS#11 module registry
+Name[en]=dnie (1.6.6) PKCS#11 module registry
+Name[es]=Registrar módulo PKCS#11 dnie (1.6.6)
+Name[ca]=Registrar mòdul PKCS#11 dnie (1.6.6)
+Name[ca@valencia]=Registrar mòdul PKCS#11 dnie (1.6.6)
+Name[gl]=Rexistrar módulo PKCS#11 dnie (1.6.6)
+Name[eu]=dnie (1.6.6) PKCS#11 modulua erregistratu
+Exec=/usr/share/libpkcs11-dnie/launch.pl
+TryExec=/usr/share/libpkcs11-dnie/launch.pl
+Icon=/usr/share/libpkcs11-dnie/launch_icon.gif
+Terminal=false
+Type=Application
+Categories=Utility;
