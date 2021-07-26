@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.53) bionic-updates; urgency=medium
+
+  * Added new desktop: lmms
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Mon, 26 Jul 2021 12:30:39 +0200
+
 lliurex-desktops-keeper (1.52) bionic; urgency=medium
 
   * Fixed tryExec in wine.desktop
