@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.66) focal; urgency=medium
+
+  * Fixed ardour desktop
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 29 Jun 2022 12:09:25 +0200
+
 lliurex-desktops-keeper (1.65) focal; urgency=medium
 
   * Changed Step, Kanagram, Blinken, Kturtle, Tupi, Deskreen
