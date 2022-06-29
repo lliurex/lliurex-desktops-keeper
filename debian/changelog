@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.55) bionic-updates; urgency=medium
+
+  * Fixed ardour desktop
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 29 Jun 2022 12:46:22 +0200
+
 lliurex-desktops-keeper (1.54) bionic-updates; urgency=medium
 
   * Added new desktop: lumi
