@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Deskreen
+TryExec=/opt/Deskreen/deskreen %U
 Exec=/opt/Deskreen/deskreen %U
 Terminal=false
 Type=Application

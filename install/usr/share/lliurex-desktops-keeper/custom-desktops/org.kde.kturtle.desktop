@@ -1,4 +1,3 @@
-
 [Desktop Entry]
 Name=KTurtle
 Name[af]=KSkilpad
@@ -149,6 +148,7 @@ Comment[uk]=Навчальне середовище програмування
 Comment[x-test]=xxEducational Programming Environmentxx
 Comment[zh_CN]=教育编程环境
 Comment[zh_TW]=教育程式環境
+TryExec=kturtle -qwindowtitle %c
 Exec=kturtle -qwindowtitle %c
 Icon=kturtle
 X-DocPath=kturtle/index.html

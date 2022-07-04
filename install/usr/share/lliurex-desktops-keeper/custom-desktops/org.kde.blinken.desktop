@@ -110,6 +110,7 @@ GenericName[x-test]=xxMemory Enhancement Gamexx
 GenericName[zh_CN]=记忆力锻炼游戏
 GenericName[zh_TW]=加強記憶力的遊戲
 X-DocPath=blinken/index.html
+TryExec=blinken
 Exec=blinken
 Icon=blinken
 Type=Application

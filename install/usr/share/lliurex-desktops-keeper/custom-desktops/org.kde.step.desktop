@@ -1,6 +1,7 @@
 # KDE Config File
 [Desktop Entry]
 Type=Application
+TryExec=step -qwindowtitle %c -qwindowicon step
 Exec=step -qwindowtitle %c -qwindowicon step
 Icon=step
 MimeType=application/x-step;

@@ -63,6 +63,7 @@ Name[vi]=Kanagram
 Name[x-test]=xxKanagramxx
 Name[zh_CN]=Kanagram
 Name[zh_TW]=語言_Kanagram
+TryExec=kanagram
 Exec=kanagram
 Icon=kanagram
 Type=Application
