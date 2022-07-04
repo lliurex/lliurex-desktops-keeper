@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.67) focal; urgency=medium
+
+  * TryExec for new applications added
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Mon, 04 Jul 2022 14:01:51 +0200
+
 lliurex-desktops-keeper (1.66) focal; urgency=medium
 
   * Fixed ardour desktop
