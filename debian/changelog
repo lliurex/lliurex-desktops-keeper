@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.68) focal; urgency=medium
+
+  * Fixed fritzing desktop
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 06 Sep 2022 08:40:21 +0200
+
 lliurex-desktops-keeper (1.67) focal; urgency=medium
 
   * TryExec for new applications added
