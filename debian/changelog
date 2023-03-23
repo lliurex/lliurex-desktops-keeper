@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.56) bionic; urgency=medium
+
+  * Added tool to generate report with appplications menu content
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 23 Mar 2023 12:53:50 +0100
+
 lliurex-desktops-keeper (1.55) bionic-updates; urgency=medium
 
   * Fixed ardour desktop
