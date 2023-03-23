@@ -1,0 +1,265 @@
+#! /usr/bin/python3
+import sys
+import os
+import subprocess
+import csv
+import json
+import shutil
+import dbus
+import html2text
+from os import listdir
+from os.path import isfile, isfile,isdir,join
+from clint import arguments
+from clint.textui import puts, indent
+import re
+
+
+class AppMenuReport(object):
+
+	def __init__(self):
+
+		user=os.environ["USER"]
+		self.systemSourceFolder="/usr/share/applications"
+		self.userSourceFolder="/home/%s/.local/share/applications"%user
+		self.snapSourceFolder="/var/lib/snapd/desktop/applications"
+		self.outputFolder="/home/%s"%user
+		self.outputFile="menu-report"
+		self.flavour=self.getFlavour()
+		self.defaultCategories=["Education","Game","Graphics","Network","Office","Settings","System"]
+		self.lliureXCategories=["LliureX-Administration","LliureX-Author-Tools","LliureX-Ciclos","LliureX-Util-Classroom","LliureX-Computational-Thinking","LliureX-Computing","LliureX-Educacion-Especial","LliureX-Electronics","LliureX-Infantil","LliureX-Laboratory","LliureX-Secundaria"]
+		self.developmentCategories=["Development","Translation"]
+		self.scienceCategories=["Astronomy","Biology","Chemistry","Geology","MedicalSoftware","Physics","Math","Science"]
+		self.multimediaCategories=["AudioVideo"]
+		self.utilitiesCategories=["Utility","TextEditor"]
+
+	#def __init__
+
+	def getList(self):
+
+		print('   [AppMenu-Report]: Generating report. Wait a moment...')
+		self.fieldsNames=['Categoria','Aplicacion',"Ejecutable"]
+		self.generateReport()
+		sys.exit(0)
+
+	#def getList
+
+	def getFlavour(self):
+
+		flavours=""
+		version=""
+		cmd='lliurex-version -v'
+		p=subprocess.Popen(cmd,shell=True,stdout=subprocess.PIPE)
+		result=p.communicate()[0]
+
+		if type(result) is bytes:
+			result=result.decode()
+
+		tmpFlavours = [ x.strip() for x in result.split(',') ]
+		for item in tmpFlavours:
+			flavours="%s_%s"%(flavours,item)
+
+		cmd='lliurex-version -n'
+		p=subprocess.Popen(cmd,shell=True,stdout=subprocess.PIPE)
+		result=p.communicate()[0]
+
+		if type(result) is bytes:
+			result=result.decode()
+
+		version=result.strip()
+		flavours="%s_%s"%(flavours,version)
+
+		return flavours[1:]
+
+	#def getFlavour
+
+	def generateReport(self):
+
+		ouputFileName="%s_%s.csv"%(self.outputFile,self.flavour)
+		outputFilePath=os.path.join(self.outputFolder,ouputFileName)
+		self.tmpContent=[]
+
+		self._getReportContent()
+			
+		if len(self.tmpContent)>0:
+			self.tmpContent=sorted(self.tmpContent,key=lambda d:(d["category"],d["application"]))	
+
+			with open(outputFilePath,'w',newline='') as csvFile:
+				writer=csv.DictWriter(csvFile,fieldnames=self.fieldsNames)
+				writer.writeheader()		
+
+				for item in self.tmpContent:
+					writer.writerow({self.fieldsNames[0]:item["category"],self.fieldsNames[1]:item["application"],self.fieldsNames[2]:item["exec"]})
+	
+			print('   [AppMenu-Report]: Report generated. You can find it in: %s'%outputFilePath)
+
+		else:
+			print('   [AppMenu-Report]: Not found information to generate report')
+		
+	#def generateReport
+
+	def _getReportContent(self):
+
+		systemDesktopWithPkg=self._getDesktopsWithPkg()
+
+		for item in listdir(self.systemSourceFolder):
+			t=join(self.systemSourceFolder,item)
+			if isfile(t):
+				if '.diverted' not in t:
+					if t in systemDesktopWithPkg:
+						self._processDesktopFile(t)
+
+		if os.path.exists(self.snapSourceFolder):
+			for item in listdir(self.snapSourceFolder):
+				t=join(self.snapSourceFolder,item)
+				if isfile(t):
+					if '.desktop' in t:
+						self._processDesktopFile(t)
+
+		if os.path.exists(self.userSourceFolder):
+			for item in listdir(self.userSourceFolder):
+				t=join(self.userSourceFolder,item)
+				if isfile(t):
+					if '.desktop' in t:
+						self._processDesktopFile(t)
+	
+	
+	#def _getReportContent
+
+	def _getDesktopsWithPkg(self):
+
+		cmd="dpkg --search '*.desktop' | awk '{print $2}' | sort --unique"
+		p=subprocess.Popen(cmd,shell=True,stdout=subprocess.PIPE)
+		pout=p.communicate()[0]
+		if type(pout) is bytes:
+			pout=pout.decode()
+
+		pout=pout.split("\n")
+		
+		return pout
+
+	def _processDesktopFile(self,desktopFile):
+
+		try:
+			with open(desktopFile,'r',encoding='utf-8') as fd:
+				content=fd.readlines()
+				fd.close()
+
+			noDisplay=False
+			noCategory=True
+			tmpName=""
+			nameProcessed=False
+			tmpExec=""
+			execProcessed=False
+			tmpCategories=[]
+			categoryProcessed=False
+			tmpNoDisplay="false"
+			noDisplayProcessed=False
+
+			for line in content:
+				try:
+					if "=" in line:
+						contentLine=line.split("=")
+						if contentLine[0].startswith("Name") and contentLine[0].endswith("Name"):
+							if not nameProcessed:
+								tmpName=contentLine[1].strip()
+								nameProcessed=True
+						elif contentLine[0].startswith("Exec"):
+							if not execProcessed:
+								if len(contentLine)>2:
+									contentLine.pop(0)
+									s="="
+									tmpExec=s.join(contentLine).strip()
+								else:
+									tmpExec=contentLine[1].strip()
+								execProcessed=True
+						elif contentLine[0].startswith("Categories"):
+							if not categoryProcessed:
+								tmpValues=contentLine[1].strip().split(";")
+								tmpCategories=self._getValidCategories(tmpValues)
+								if len(tmpCategories) > 0:
+									noCategory=False
+									categoryProcessed=True
+						elif contentLine[0].startswith("NoDisplay"):
+							if not noDisplayProcessed:
+								noDisplayProcessed=True
+								tmpNoDisplay=contentLine[1].strip()
+								if tmpNoDisplay=='true':
+									noDisplay=True
+
+				except Exception as e:
+					print("Error processing %s-%s"%(desktopFile,e))
+					pass
+
+			if not noCategory and not noDisplay:
+				for item in tmpCategories:
+					tmpDesktop={}
+					tmpDesktop["category"]=item
+					tmpDesktop["application"]=tmpName
+					tmpDesktop["exec"]=tmpExec
+					if len(tmpDesktop)>0:
+						self.tmpContent.append(tmpDesktop)
+
+		except Exception as e:
+			print("Error processing %s"%desktopFile)
+			pass
+
+	#def _processDesktopFile
+
+	def _getValidCategories(self,desktopCategories):
+
+		tmpCategories=[]
+		
+		for item in desktopCategories:
+			if item in self.lliureXCategories:
+				if item not in tmpCategories:
+					tmpCategories.append(item)
+			if item in self.defaultCategories:
+				if item not in tmpCategories:
+					tmpCategories.append(item)
+			if item in self.scienceCategories:
+				if 'Science and Maths' not in tmpCategories:
+					tmpCategories.append('Science and Maths')
+			if item in self.developmentCategories:
+				if 'Development'not in tmpCategories:
+					tmpCategories.append('Development')
+			if item in self.multimediaCategories:
+				if 'Multimedia' not in tmpCategories:
+					tmpCategories.append('Multimedia')
+			if item in self.utilitiesCategories:
+				if 'Utility' not in tmpCategories:
+					tmpCategories.append('Utility')
+
+		return tmpCategories
+
+	#def _getValidCategories
+
+#class AppMenuReport
+
+def	usage():
+	puts("Usage")
+	with indent(4):
+		puts("appmenu-report ACTION [FLAGS...]")
+		puts("Actions")
+		with indent(4):
+			puts("getlist: Generate report about applications menu content")	
+		puts("Flags")
+		with indent(4):
+			puts("-h --help: Show help")
+			
+	sys.exit(1)		
+
+#def usage
+
+if __name__ == '__main__':
+
+	args = arguments.Args().copy
+	if args.contains(["-h","--help"]) or len(args.all) == 0 :
+		usage()
+	
+
+	action=args.pop(0)	
+	if action=="getlist":
+		appMenuReport=AppMenuReport()
+		sys.exit(appMenuReport.getList())
+	else:
+		usage()
