@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.71) focal; urgency=medium
+
+  * Added minicom desktop
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 28 Mar 2023 09:34:45 +0200
+
 lliurex-desktops-keeper (1.70) focal; urgency=medium
 
   * Added tool to generate report with content of applications menu
