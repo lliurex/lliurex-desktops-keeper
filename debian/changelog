@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.57) bionic; urgency=medium
+
+  * Added minicom desktop
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 28 Mar 2023 10:24:25 +0200
+
 lliurex-desktops-keeper (1.56) bionic; urgency=medium
 
   * Added tool to generate report with appplications menu content
