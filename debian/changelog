@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.58) bionic; urgency=medium
+
+  * Fixed cmaptools desktop
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 31 Mar 2023 12:19:24 +0200
+
 lliurex-desktops-keeper (1.57) bionic; urgency=medium
 
   * Added minicom desktop
