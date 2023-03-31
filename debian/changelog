@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.72) focal; urgency=medium
+
+  * Fixed cmapTools desktop
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 31 Mar 2023 12:05:31 +0200
+
 lliurex-desktops-keeper (1.71) focal; urgency=medium
 
   * Added minicom desktop
