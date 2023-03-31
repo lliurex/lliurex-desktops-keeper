@@ -1,15 +1,17 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=CmapTools
-Comment=Multimedia educational activities: puzzles, associations, text exercises, crosswords, scrambled letters, etc.
-Comment[ca_ES.UTF-8@valencia]=Activitats educatives multimèdia: puzzles, associacions, exercicis de text, mots encreuats, sopes de lletres i altres.
-Comment[es]=Actividades educativas multimedia: puzzles, asociaciones, ejercicios de texto, crucigramas, sopas de letras, etc.
-Comment[ca_ES@valencia]=Activitats educatives multimèdia: puzzles, associacions, exercicis de text, mots encreuats, sopes de lletres i altres.
-Comment[ca]=Activitats educatives multimèdia: puzzles, associacions, exercicis de text, mots encreuats, sopes de lletres i altres.
-Comment[ca_ES]=Activitats educatives multimèdia: puzzles, associacions, exercicis de text, mots encreuats, sopes de lletres i altres.
-Icon=cmaptools
+Name[es]=CmapTools
+Name[ca@valencia]=CmapTools
+Comment=Design and manage concept maps
+Comment[ca_ES.UTF-8@valencia]=Dissenya i gestiona mapes conceptuals
+Comment[es]=Diseña y gestiona mapas conceptuales
+Comment[ca_ES@valencia]=Dissenya i gestiona mapes conceptuals
+Comment[ca]=Dissenya i gestiona mapes conceptuals
+Comment[ca@valencia]=Dissenya i gestiona mapes conceptuals
+Icon=/usr/share/zero-lliurex-cmaptools/cmaptools.svg
 Exec=/usr/share/IHMC_CmapTools/CmapTools
+TryExec=/usr/share/IHMC_CmapTools/bin/CmapTools
 Type=Application
-Categories=Application;Education
+Categories=Education
 StartupNotify=false
-TryExec=/usr/share/IHMC_CmapTools/CmapTools
