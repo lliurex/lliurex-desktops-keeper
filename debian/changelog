@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.73) focal; urgency=medium
+
+  * Fixed locales in cmapTools desktop
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 12 Apr 2023 15:27:15 +0200
+
 lliurex-desktops-keeper (1.72) focal; urgency=medium
 
   * Fixed cmapTools desktop
