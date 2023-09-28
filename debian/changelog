@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.83.4) jammy; urgency=medium
+
+  * Fixed MyPaint desktop
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 28 Sep 2023 11:48:12 +0200
+
 lliurex-desktops-keeper (1.83.3) jammy; urgency=medium
 
   * Fixed AutoFirma desktop
