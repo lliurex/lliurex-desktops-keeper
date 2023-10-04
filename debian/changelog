@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.83.5) jammy; urgency=medium
+
+  * Fixed Jclic desktop
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 04 Oct 2023 12:07:48 +0200
+
 lliurex-desktops-keeper (1.83.4) jammy; urgency=medium
 
   * Fixed MyPaint desktop
