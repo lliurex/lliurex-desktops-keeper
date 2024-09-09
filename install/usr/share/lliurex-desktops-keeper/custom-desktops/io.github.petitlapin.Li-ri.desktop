@@ -1,0 +1,23 @@
+# SPDX-License-Identifier: CC0-1.0
+#  SPDX-FileCopyrightText: 2023 Johnny Jazeix <jazeix@gmail.com>
+[Desktop Entry]
+Name=Li-ri
+GenericName=Li-ri Arcade Game
+Comment=Drive a toy wood engine
+Name[ca_ES@valencia]=Ri-li, un joc de trens
+Name[ca_ES.UTF-8@valencia]=Ri-li, un joc de trens
+Name[es]=Ri-li, un juego de trenes
+Name[ca]=Ri-li, un joc de trens
+Name[ca_ES]=Ri-li, un joc de trens
+Comment[ca_ES@valencia]=Conduïx un tren de joguet de fusta
+Comment[ca_ES.UTF-8@valencia]=Conduïx un tren de joguet de fusta
+Comment[es]=Conduce un tren de juguete de madera
+Comment[ca]=Conduïx un tren de joguet de fusta
+Comment[ca_ES]=Conduïx un tren de joguet de fusta
+Exec=ri-li
+Icon=io.github.petitlapin.Li-ri
+Terminal=false
+Type=Application
+Categories=LliureX-Infantil;
+StartupNotify=true
+Keywords=game;train;toy;wood;engine;switches;kids;
