@@ -49,7 +49,7 @@ def add(path,priority):
 	#initdb_mate()
 	
 	for file in os.listdir(path):
-		match=re.match(".*\.desktop$",file)
+		match=re.match(r".*\.desktop$",file)
 		if not match==None:
 	
 			ret=lookup(path+os.sep+file)
@@ -100,7 +100,7 @@ def search(name):
 	
 	for c in db:
 		pname,priority = c
-		match=re.match(".*\/"+name+"$",pname)
+		match=re.match(r".*\/"+name+"$",pname)
 		if not match==None:
 			if priority>max:
 				candidate = c
