@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.73.3) focal; urgency=medium
+
+  * Fixed PDF Arranger desktop
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Mon, 02 Dec 2024 10:03:16 +0100
+
 lliurex-desktops-keeper (1.73.2) focal; urgency=medium
 
   * Added PDF Arranger desktop
