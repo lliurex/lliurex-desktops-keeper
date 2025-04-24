@@ -19,5 +19,5 @@ Exec=jclicauthor
 TryExec=/usr/bin/jclicauthor
 Terminal=false
 Type=Application
-Categories=LliureX-Author-Tools;
+Categories=Education;
 StartupNotify=false
