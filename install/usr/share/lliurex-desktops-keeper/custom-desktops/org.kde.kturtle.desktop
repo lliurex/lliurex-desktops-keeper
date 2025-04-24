@@ -153,5 +153,5 @@ Exec=kturtle -qwindowtitle %c
 Icon=kturtle
 X-DocPath=kturtle/index.html
 Type=Application
-Categories=Qt;KDE;LliureX-Computational-Thinking;
+Categories=Qt;KDE;Development;
 X-DBUS-ServiceName=org.kde.kturtle

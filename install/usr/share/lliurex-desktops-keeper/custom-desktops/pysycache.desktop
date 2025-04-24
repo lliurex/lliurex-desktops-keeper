@@ -19,5 +19,5 @@ Icon=pysycache
 Type=Application
 Terminal=true
 StartupNotify=false
-Categories=LliureX-Infantil;
+Categories=Education;
 TryExec=/usr/games/pysycache

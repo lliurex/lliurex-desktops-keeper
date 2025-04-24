@@ -18,6 +18,6 @@ Type=Application
 Exec=childsplay
 Terminal=false
 StartupNotify=false
-Categories=LliureX-Infantil;
+Categories=Education;
 Icon=childsplay
 TryExec=/usr/games/childsplay

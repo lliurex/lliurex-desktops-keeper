@@ -76,6 +76,6 @@ Exec=drgeo
 Terminal=false
 StartupNotify=true
 Type=Application
-Categories=LliureX-Laboratory;
+Categories=Education;
 Icon=drgeo
 TryExec=/usr/bin/drgeo

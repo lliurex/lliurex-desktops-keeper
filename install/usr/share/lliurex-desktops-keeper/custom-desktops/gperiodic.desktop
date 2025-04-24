@@ -19,5 +19,5 @@ Icon=gperiodic
 Terminal=false
 Type=Application
 X-KDE-SubstituteUID=false
-Categories=LliureX-Laboratory;
+Categories=Education;
 TryExec=/usr/bin/gperiodic

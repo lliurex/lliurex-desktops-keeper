@@ -165,6 +165,6 @@ StartupNotify=true
 X-GNOME-Bugzilla-Bugzilla=GNOME
 X-GNOME-Bugzilla-Product=gcompris
 X-GNOME-Bugzilla-Component=
-Categories=LliureX-Infantil;
+Categories=Education;
 Icon=gcompris
 TryExec=/usr/games/gcompris

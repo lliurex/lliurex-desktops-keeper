@@ -17,6 +17,6 @@ MimeType=text/pro
 Exec=fritzing
 TryExec=fritzing
 Icon=fritzing_icon
-Categories=LliureX-Laboratory;
+Categories=Education;
 Type=Application
 Terminal=false
