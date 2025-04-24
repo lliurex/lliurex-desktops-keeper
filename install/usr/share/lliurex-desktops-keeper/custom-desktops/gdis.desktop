@@ -19,6 +19,6 @@ GenericName[ca]=Dissenyador de molècules
 GenericName[ca_ES]=Dissenyador de molècules
 Type=Application
 Exec=gdis
-Categories=LliureX-Laboratory;
+Categories=Education;
 Icon=gdis
 TryExec=/usr/bin/gdis

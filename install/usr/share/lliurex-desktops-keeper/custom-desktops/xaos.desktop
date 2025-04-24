@@ -18,5 +18,5 @@ Terminal=false
 X-MultipleArgs=false
 Type=Application
 StartupNotify=true
-Categories=LliureX-Laboratory;
+Categories=Education;
 TryExec=/usr/bin/xaos

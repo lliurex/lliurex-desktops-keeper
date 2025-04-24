@@ -31,6 +31,6 @@ Icon=geogebra
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=LliureX-Laboratory;
+Categories=Education;
 MimeType=application/vnd.geogebra.file;application/vnd.geogebra.tool;
 TryExec=geogebra
