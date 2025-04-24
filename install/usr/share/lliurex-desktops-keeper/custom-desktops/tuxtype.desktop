@@ -17,6 +17,6 @@ Terminal=false
 Type=Application
 StartupNotify=true
 #X-Ubuntu-Gettext-Domain=tuxtype
-Categories=LliureX-Infantil;
+Categories=Education;
 Icon=tuxtype
 TryExec=/usr/games/tuxtype
