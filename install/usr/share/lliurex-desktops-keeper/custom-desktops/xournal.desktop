@@ -24,4 +24,4 @@ Terminal=false
 StartupNotify=true
 MimeType=application/x-xoj;application/pdf;
 Icon=xournal
-Categories=LliureX-Author-Tools
+Categories=Office;
