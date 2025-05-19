@@ -23,10 +23,12 @@ GenericName[ca]=FluidSynth GUI
 GenericName[ca_ES]=FluidSynth GUI
 
 Keywords=audio;sound;jackd;midi;synth;
-Exec=/usr/bin/qsynth
+Exec=qsynth
 TryExec=/usr/bin/qsynth
-Icon=qsynth
+Icon=org.rncbc.qsynth
 Categories=Audio;AudioVideo;Midi;X-Alsa;X-Jack;Qt;
 Terminal=false
 Type=Application
+StartupWMClass=qsynth
+X-Window-Icon=qsynth
 X-SuSE-translate=true
