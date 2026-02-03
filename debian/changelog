@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.83.10) jammy; urgency=medium
+
+  * Afirma desktop update to 1.9 version
+
+ -- Daniel Duran <daduve@gmail.com>  Tue, 03 Feb 2026 13:02:50 +0100
+
 lliurex-desktops-keeper (1.83.9) jammy; urgency=medium
 
   * Fixed some desktops
