@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.93.12) noble; urgency=medium
+
+  * Add chrome desktop for enabling webbluetooth
+
+ -- Juanma1980 <juanma1980@gmail.com>  Mon, 15 Jun 2026 09:51:39 +0200
+
 lliurex-desktops-keeper (1.93.11) noble; urgency=medium
 
   * Upgrading Afirma desktop to 1.9 version.
