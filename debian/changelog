@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.83.11) jammy; urgency=medium
+
+  * Flags for webbluetooth in google-chrome
+
+ -- Juanma Navarri <juanma1980@gmail.com>  Mon, 15 Jun 2026 07:52:09 +0200
+
 lliurex-desktops-keeper (1.83.10) jammy; urgency=medium
 
   * Afirma desktop update to 1.9 version
