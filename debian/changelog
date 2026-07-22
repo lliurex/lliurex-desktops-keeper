@@ -1,3 +1,9 @@
+lliurex-desktops-keeper (1.83.12) jammy; urgency=medium
+
+  * Added anydesk-client.desktop
+
+ -- Luis Garcia Gisbert <luisgg@gmail.com>  Wed, 22 Jul 2026 20:45:04 +0200
+
 lliurex-desktops-keeper (1.83.11) jammy; urgency=medium
 
   * Flags for webbluetooth in google-chrome
