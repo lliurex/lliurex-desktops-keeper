@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=AnyDesk SAI
+GenericName=AnyDesk SAI
+X-GNOME-FullName=AnyDesk SAI
+Exec=/usr/bin/anydesk-client %u
+Icon=anydesk-client
+Terminal=false
+TryExec=anydesk-client
+Categories=Network;GTK;
+MimeType=x-scheme-handler/anydesk-client;
