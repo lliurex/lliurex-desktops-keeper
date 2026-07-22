@@ -1,15 +1,8 @@
 [Desktop Entry]
 Type=Application
-Name=AnyDesk SAI client
-Name[es_ES]=Cliente AnyDesk SAI
-Name[es]=Cliente AnyDesk SAI
-Name[ca@valencia]=Client AnyDesk SAI
-Name[ca_ES@valencia]=Client AnyDesk SAI
-Name[ca_ES.UTF-8@valencia]=Client AnyDesk SAI
-Name[ca]=Client AnyDesk SAI
-Name[ca_ES]=Client AnyDesk SAI
-GenericName=AnyDesk SAI client
-X-GNOME-FullName=AnyDesk SAI client
+Name=AnyDesk SAI
+GenericName=AnyDesk SAI
+X-GNOME-FullName=AnyDesk SAI
 Exec=/usr/bin/anydesk-client %u
 Icon=anydesk-client
 Terminal=false
